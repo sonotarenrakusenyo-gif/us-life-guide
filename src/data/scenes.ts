@@ -7,6 +7,7 @@ import { scene5Vocabulary } from "./scene5";
 import { scene6Vocabulary } from "./scene6";
 import { scene7Vocabulary } from "./scene7";
 import { scene8Vocabulary } from "./scene8";
+import { scene9Vocabulary } from "./scene9";
 
 export const scenes: Scene[] = [
   {
@@ -78,8 +79,8 @@ export const scenes: Scene[] = [
     title: "旦那さんの関係",
     subtitle: "友人との会合・自己紹介・日本の話",
     emoji: "🤝",
-    available: false,
-    items: [],
+    available: true,
+    items: scene9Vocabulary,
   },
   {
     id: 10,
