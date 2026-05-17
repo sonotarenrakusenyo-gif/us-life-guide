@@ -5,6 +5,7 @@ import { scene3Vocabulary } from "./scene3";
 import { scene4Vocabulary } from "./scene4";
 import { scene5Vocabulary } from "./scene5";
 import { scene6Vocabulary } from "./scene6";
+import { scene7Vocabulary } from "./scene7";
 
 export const scenes: Scene[] = [
   {
@@ -60,8 +61,8 @@ export const scenes: Scene[] = [
     title: "ショッピング",
     subtitle: "スーパー・レジ・試着・返品",
     emoji: "🛒",
-    available: false,
-    items: [],
+    available: true,
+    items: scene7Vocabulary,
   },
   {
     id: 8,
