@@ -2,6 +2,7 @@ import type { Scene } from "@/types/vocabulary";
 import { scene1Vocabulary } from "./scene1";
 import { scene2Vocabulary } from "./scene2";
 import { scene3Vocabulary } from "./scene3";
+import { scene4Vocabulary } from "./scene4";
 
 export const scenes: Scene[] = [
   {
@@ -33,8 +34,8 @@ export const scenes: Scene[] = [
     title: "夫婦の新生活",
     subtitle: "朝の挨拶・見送り・水回り・ゴミ",
     emoji: "🏠",
-    available: false,
-    items: [],
+    available: true,
+    items: scene4Vocabulary,
   },
   {
     id: 5,
