@@ -6,6 +6,7 @@ import { scene4Vocabulary } from "./scene4";
 import { scene5Vocabulary } from "./scene5";
 import { scene6Vocabulary } from "./scene6";
 import { scene7Vocabulary } from "./scene7";
+import { scene8Vocabulary } from "./scene8";
 
 export const scenes: Scene[] = [
   {
@@ -69,8 +70,8 @@ export const scenes: Scene[] = [
     title: "美容と自分磨き",
     subtitle: "ネイル・美容院・マッサージの予約",
     emoji: "💅",
-    available: false,
-    items: [],
+    available: true,
+    items: scene8Vocabulary,
   },
   {
     id: 9,
