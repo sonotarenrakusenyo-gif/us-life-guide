@@ -8,6 +8,7 @@ import { scene6Vocabulary } from "./scene6";
 import { scene7Vocabulary } from "./scene7";
 import { scene8Vocabulary } from "./scene8";
 import { scene9Vocabulary } from "./scene9";
+import { scene10Vocabulary } from "./scene10";
 
 export const scenes: Scene[] = [
   {
@@ -87,8 +88,8 @@ export const scenes: Scene[] = [
     title: "生活のトラブル",
     subtitle: "忘れ物・道迷い・体調不良",
     emoji: "🆘",
-    available: false,
-    items: [],
+    available: true,
+    items: scene10Vocabulary,
   },
 ];
 
