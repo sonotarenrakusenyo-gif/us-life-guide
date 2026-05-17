@@ -4,6 +4,7 @@ import { scene2Vocabulary } from "./scene2";
 import { scene3Vocabulary } from "./scene3";
 import { scene4Vocabulary } from "./scene4";
 import { scene5Vocabulary } from "./scene5";
+import { scene6Vocabulary } from "./scene6";
 
 export const scenes: Scene[] = [
   {
@@ -51,8 +52,8 @@ export const scenes: Scene[] = [
     title: "コミカレでの社交",
     subtitle: "挨拶・インスタ・ランチの誘い",
     emoji: "💬",
-    available: false,
-    items: [],
+    available: true,
+    items: scene6Vocabulary,
   },
   {
     id: 7,
