@@ -1,6 +1,7 @@
 import type { Scene } from "@/types/vocabulary";
 import { scene1Vocabulary } from "./scene1";
 import { scene2Vocabulary } from "./scene2";
+import { scene3Vocabulary } from "./scene3";
 
 export const scenes: Scene[] = [
   {
@@ -24,8 +25,8 @@ export const scenes: Scene[] = [
     title: "移動と到着",
     subtitle: "Uber・空港から家・鍵の確認",
     emoji: "🚗",
-    available: false,
-    items: [],
+    available: true,
+    items: scene3Vocabulary,
   },
   {
     id: 4,
