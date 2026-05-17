@@ -3,6 +3,7 @@ import { scene1Vocabulary } from "./scene1";
 import { scene2Vocabulary } from "./scene2";
 import { scene3Vocabulary } from "./scene3";
 import { scene4Vocabulary } from "./scene4";
+import { scene5Vocabulary } from "./scene5";
 
 export const scenes: Scene[] = [
   {
@@ -42,8 +43,8 @@ export const scenes: Scene[] = [
     title: "コミカレ初動",
     subtitle: "入学登録・学生証・キャンパス",
     emoji: "🎓",
-    available: false,
-    items: [],
+    available: true,
+    items: scene5Vocabulary,
   },
   {
     id: 6,
