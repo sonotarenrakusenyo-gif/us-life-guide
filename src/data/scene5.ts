@@ -1,6 +1,5 @@
 import type { VocabularyItem } from "@/types/vocabulary";
 
-/** シーン5：コミカレ初動（50語） */
 export const scene5Vocabulary: VocabularyItem[] = [
   {
     word: "community college",
@@ -9,8 +8,13 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "I enrolled at the local community college to improve my English.",
     sentence_pron: "アイ エンロウルド アット ザ ロウカル コミュニティ カレッジ トゥー インプルーヴ マイ イングリッシュ",
     sentence_jp: "英語を上達させるために、地元のコミュニティカレッジに入学しました。",
-    synonyms: [{ word: "junior college", pron: "ジュニア カレッジ" }, { word: "CC", pron: "シーシー" }],
-    antonyms: [{ word: "university", pron: "ユニヴァーシティ" }],
+    synonyms: [
+      { word: "junior college", pron: "ジュニア カレッジ", mean: "短期大学" },
+      { word: "CC", pron: "シーシー", mean: "コミカレ（略称）" },
+    ],
+    antonyms: [
+      { word: "university", pron: "ユニヴァーシティ", mean: "4年制大学" },
+    ],
   },
   {
     word: "enroll",
@@ -19,8 +23,14 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "You need to enroll online before the semester starts.",
     sentence_pron: "ユー ニード トゥー エンロウル オンライン ビフォー ザ セメスター スターツ",
     sentence_jp: "学期が始まる前に、オンラインで登録する必要があります。",
-    synonyms: [{ word: "register", pron: "レジスター" }, { word: "sign up", pron: "サイン アップ" }],
-    antonyms: [{ word: "drop out", pron: "ドロップ アウト" }, { word: "withdraw", pron: "ウィズドロウ" }],
+    synonyms: [
+      { word: "register", pron: "レジスター", mean: "登録する" },
+      { word: "sign up", pron: "サイン アップ", mean: "申し込む" },
+    ],
+    antonyms: [
+      { word: "drop out", pron: "ドロップ アウト", mean: "退学する" },
+      { word: "withdraw", pron: "ウィズドロウ", mean: "取り下げる" },
+    ],
   },
   {
     word: "registration",
@@ -29,8 +39,13 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "Registration for spring classes opens next Monday.",
     sentence_pron: "レジストレーション フォー スプリング クラシズ オープンズ ネクスト マンデイ",
     sentence_jp: "春学期の授業の履修登録は次の月曜日から始まります。",
-    synonyms: [{ word: "enrollment", pron: "エンロウルメント" }, { word: "sign-up", pron: "サイン アップ" }],
-    antonyms: [{ word: "withdrawal", pron: "ウィズドロウアル" }],
+    synonyms: [
+      { word: "enrollment", pron: "エンロウルメント", mean: "入学登録" },
+      { word: "sign-up", pron: "サイン アップ", mean: "申し込み" },
+    ],
+    antonyms: [
+      { word: "withdrawal", pron: "ウィズドロウアル", mean: "退学・取り消し" },
+    ],
   },
   {
     word: "semester",
@@ -39,7 +54,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "This semester I'm taking three English classes and one math class.",
     sentence_pron: "ディス セメスター アイム テイキング スリー イングリッシュ クラシズ アンド ワン マス クラス",
     sentence_jp: "今学期は英語の授業を3つと数学を1つ受けています。",
-    synonyms: [{ word: "term", pron: "ターム" }, { word: "quarter", pron: "クォーター" }],
+    synonyms: [
+      { word: "term", pron: "ターム", mean: "学期" },
+      { word: "quarter", pron: "クォーター", mean: "4学期制の1学期" },
+    ],
     antonyms: [],
   },
   {
@@ -49,7 +67,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "The counselor helped me choose the right classes for my level.",
     sentence_pron: "ザ カウンセラー ヘルプト ミー チューズ ザ ライト クラシズ フォー マイ レヴェル",
     sentence_jp: "カウンセラーが自分のレベルに合ったクラス選びを手伝ってくれました。",
-    synonyms: [{ word: "advisor", pron: "アドバイザー" }, { word: "mentor", pron: "メンター" }],
+    synonyms: [
+      { word: "advisor", pron: "アドバイザー", mean: "指導員・アドバイザー" },
+      { word: "mentor", pron: "メンター", mean: "メンター" },
+    ],
     antonyms: [],
   },
   {
@@ -59,7 +80,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "Attending orientation helped me understand how the campus works.",
     sentence_pron: "アテンディング オリエンテーション ヘルプト ミー アンダスタンド ハウ ザ キャンパス ワークス",
     sentence_jp: "オリエンテーションに参加して、キャンパスの仕組みを理解できました。",
-    synonyms: [{ word: "induction", pron: "インダクション" }, { word: "introduction", pron: "イントロダクション" }],
+    synonyms: [
+      { word: "induction", pron: "インダクション", mean: "入門ガイダンス" },
+      { word: "introduction", pron: "イントロダクション", mean: "紹介・説明会" },
+    ],
     antonyms: [],
   },
   {
@@ -69,7 +93,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "The campus is large — I got lost on my first day.",
     sentence_pron: "ザ キャンパス イズ ラージ アイ ガット ロスト オン マイ ファースト デイ",
     sentence_jp: "キャンパスが広くて、初日に道に迷いました。",
-    synonyms: [{ word: "grounds", pron: "グラウンズ" }, { word: "school grounds", pron: "スクール グラウンズ" }],
+    synonyms: [
+      { word: "grounds", pron: "グラウンズ", mean: "敷地" },
+      { word: "school grounds", pron: "スクール グラウンズ", mean: "学校敷地" },
+    ],
     antonyms: [],
   },
   {
@@ -79,7 +106,9 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "You need your student ID to access the library and computer lab.",
     sentence_pron: "ユー ニード ユア ステューデント アイディー トゥー アクセス ザ ライブラリー アンド コンピューター ラブ",
     sentence_jp: "図書館やコンピューター室の利用には学生証が必要です。",
-    synonyms: [{ word: "student card", pron: "ステューデント カード" }],
+    synonyms: [
+      { word: "student card", pron: "ステューデント カード", mean: "学生カード" },
+    ],
     antonyms: [],
   },
   {
@@ -89,7 +118,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "The campus library is open until ten o'clock on weekdays.",
     sentence_pron: "ザ キャンパス ライブラリー イズ オープン アンティル テン オクロック オン ウィークデイズ",
     sentence_jp: "キャンパスの図書館は平日夜10時まで開いています。",
-    synonyms: [{ word: "learning center", pron: "ラーニング センター" }, { word: "resource center", pron: "リソース センター" }],
+    synonyms: [
+      { word: "learning center", pron: "ラーニング センター", mean: "学習センター" },
+      { word: "resource center", pron: "リソース センター", mean: "資料室" },
+    ],
     antonyms: [],
   },
   {
@@ -99,8 +131,13 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "Tuition at community college is much lower than at a four-year university.",
     sentence_pron: "チューイション アット コミュニティ カレッジ イズ マッチ ロウア ザン アット ア フォーイヤー ユニヴァーシティ",
     sentence_jp: "コミュニティカレッジの学費は4年制大学よりずっと安いです。",
-    synonyms: [{ word: "school fee", pron: "スクール フィー" }, { word: "course fee", pron: "コース フィー" }],
-    antonyms: [{ word: "scholarship", pron: "スカラーシップ" }],
+    synonyms: [
+      { word: "school fee", pron: "スクール フィー", mean: "学費" },
+      { word: "course fee", pron: "コース フィー", mean: "授業料" },
+    ],
+    antonyms: [
+      { word: "scholarship", pron: "スカラーシップ", mean: "奨学金" },
+    ],
   },
   {
     word: "syllabus",
@@ -109,7 +146,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "The professor handed out the syllabus on the first day.",
     sentence_pron: "ザ プロフェサー ハンディド アウト ザ シラバス オン ザ ファースト デイ",
     sentence_jp: "教授が初日にシラバスを配りました。",
-    synonyms: [{ word: "course outline", pron: "コース アウトライン" }, { word: "curriculum", pron: "カリキュラム" }],
+    synonyms: [
+      { word: "course outline", pron: "コース アウトライン", mean: "授業概要" },
+      { word: "curriculum", pron: "カリキュラム", mean: "カリキュラム" },
+    ],
     antonyms: [],
   },
   {
@@ -119,8 +159,13 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "My English professor is very encouraging and patient.",
     sentence_pron: "マイ イングリッシュ プロフェサー イズ ヴェリー エンカリジング アンド ペイシェント",
     sentence_jp: "英語の教授はとても励ましてくれて、忍耐強い方です。",
-    synonyms: [{ word: "instructor", pron: "インストラクター" }, { word: "teacher", pron: "ティーチャー" }],
-    antonyms: [{ word: "student", pron: "ステューデント" }],
+    synonyms: [
+      { word: "instructor", pron: "インストラクター", mean: "講師" },
+      { word: "teacher", pron: "ティーチャー", mean: "先生" },
+    ],
+    antonyms: [
+      { word: "student", pron: "ステューデント", mean: "学生" },
+    ],
   },
   {
     word: "classroom",
@@ -129,7 +174,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "The classroom was small and cozy — only twelve students.",
     sentence_pron: "ザ クラスルーム ワズ スモール アンド コウジー オウンリー トゥエルブ ステューデンツ",
     sentence_jp: "教室は小さくて居心地よく、生徒は12人しかいませんでした。",
-    synonyms: [{ word: "class", pron: "クラス" }, { word: "lecture room", pron: "レクチャー ルーム" }],
+    synonyms: [
+      { word: "class", pron: "クラス", mean: "クラス" },
+      { word: "lecture room", pron: "レクチャー ルーム", mean: "講義室" },
+    ],
     antonyms: [],
   },
   {
@@ -139,7 +187,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "I bought my textbooks at the campus bookstore.",
     sentence_pron: "アイ ボート マイ テクストブックス アット ザ キャンパス ブックストア",
     sentence_jp: "キャンパスの書店で教科書を買いました。",
-    synonyms: [{ word: "course book", pron: "コース ブック" }, { word: "workbook", pron: "ワークブック" }],
+    synonyms: [
+      { word: "course book", pron: "コース ブック", mean: "授業用テキスト" },
+      { word: "workbook", pron: "ワークブック", mean: "問題集" },
+    ],
     antonyms: [],
   },
   {
@@ -149,7 +200,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "The first assignment is due next Friday — a one-page journal.",
     sentence_pron: "ザ ファースト アサインメント イズ デュー ネクスト フライデイ ア ワン ペイジ ジャーナル",
     sentence_jp: "最初の課題は来週の金曜日締め切りで、1ページの日記です。",
-    synonyms: [{ word: "homework", pron: "ホウムワーク" }, { word: "task", pron: "タスク" }],
+    synonyms: [
+      { word: "homework", pron: "ホウムワーク", mean: "宿題" },
+      { word: "task", pron: "タスク", mean: "課題" },
+    ],
     antonyms: [],
   },
   {
@@ -159,8 +213,13 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "Don't miss the deadline — late work isn't accepted in this class.",
     sentence_pron: "ドント ミス ザ デッドライン レイト ワーク イズント アクセプティド イン ディス クラス",
     sentence_jp: "締め切りを過ぎないように。このクラスでは遅れた提出は受け付けません。",
-    synonyms: [{ word: "due date", pron: "デュー デイト" }, { word: "cutoff", pron: "カットオフ" }],
-    antonyms: [{ word: "extension", pron: "エクステンション" }],
+    synonyms: [
+      { word: "due date", pron: "デュー デイト", mean: "提出期限日" },
+      { word: "cutoff", pron: "カットオフ", mean: "締め切り" },
+    ],
+    antonyms: [
+      { word: "extension", pron: "エクステンション", mean: "期限延長" },
+    ],
   },
   {
     word: "grade",
@@ -169,7 +228,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "I got an A on my first essay — I'm so proud of myself.",
     sentence_pron: "アイ ガット アン エイ オン マイ ファースト エッセイ アイム ソー プラウド オブ マイセルフ",
     sentence_jp: "最初のエッセイでAをもらいました。自分を誇りに思います。",
-    synonyms: [{ word: "score", pron: "スコア" }, { word: "mark", pron: "マーク" }],
+    synonyms: [
+      { word: "score", pron: "スコア", mean: "点数" },
+      { word: "mark", pron: "マーク", mean: "成績・得点" },
+    ],
     antonyms: [],
   },
   {
@@ -179,8 +241,13 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "Attendance counts for 20% of our final grade.",
     sentence_pron: "アテンダンス カウンツ フォー トゥエンティ パーセント オブ アワー ファイナル グレイド",
     sentence_jp: "出席が最終成績の20%を占めます。",
-    synonyms: [{ word: "presence", pron: "プレゼンス" }, { word: "participation", pron: "パーティシペーション" }],
-    antonyms: [{ word: "absence", pron: "アブセンス" }],
+    synonyms: [
+      { word: "presence", pron: "プレゼンス", mean: "出席" },
+      { word: "participation", pron: "パーティシペーション", mean: "参加" },
+    ],
+    antonyms: [
+      { word: "absence", pron: "アブセンス", mean: "欠席" },
+    ],
   },
   {
     word: "absent",
@@ -189,8 +256,14 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "If you're absent more than three times, your grade drops.",
     sentence_pron: "イフ ユーア アブセント モア ザン スリー タイムズ ユア グレイド ドロップス",
     sentence_jp: "3回以上欠席すると、成績が下がります。",
-    synonyms: [{ word: "missing", pron: "ミッシング" }, { word: "not present", pron: "ナット プレゼント" }],
-    antonyms: [{ word: "present", pron: "プレゼント" }, { word: "in class", pron: "イン クラス" }],
+    synonyms: [
+      { word: "missing", pron: "ミッシング", mean: "いない・欠けている" },
+      { word: "not present", pron: "ナット プレゼント", mean: "欠席の" },
+    ],
+    antonyms: [
+      { word: "present", pron: "プレゼント", mean: "出席している" },
+      { word: "in class", pron: "イン クラス", mean: "授業中" },
+    ],
   },
   {
     word: "directory",
@@ -199,7 +272,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "The campus directory shows where each building is located.",
     sentence_pron: "ザ キャンパス ダイレクトリー ショウズ ウェア イーチ ビルディング イズ ロウケーティド",
     sentence_jp: "キャンパス案内には各建物の場所が載っています。",
-    synonyms: [{ word: "map", pron: "マップ" }, { word: "guide", pron: "ガイド" }],
+    synonyms: [
+      { word: "map", pron: "マップ", mean: "地図" },
+      { word: "guide", pron: "ガイド", mean: "ガイドブック" },
+    ],
     antonyms: [],
   },
   {
@@ -209,7 +285,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "The cafeteria is in Building B, near the main entrance.",
     sentence_pron: "ザ カフェテリア イズ イン ビルディング ビー ニア ザ メイン エントランス",
     sentence_jp: "食堂はBビルの、正面入口の近くにあります。",
-    synonyms: [{ word: "dining hall", pron: "ダイニング ホール" }, { word: "canteen", pron: "キャンティーン" }],
+    synonyms: [
+      { word: "dining hall", pron: "ダイニング ホール", mean: "食堂" },
+      { word: "canteen", pron: "キャンティーン", mean: "社員食堂・学食" },
+    ],
     antonyms: [],
   },
   {
@@ -219,7 +298,9 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "Can I get a campus map? I keep getting lost.",
     sentence_pron: "キャン アイ ゲット ア キャンパス マップ アイ キープ ゲッティング ロスト",
     sentence_jp: "キャンパスの地図をもらえますか？何度も道に迷ってしまって。",
-    synonyms: [{ word: "campus guide", pron: "キャンパス ガイド" }],
+    synonyms: [
+      { word: "campus guide", pron: "キャンパス ガイド", mean: "キャンパス案内" },
+    ],
     antonyms: [],
   },
   {
@@ -229,7 +310,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "Excuse me, could you give me directions to the registrar's office?",
     sentence_pron: "エクスキューズ ミー クッジュー ギヴ ミー ダイレクションズ トゥー ザ レジストラーズ オフィス",
     sentence_jp: "すみません、学務課への行き方を教えていただけますか？",
-    synonyms: [{ word: "way", pron: "ウェイ" }, { word: "guidance", pron: "ガイダンス" }],
+    synonyms: [
+      { word: "way", pron: "ウェイ", mean: "道・方向" },
+      { word: "guidance", pron: "ガイダンス", mean: "案内" },
+    ],
     antonyms: [],
   },
   {
@@ -239,8 +323,14 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "Go straight down this hallway and turn left at the end.",
     sentence_pron: "ゴー ストレイト ダウン ディス ハルウェイ アンド ターン レフト アット ジ エンド",
     sentence_jp: "この廊下をまっすぐ進んで、突き当たりを左に曲がってください。",
-    synonyms: [{ word: "directly", pron: "ダイレクトリー" }, { word: "forward", pron: "フォーワード" }],
-    antonyms: [{ word: "turn", pron: "ターン" }, { word: "curved", pron: "カーブド" }],
+    synonyms: [
+      { word: "directly", pron: "ダイレクトリー", mean: "まっすぐに" },
+      { word: "forward", pron: "フォーワード", mean: "前方へ" },
+    ],
+    antonyms: [
+      { word: "turn", pron: "ターン", mean: "曲がる" },
+      { word: "curved", pron: "カーブド", mean: "曲がった" },
+    ],
   },
   {
     word: "turn",
@@ -249,8 +339,12 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "Turn right at the second intersection and you'll see it on the left.",
     sentence_pron: "ターン ライト アット ザ セカンド インターセクション アンド ユール シー イット オン ザ レフト",
     sentence_jp: "2つ目の交差点を右に曲がると、左に見えます。",
-    synonyms: [{ word: "make a turn", pron: "メイク ア ターン" }],
-    antonyms: [{ word: "go straight", pron: "ゴー ストレイト" }],
+    synonyms: [
+      { word: "make a turn", pron: "メイク ア ターン", mean: "曲がる" },
+    ],
+    antonyms: [
+      { word: "go straight", pron: "ゴー ストレイト", mean: "まっすぐ進む" },
+    ],
   },
   {
     word: "building",
@@ -259,7 +353,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "The English classes are in Building A.",
     sentence_pron: "ジ イングリッシュ クラシズ アー イン ビルディング エイ",
     sentence_jp: "英語の授業はAビルで行われます。",
-    synonyms: [{ word: "structure", pron: "ストラクチャー" }, { word: "hall", pron: "ホール" }],
+    synonyms: [
+      { word: "structure", pron: "ストラクチャー", mean: "建造物" },
+      { word: "hall", pron: "ホール", mean: "ホール・棟" },
+    ],
     antonyms: [],
   },
   {
@@ -269,7 +366,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "Go to the registrar's office to get your official transcripts.",
     sentence_pron: "ゴー トゥー ザ レジストラーズ オフィス トゥー ゲット ユア オフィシャル トランスクリプツ",
     sentence_jp: "成績証明書を取るには学務課に行ってください。",
-    synonyms: [{ word: "admin office", pron: "アドミン オフィス" }, { word: "enrollment office", pron: "エンロウルメント オフィス" }],
+    synonyms: [
+      { word: "admin office", pron: "アドミン オフィス", mean: "事務局" },
+      { word: "enrollment office", pron: "エンロウルメント オフィス", mean: "入学事務局" },
+    ],
     antonyms: [],
   },
   {
@@ -279,7 +379,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "I took a placement test and was placed in an intermediate ESL class.",
     sentence_pron: "アイ トゥック ア プレイスメント テスト アンド ワズ プレイスト イン アン インターミーディエット イーエスエル クラス",
     sentence_jp: "クラス分けテストを受けて、中級のESLクラスに配置されました。",
-    synonyms: [{ word: "assessment test", pron: "アセスメント テスト" }, { word: "level test", pron: "レベル テスト" }],
+    synonyms: [
+      { word: "assessment test", pron: "アセスメント テスト", mean: "能力測定テスト" },
+      { word: "level test", pron: "レベル テスト", mean: "レベルテスト" },
+    ],
     antonyms: [],
   },
   {
@@ -289,7 +392,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "The ESL program helped me improve my speaking confidence a lot.",
     sentence_pron: "ジ イーエスエル プログラム ヘルプト ミー インプルーヴ マイ スピーキング カンフィデンス ア ロット",
     sentence_jp: "ESLプログラムのおかげで、スピーキングの自信がかなりつきました。",
-    synonyms: [{ word: "EFL", pron: "イーエフエル" }, { word: "English class", pron: "イングリッシュ クラス" }],
+    synonyms: [
+      { word: "EFL", pron: "イーエフエル", mean: "外国語としての英語" },
+      { word: "English class", pron: "イングリッシュ クラス", mean: "英語クラス" },
+    ],
     antonyms: [],
   },
   {
@@ -299,8 +405,14 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "I want to become fluent in English within two years.",
     sentence_pron: "アイ ウォント トゥー ビカム フルーエント イン イングリッシュ ウィズイン トゥー イヤーズ",
     sentence_jp: "2年以内に英語を流暢に話せるようになりたいです。",
-    synonyms: [{ word: "proficient", pron: "プロフィシェント" }, { word: "skilled", pron: "スキルド" }],
-    antonyms: [{ word: "beginner", pron: "ビギナー" }, { word: "struggling", pron: "ストラッグリング" }],
+    synonyms: [
+      { word: "proficient", pron: "プロフィシェント", mean: "熟練した" },
+      { word: "skilled", pron: "スキルド", mean: "上手な" },
+    ],
+    antonyms: [
+      { word: "beginner", pron: "ビギナー", mean: "初心者" },
+      { word: "struggling", pron: "ストラッグリング", mean: "苦労している" },
+    ],
   },
   {
     word: "vocabulary",
@@ -309,7 +421,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "Expanding your vocabulary is key to understanding native speakers.",
     sentence_pron: "エクスパンディング ユア ヴォキャブラリー イズ キー トゥー アンダスタンディング ネイティヴ スピーカーズ",
     sentence_jp: "語彙を広げることが、ネイティブの話を理解する鍵です。",
-    synonyms: [{ word: "words", pron: "ワーズ" }, { word: "lexicon", pron: "レキシコン" }],
+    synonyms: [
+      { word: "words", pron: "ワーズ", mean: "単語・言葉" },
+      { word: "lexicon", pron: "レキシコン", mean: "語彙リスト" },
+    ],
     antonyms: [],
   },
   {
@@ -319,8 +434,13 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "My professor corrected my pronunciation in a kind way.",
     sentence_pron: "マイ プロフェサー コレクティド マイ プロナンシエーション イン ア カインド ウェイ",
     sentence_jp: "教授が優しく私の発音を直してくれました。",
-    synonyms: [{ word: "enunciation", pron: "イナンシエーション" }, { word: "articulation", pron: "アーティキュレーション" }],
-    antonyms: [{ word: "mispronunciation", pron: "ミスプロナンシエーション" }],
+    synonyms: [
+      { word: "enunciation", pron: "イナンシエーション", mean: "明瞭な発音" },
+      { word: "articulation", pron: "アーティキュレーション", mean: "発声・発音" },
+    ],
+    antonyms: [
+      { word: "mispronunciation", pron: "ミスプロナンシエーション", mean: "誤発音" },
+    ],
   },
   {
     word: "writing",
@@ -329,8 +449,14 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "Writing in English is harder than speaking for me right now.",
     sentence_pron: "ライティング イン イングリッシュ イズ ハーダー ザン スピーキング フォー ミー ライト ナウ",
     sentence_jp: "私には今のところ、英語はスピーキングよりライティングの方が難しいです。",
-    synonyms: [{ word: "composition", pron: "コンポジション" }, { word: "essay", pron: "エッセイ" }],
-    antonyms: [{ word: "reading", pron: "リーディング" }, { word: "speaking", pron: "スピーキング" }],
+    synonyms: [
+      { word: "composition", pron: "コンポジション", mean: "作文" },
+      { word: "essay", pron: "エッセイ", mean: "小論文" },
+    ],
+    antonyms: [
+      { word: "reading", pron: "リーディング", mean: "読解" },
+      { word: "speaking", pron: "スピーキング", mean: "会話" },
+    ],
   },
   {
     word: "feedback",
@@ -339,7 +465,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "My professor's feedback helped me rewrite the essay better.",
     sentence_pron: "マイ プロフェサーズ フィードバック ヘルプト ミー リーライト ジ エッセイ ベター",
     sentence_jp: "教授のフィードバックのおかげで、エッセイをより良く書き直せました。",
-    synonyms: [{ word: "comments", pron: "コメンツ" }, { word: "review", pron: "リヴュー" }],
+    synonyms: [
+      { word: "comments", pron: "コメンツ", mean: "コメント・意見" },
+      { word: "review", pron: "リヴュー", mean: "評価・見直し" },
+    ],
     antonyms: [],
   },
   {
@@ -349,8 +478,14 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "I practice speaking English with classmates during break time.",
     sentence_pron: "アイ プラクティス スピーキング イングリッシュ ウィズ クラスメイツ デュアリング ブレイク タイム",
     sentence_jp: "休み時間にクラスメートと英会話を練習しています。",
-    synonyms: [{ word: "train", pron: "トレイン" }, { word: "drill", pron: "ドリル" }],
-    antonyms: [{ word: "quit", pron: "クウィット" }, { word: "give up", pron: "ギヴ アップ" }],
+    synonyms: [
+      { word: "train", pron: "トレイン", mean: "鍛える・練習する" },
+      { word: "drill", pron: "ドリル", mean: "繰り返し練習" },
+    ],
+    antonyms: [
+      { word: "quit", pron: "クウィット", mean: "やめる" },
+      { word: "give up", pron: "ギヴ アップ", mean: "諦める" },
+    ],
   },
   {
     word: "mistake",
@@ -359,8 +494,13 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "Don't be afraid to make mistakes — that's how you learn.",
     sentence_pron: "ドント ビー アフレイド トゥー メイク ミステイクス ザッツ ハウ ユー ラーン",
     sentence_jp: "間違いを恐れないで。それが学ぶ方法ですから。",
-    synonyms: [{ word: "error", pron: "エラー" }, { word: "fault", pron: "フォールト" }],
-    antonyms: [{ word: "correct answer", pron: "コレクト アンサー" }],
+    synonyms: [
+      { word: "error", pron: "エラー", mean: "エラー・誤り" },
+      { word: "fault", pron: "フォールト", mean: "ミス・欠点" },
+    ],
+    antonyms: [
+      { word: "correct answer", pron: "コレクト アンサー", mean: "正解" },
+    ],
   },
   {
     word: "classmate",
@@ -369,8 +509,13 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "My classmates are from many different countries — it's amazing.",
     sentence_pron: "マイ クラスメイツ アー フロム メニー ディファレント カントリーズ イッツ アメイジング",
     sentence_jp: "クラスメートはいろんな国の出身で、とても素敵です。",
-    synonyms: [{ word: "fellow student", pron: "フェロウ ステューデント" }, { word: "schoolmate", pron: "スクールメイト" }],
-    antonyms: [{ word: "teacher", pron: "ティーチャー" }],
+    synonyms: [
+      { word: "fellow student", pron: "フェロウ ステューデント", mean: "同じ学生" },
+      { word: "schoolmate", pron: "スクールメイト", mean: "同級生" },
+    ],
+    antonyms: [
+      { word: "teacher", pron: "ティーチャー", mean: "先生" },
+    ],
   },
   {
     word: "diverse",
@@ -379,8 +524,13 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "The student body is very diverse — over thirty nationalities.",
     sentence_pron: "ザ ステューデント ボディ イズ ヴェリー ダイヴァース オーバー サーティ ナショナリティーズ",
     sentence_jp: "学生構成はとても多様で、30以上の国籍があります。",
-    synonyms: [{ word: "varied", pron: "ヴェリード" }, { word: "multicultural", pron: "マルチカルチャラル" }],
-    antonyms: [{ word: "homogeneous", pron: "ホモジーニアス" }],
+    synonyms: [
+      { word: "varied", pron: "ヴェリード", mean: "様々な" },
+      { word: "multicultural", pron: "マルチカルチャラル", mean: "多文化的な" },
+    ],
+    antonyms: [
+      { word: "homogeneous", pron: "ホモジーニアス", mean: "均質な" },
+    ],
   },
   {
     word: "international student",
@@ -389,8 +539,13 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "As an international student, I get extra support from the college.",
     sentence_pron: "アズ アン インターナショナル ステューデント アイ ゲット エクストラ サポート フロム ザ カレッジ",
     sentence_jp: "留学生として、大学から追加のサポートを受けることができます。",
-    synonyms: [{ word: "foreign student", pron: "フォーリン ステューデント" }, { word: "exchange student", pron: "エクスチェンジ ステューデント" }],
-    antonyms: [{ word: "domestic student", pron: "ドメスティック ステューデント" }],
+    synonyms: [
+      { word: "foreign student", pron: "フォーリン ステューデント", mean: "外国人学生" },
+      { word: "exchange student", pron: "エクスチェンジ ステューデント", mean: "交換留学生" },
+    ],
+    antonyms: [
+      { word: "domestic student", pron: "ドメスティック ステューデント", mean: "国内学生" },
+    ],
   },
   {
     word: "tutor",
@@ -399,8 +554,13 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "The college offers free tutoring — I meet with my tutor twice a week.",
     sentence_pron: "ザ カレッジ オファーズ フリー チュータリング アイ ミート ウィズ マイ チューター トゥワイス ア ウィーク",
     sentence_jp: "大学では無料のチューター制度があり、週2回会っています。",
-    synonyms: [{ word: "coach", pron: "コウチ" }, { word: "mentor", pron: "メンター" }],
-    antonyms: [{ word: "student", pron: "ステューデント" }],
+    synonyms: [
+      { word: "coach", pron: "コウチ", mean: "コーチ" },
+      { word: "mentor", pron: "メンター", mean: "師匠・指導者" },
+    ],
+    antonyms: [
+      { word: "student", pron: "ステューデント", mean: "学習者" },
+    ],
   },
   {
     word: "office hours",
@@ -409,7 +569,9 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "My professor holds office hours every Tuesday from two to four.",
     sentence_pron: "マイ プロフェサー ホウルズ オフィス アワーズ エブリー チューズデイ フロム トゥー トゥー フォー",
     sentence_jp: "教授は毎週火曜日の2時から4時にオフィスアワーを設けています。",
-    synonyms: [{ word: "consultation time", pron: "コンサルテーション タイム" }],
+    synonyms: [
+      { word: "consultation time", pron: "コンサルテーション タイム", mean: "相談時間" },
+    ],
     antonyms: [],
   },
   {
@@ -419,8 +581,14 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "Don't hesitate to ask if you need help finding a classroom.",
     sentence_pron: "ドント ヘジテイト トゥー アスク イフ ユー ニード ヘルプ ファインディング ア クラスルーム",
     sentence_jp: "教室を探すのに困ったら、遠慮なく聞いてください。",
-    synonyms: [{ word: "inquire", pron: "インクワイア" }, { word: "question", pron: "クエスチョン" }],
-    antonyms: [{ word: "answer", pron: "アンサー" }, { word: "respond", pron: "リスポンド" }],
+    synonyms: [
+      { word: "inquire", pron: "インクワイア", mean: "尋ねる" },
+      { word: "question", pron: "クエスチョン", mean: "質問する" },
+    ],
+    antonyms: [
+      { word: "answer", pron: "アンサー", mean: "答える" },
+      { word: "respond", pron: "リスポンド", mean: "返答する" },
+    ],
   },
   {
     word: "excuse me",
@@ -429,7 +597,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "Excuse me, is this the right building for English 101?",
     sentence_pron: "エクスキューズ ミー イズ ディス ザ ライト ビルディング フォー イングリッシュ ワンオーワン",
     sentence_jp: "すみません、ここは英語101のクラスがある建物ですか？",
-    synonyms: [{ word: "pardon me", pron: "パードン ミー" }, { word: "sorry", pron: "ソーリー" }],
+    synonyms: [
+      { word: "pardon me", pron: "パードン ミー", mean: "すみません" },
+      { word: "sorry", pron: "ソーリー", mean: "すみません" },
+    ],
     antonyms: [],
   },
   {
@@ -439,8 +610,13 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "I'm sorry, I didn't quite understand. Could you repeat that?",
     sentence_pron: "アイム ソーリー アイ ディドント クワイト アンダスタンド クッジュー リピート ザット",
     sentence_jp: "すみません、よく聞こえなかったのですが、もう一度言っていただけますか？",
-    synonyms: [{ word: "comprehend", pron: "コンプリヘンド" }, { word: "follow", pron: "フォロー" }],
-    antonyms: [{ word: "misunderstand", pron: "ミスアンダスタンド" }],
+    synonyms: [
+      { word: "comprehend", pron: "コンプリヘンド", mean: "把握する" },
+      { word: "follow", pron: "フォロー", mean: "ついていく・理解する" },
+    ],
+    antonyms: [
+      { word: "misunderstand", pron: "ミスアンダスタンド", mean: "誤解する" },
+    ],
   },
   {
     word: "repeat",
@@ -449,8 +625,13 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "Could you repeat that more slowly, please?",
     sentence_pron: "クッジュー リピート ザット モア スロウリー プリーズ",
     sentence_jp: "もう少しゆっくり繰り返していただけますか？",
-    synonyms: [{ word: "say again", pron: "セイ アゲイン" }, { word: "rephrase", pron: "リフレイズ" }],
-    antonyms: [{ word: "say once", pron: "セイ ワンス" }],
+    synonyms: [
+      { word: "say again", pron: "セイ アゲイン", mean: "もう一度言う" },
+      { word: "rephrase", pron: "リフレイズ", mean: "言い換える" },
+    ],
+    antonyms: [
+      { word: "say once", pron: "セイ ワンス", mean: "一度だけ言う" },
+    ],
   },
   {
     word: "nervous",
@@ -459,8 +640,14 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "I was nervous on my first day, but everyone was welcoming.",
     sentence_pron: "アイ ワズ ナーバス オン マイ ファースト デイ バット エブリワン ワズ ウェルカミング",
     sentence_jp: "初日は緊張しましたが、みんな温かく迎えてくれました。",
-    synonyms: [{ word: "anxious", pron: "アングシャス" }, { word: "tense", pron: "テンス" }],
-    antonyms: [{ word: "confident", pron: "カンフィデント" }, { word: "relaxed", pron: "リラクスト" }],
+    synonyms: [
+      { word: "anxious", pron: "アングシャス", mean: "不安な" },
+      { word: "tense", pron: "テンス", mean: "緊張した" },
+    ],
+    antonyms: [
+      { word: "confident", pron: "カンフィデント", mean: "自信のある" },
+      { word: "relaxed", pron: "リラクスト", mean: "リラックスした" },
+    ],
   },
   {
     word: "confident",
@@ -469,8 +656,14 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "Speaking in class made me feel more confident each week.",
     sentence_pron: "スピーキング イン クラス メイド ミー フィール モア カンフィデント イーチ ウィーク",
     sentence_jp: "クラスで発言するたびに、毎週少しずつ自信がついてきました。",
-    synonyms: [{ word: "self-assured", pron: "セルフ アシュアード" }, { word: "bold", pron: "ボウルド" }],
-    antonyms: [{ word: "nervous", pron: "ナーバス" }, { word: "shy", pron: "シャイ" }],
+    synonyms: [
+      { word: "self-assured", pron: "セルフ アシュアード", mean: "自信に満ちた" },
+      { word: "bold", pron: "ボウルド", mean: "大胆な" },
+    ],
+    antonyms: [
+      { word: "nervous", pron: "ナーバス", mean: "緊張した" },
+      { word: "shy", pron: "シャイ", mean: "恥ずかしがり屋の" },
+    ],
   },
   {
     word: "goal",
@@ -479,7 +672,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "My goal is to transfer to a four-year university after two years.",
     sentence_pron: "マイ ゴール イズ トゥー トランスファー トゥー ア フォーイヤー ユニヴァーシティ アフター トゥー イヤーズ",
     sentence_jp: "2年後に4年制大学に編入することが目標です。",
-    synonyms: [{ word: "aim", pron: "エイム" }, { word: "target", pron: "ターゲット" }],
+    synonyms: [
+      { word: "aim", pron: "エイム", mean: "目標・狙い" },
+      { word: "target", pron: "ターゲット", mean: "目標" },
+    ],
     antonyms: [],
   },
   {
@@ -489,8 +685,14 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "My professor said I've made great progress in just one month.",
     sentence_pron: "マイ プロフェサー セッド アイヴ メイド グレイト プログレス イン ジャスト ワン マンス",
     sentence_jp: "たった1ヶ月でとても上達したと教授に言われました。",
-    synonyms: [{ word: "improvement", pron: "インプルーヴメント" }, { word: "development", pron: "ディヴェロップメント" }],
-    antonyms: [{ word: "setback", pron: "セットバック" }, { word: "decline", pron: "ディクライン" }],
+    synonyms: [
+      { word: "improvement", pron: "インプルーヴメント", mean: "改善・上達" },
+      { word: "development", pron: "ディヴェロップメント", mean: "発展" },
+    ],
+    antonyms: [
+      { word: "setback", pron: "セットバック", mean: "後退・つまずき" },
+      { word: "decline", pron: "ディクライン", mean: "低下" },
+    ],
   },
   {
     word: "challenge",
@@ -499,7 +701,13 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "Every challenge I face in class makes me stronger.",
     sentence_pron: "エブリー チャレンジ アイ フェイス イン クラス メイクス ミー ストロンガー",
     sentence_jp: "クラスで直面する難題が、私をより強くしてくれます。",
-    synonyms: [{ word: "difficulty", pron: "ディフィカルティ" }, { word: "obstacle", pron: "オブスタクル" }],
-    antonyms: [{ word: "ease", pron: "イーズ" }, { word: "comfort", pron: "カンフォート" }],
+    synonyms: [
+      { word: "difficulty", pron: "ディフィカルティ", mean: "困難" },
+      { word: "obstacle", pron: "オブスタクル", mean: "障害" },
+    ],
+    antonyms: [
+      { word: "ease", pron: "イーズ", mean: "容易さ" },
+      { word: "comfort", pron: "カンフォート", mean: "快適さ" },
+    ],
   },
 ];

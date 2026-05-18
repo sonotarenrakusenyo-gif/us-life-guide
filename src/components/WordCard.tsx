@@ -144,6 +144,9 @@ function RelatedWords({ label, words, color, onSpeak }: RelatedWordsProps) {
         >
           <span className="text-xs font-semibold leading-tight">{w.word}</span>
           <span className="text-[10px] leading-tight opacity-70">{w.pron}</span>
+          {w.mean && (
+            <span className="text-[10px] leading-tight opacity-60">{w.mean}</span>
+          )}
         </button>
       ))}
     </div>

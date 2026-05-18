@@ -1,6 +1,5 @@
 import type { VocabularyItem } from "@/types/vocabulary";
 
-/** シーン4：夫婦の新生活（50語） */
 export const scene4Vocabulary: VocabularyItem[] = [
   {
     word: "good morning",
@@ -9,8 +8,13 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "Good morning! Did you sleep well in our new home?",
     sentence_pron: "グッド モーニング ディド ユー スリープ ウェル イン アワー ニュー ホウム",
     sentence_jp: "おはよう！新居でよく眠れた？",
-    synonyms: [{ word: "morning", pron: "モーニング" }, { word: "hey", pron: "ヘイ" }],
-    antonyms: [{ word: "good night", pron: "グッド ナイト" }],
+    synonyms: [
+      { word: "morning", pron: "モーニング", mean: "おはよう（カジュアル）" },
+      { word: "hey", pron: "ヘイ", mean: "やあ" },
+    ],
+    antonyms: [
+      { word: "good night", pron: "グッド ナイト", mean: "おやすみ" },
+    ],
   },
   {
     word: "wake up",
@@ -19,8 +23,14 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "I woke up early because of the time difference.",
     sentence_pron: "アイ ウォウク アップ アーリー ビコーズ オブ ザ タイム ディファレンス",
     sentence_jp: "時差のせいで早く目が覚めてしまいました。",
-    synonyms: [{ word: "get up", pron: "ゲット アップ" }, { word: "rise", pron: "ライズ" }],
-    antonyms: [{ word: "fall asleep", pron: "フォール アスリープ" }, { word: "go to bed", pron: "ゴー トゥー ベッド" }],
+    synonyms: [
+      { word: "get up", pron: "ゲット アップ", mean: "起き上がる" },
+      { word: "rise", pron: "ライズ", mean: "起床する" },
+    ],
+    antonyms: [
+      { word: "fall asleep", pron: "フォール アスリープ", mean: "眠りにつく" },
+      { word: "go to bed", pron: "ゴー トゥー ベッド", mean: "寝る" },
+    ],
   },
   {
     word: "routine",
@@ -29,8 +39,13 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "Let's build a morning routine together — breakfast, then a walk.",
     sentence_pron: "レッツ ビルド ア モーニング ルーティーン トゥゲザー ブレックファスト ゼン ア ウォーク",
     sentence_jp: "一緒に朝のルーティンを作りましょう。朝食を食べてから散歩とか。",
-    synonyms: [{ word: "habit", pron: "ハビット" }, { word: "schedule", pron: "スケジュール" }],
-    antonyms: [{ word: "spontaneous", pron: "スポンテイニアス" }],
+    synonyms: [
+      { word: "habit", pron: "ハビット", mean: "習慣" },
+      { word: "schedule", pron: "スケジュール", mean: "スケジュール" },
+    ],
+    antonyms: [
+      { word: "spontaneous", pron: "スポンテイニアス", mean: "自然発生的な" },
+    ],
   },
   {
     word: "commute",
@@ -39,8 +54,12 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "My husband's commute to work is about forty minutes by train.",
     sentence_pron: "マイ ハズバンズ コミュート トゥー ワーク イズ アバウト フォーティ ミニッツ バイ トレイン",
     sentence_jp: "夫の通勤は電車で約40分です。",
-    synonyms: [{ word: "travel to work", pron: "トラヴェル トゥー ワーク" }],
-    antonyms: [{ word: "work from home", pron: "ワーク フロム ホウム" }],
+    synonyms: [
+      { word: "travel to work", pron: "トラヴェル トゥー ワーク", mean: "職場に通う" },
+    ],
+    antonyms: [
+      { word: "work from home", pron: "ワーク フロム ホウム", mean: "在宅勤務" },
+    ],
   },
   {
     word: "see off",
@@ -49,8 +68,13 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "I always see my husband off at the door before he leaves for work.",
     sentence_pron: "アイ オールウェイズ シー マイ ハズバンド オフ アット ザ ドア ビフォー ヒー リーヴズ フォー ワーク",
     sentence_jp: "夫が仕事に行く前、いつもドアのところで見送っています。",
-    synonyms: [{ word: "wave goodbye", pron: "ウェイブ グッバイ" }, { word: "send off", pron: "センド オフ" }],
-    antonyms: [{ word: "welcome home", pron: "ウェルカム ホウム" }],
+    synonyms: [
+      { word: "wave goodbye", pron: "ウェイブ グッバイ", mean: "手を振って見送る" },
+      { word: "send off", pron: "センド オフ", mean: "送り出す" },
+    ],
+    antonyms: [
+      { word: "welcome home", pron: "ウェルカム ホウム", mean: "お帰りと迎える" },
+    ],
   },
   {
     word: "breakfast",
@@ -59,8 +83,14 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "I made a Japanese-style breakfast — rice, miso soup, and eggs.",
     sentence_pron: "アイ メイド ア ジャパニーズ スタイル ブレックファスト ライス ミソ スープ アンド エッグズ",
     sentence_jp: "和風の朝食を作りました。ご飯、お味噌汁、卵です。",
-    synonyms: [{ word: "morning meal", pron: "モーニング ミール" }, { word: "first meal", pron: "ファースト ミール" }],
-    antonyms: [{ word: "dinner", pron: "ディナー" }, { word: "supper", pron: "サパー" }],
+    synonyms: [
+      { word: "morning meal", pron: "モーニング ミール", mean: "朝食" },
+      { word: "first meal", pron: "ファースト ミール", mean: "最初の食事" },
+    ],
+    antonyms: [
+      { word: "dinner", pron: "ディナー", mean: "夕食" },
+      { word: "supper", pron: "サパー", mean: "夕食" },
+    ],
   },
   {
     word: "grocery",
@@ -69,7 +99,10 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "I need to go grocery shopping — the kitchen is nearly empty.",
     sentence_pron: "アイ ニード トゥー ゴー グロウサリー ショッピング ザ キッチン イズ ニアリー エンプティー",
     sentence_jp: "食料品を買いに行かないと。キッチンがほぼからっぽです。",
-    synonyms: [{ word: "food supplies", pron: "フード サプライズ" }, { word: "provisions", pron: "プロヴィジョンズ" }],
+    synonyms: [
+      { word: "food supplies", pron: "フード サプライズ", mean: "食料品" },
+      { word: "provisions", pron: "プロヴィジョンズ", mean: "食糧・備品" },
+    ],
     antonyms: [],
   },
   {
@@ -79,8 +112,13 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "The nearest supermarket is a ten-minute walk from our apartment.",
     sentence_pron: "ザ ニアレスト スーパーマーケット イズ ア テン ミニット ウォーク フロム アワー アパートメント",
     sentence_jp: "一番近いスーパーは、アパートから徒歩10分です。",
-    synonyms: [{ word: "grocery store", pron: "グロウサリー ストア" }, { word: "market", pron: "マーケット" }],
-    antonyms: [{ word: "convenience store", pron: "コンヴィニエンス ストア" }],
+    synonyms: [
+      { word: "grocery store", pron: "グロウサリー ストア", mean: "食料品店" },
+      { word: "market", pron: "マーケット", mean: "市場・スーパー" },
+    ],
+    antonyms: [
+      { word: "convenience store", pron: "コンヴィニエンス ストア", mean: "コンビニ" },
+    ],
   },
   {
     word: "faucet",
@@ -89,7 +127,9 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "The faucet in the kitchen drips a little — I should tell the landlord.",
     sentence_pron: "ザ フォーセット イン ザ キッチン ドリップス ア リトル アイ シュッド テル ザ ランドロード",
     sentence_jp: "キッチンの蛇口が少し水漏れしています。大家さんに伝えないと。",
-    synonyms: [{ word: "tap", pron: "タップ" }],
+    synonyms: [
+      { word: "tap", pron: "タップ", mean: "蛇口（英）" },
+    ],
     antonyms: [],
   },
   {
@@ -99,8 +139,12 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "The shower drain is clogged — water isn't draining.",
     sentence_pron: "ザ シャワー ドレイン イズ クロッグド ウォーター イズント ドレイニング",
     sentence_jp: "シャワーの排水口が詰まっています。水が流れません。",
-    synonyms: [{ word: "drainpipe", pron: "ドレインパイプ" }],
-    antonyms: [{ word: "fill", pron: "フィル" }],
+    synonyms: [
+      { word: "drainpipe", pron: "ドレインパイプ", mean: "排水管" },
+    ],
+    antonyms: [
+      { word: "fill", pron: "フィル", mean: "満たす・たまる" },
+    ],
   },
   {
     word: "clog",
@@ -109,8 +153,14 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "The kitchen sink is clogged — I need to buy some drain cleaner.",
     sentence_pron: "ザ キッチン シンク イズ クロッグド アイ ニード トゥー バイ サム ドレイン クリーナー",
     sentence_jp: "キッチンのシンクが詰まっています。パイプ洗浄剤を買わないと。",
-    synonyms: [{ word: "block", pron: "ブロック" }, { word: "jam", pron: "ジャム" }],
-    antonyms: [{ word: "unclog", pron: "アンクロッグ" }, { word: "clear", pron: "クリア" }],
+    synonyms: [
+      { word: "block", pron: "ブロック", mean: "塞ぐ" },
+      { word: "jam", pron: "ジャム", mean: "詰まる" },
+    ],
+    antonyms: [
+      { word: "unclog", pron: "アンクロッグ", mean: "詰まりを取る" },
+      { word: "clear", pron: "クリア", mean: "通す・取り除く" },
+    ],
   },
   {
     word: "garbage",
@@ -119,7 +169,10 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "What day do we put out the garbage in this area?",
     sentence_pron: "ワット デイ ドゥー ウィー プット アウト ザ ガービッジ イン ディス エリア",
     sentence_jp: "この地域のゴミ出しは何曜日ですか？",
-    synonyms: [{ word: "trash", pron: "トラッシュ" }, { word: "rubbish", pron: "ラビッシュ" }],
+    synonyms: [
+      { word: "trash", pron: "トラッシュ", mean: "ゴミ" },
+      { word: "rubbish", pron: "ラビッシュ", mean: "ゴミ（英）" },
+    ],
     antonyms: [],
   },
   {
@@ -129,8 +182,12 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "Cans and bottles go in the blue bin for recycling.",
     sentence_pron: "キャンズ アンド ボトルズ ゴー イン ザ ブルー ビン フォー リサイクリング",
     sentence_jp: "缶とビンはリサイクル用の青いビンに入れます。",
-    synonyms: [{ word: "reuse", pron: "リユーズ" }],
-    antonyms: [{ word: "disposal", pron: "ディスポーザル" }],
+    synonyms: [
+      { word: "reuse", pron: "リユーズ", mean: "再利用" },
+    ],
+    antonyms: [
+      { word: "disposal", pron: "ディスポーザル", mean: "廃棄・処分" },
+    ],
   },
   {
     word: "bin",
@@ -139,7 +196,10 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "The recycling bin is the blue one outside the lobby.",
     sentence_pron: "ザ リサイクリング ビン イズ ザ ブルー ワン アウトサイド ザ ロビー",
     sentence_jp: "リサイクルビンはロビーの外にある青いものです。",
-    synonyms: [{ word: "container", pron: "コンテイナー" }, { word: "garbage can", pron: "ガービッジ キャン" }],
+    synonyms: [
+      { word: "container", pron: "コンテイナー", mean: "容器" },
+      { word: "garbage can", pron: "ガービッジ キャン", mean: "ゴミ箱" },
+    ],
     antonyms: [],
   },
   {
@@ -149,7 +209,10 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "Trash day is Tuesday and Friday in our neighborhood.",
     sentence_pron: "トラッシュ デイ イズ チューズデイ アンド フライデイ イン アワー ネイバーフッド",
     sentence_jp: "私たちの近所のゴミ収集日は火曜日と金曜日です。",
-    synonyms: [{ word: "garbage day", pron: "ガービッジ デイ" }, { word: "pickup day", pron: "ピックアップ デイ" }],
+    synonyms: [
+      { word: "garbage day", pron: "ガービッジ デイ", mean: "ゴミ収集日" },
+      { word: "pickup day", pron: "ピックアップ デイ", mean: "収集日" },
+    ],
     antonyms: [],
   },
   {
@@ -159,7 +222,9 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "I need to figure out how to do laundry in this building.",
     sentence_pron: "アイ ニード トゥー フィガー アウト ハウ トゥー ドゥー ランドリー イン ディス ビルディング",
     sentence_jp: "このビルでの洗濯の仕方を確認しなきゃ。",
-    synonyms: [{ word: "washing", pron: "ウォッシング" }],
+    synonyms: [
+      { word: "washing", pron: "ウォッシング", mean: "洗濯" },
+    ],
     antonyms: [],
   },
   {
@@ -169,8 +234,12 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "The washer is in the bathroom — it's a front-load model.",
     sentence_pron: "ザ ウォッシャー イズ イン ザ バスルーム イッツ ア フロントロウド モデル",
     sentence_jp: "洗濯機はバスルームにあります。ドラム式です。",
-    synonyms: [{ word: "washing machine", pron: "ウォッシング マシーン" }],
-    antonyms: [{ word: "dryer", pron: "ドライアー" }],
+    synonyms: [
+      { word: "washing machine", pron: "ウォッシング マシーン", mean: "洗濯機" },
+    ],
+    antonyms: [
+      { word: "dryer", pron: "ドライアー", mean: "乾燥機" },
+    ],
   },
   {
     word: "dryer",
@@ -179,8 +248,12 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "The dryer takes about forty-five minutes for a full load.",
     sentence_pron: "ザ ドライアー テイクス アバウト フォーティファイブ ミニッツ フォー ア フル ロウド",
     sentence_jp: "乾燥機は一杯入れると約45分かかります。",
-    synonyms: [{ word: "tumble dryer", pron: "タンブル ドライアー" }],
-    antonyms: [{ word: "washer", pron: "ウォッシャー" }],
+    synonyms: [
+      { word: "tumble dryer", pron: "タンブル ドライアー", mean: "ドラム式乾燥機" },
+    ],
+    antonyms: [
+      { word: "washer", pron: "ウォッシャー", mean: "洗濯機" },
+    ],
   },
   {
     word: "detergent",
@@ -189,7 +262,10 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "I bought liquid detergent — it works well with the front-load washer.",
     sentence_pron: "アイ ボート リキッド ディタージェント イット ワークス ウェル ウィズ ザ フロントロウド ウォッシャー",
     sentence_jp: "液体洗剤を買いました。ドラム式によく合います。",
-    synonyms: [{ word: "laundry soap", pron: "ランドリー ソウプ" }, { word: "washing powder", pron: "ウォッシング パウダー" }],
+    synonyms: [
+      { word: "laundry soap", pron: "ランドリー ソウプ", mean: "洗濯用石けん" },
+      { word: "washing powder", pron: "ウォッシング パウダー", mean: "粉末洗剤" },
+    ],
     antonyms: [],
   },
   {
@@ -199,8 +275,14 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "How do I turn on the heater? There's a control on the wall.",
     sentence_pron: "ハウ ドゥー アイ ターン オン ザ ヒーター ゼアズ ア コントロール オン ザ ウォール",
     sentence_jp: "暖房のつけ方は？壁にコントロールがありますね。",
-    synonyms: [{ word: "furnace", pron: "ファーナス" }, { word: "radiator", pron: "レイディエイター" }],
-    antonyms: [{ word: "air conditioner", pron: "エア コンディショナー" }, { word: "cooler", pron: "クーラー" }],
+    synonyms: [
+      { word: "furnace", pron: "ファーナス", mean: "暖房炉" },
+      { word: "radiator", pron: "レイディエイター", mean: "ラジエーター" },
+    ],
+    antonyms: [
+      { word: "air conditioner", pron: "エア コンディショナー", mean: "エアコン" },
+      { word: "cooler", pron: "クーラー", mean: "冷房" },
+    ],
   },
   {
     word: "air conditioner",
@@ -209,8 +291,13 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "Summer here is hot — we'll definitely need the air conditioner.",
     sentence_pron: "サマー ヒア イズ ホット ウィール デフィニトリー ニード ジ エア コンディショナー",
     sentence_jp: "こちらの夏は暑いですね。エアコンは絶対必要です。",
-    synonyms: [{ word: "AC", pron: "エーシー" }, { word: "cooling system", pron: "クーリング システム" }],
-    antonyms: [{ word: "heater", pron: "ヒーター" }],
+    synonyms: [
+      { word: "AC", pron: "エーシー", mean: "エアコン" },
+      { word: "cooling system", pron: "クーリング システム", mean: "冷房システム" },
+    ],
+    antonyms: [
+      { word: "heater", pron: "ヒーター", mean: "暖房" },
+    ],
   },
   {
     word: "thermostat",
@@ -219,7 +306,9 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "Set the thermostat to 72 degrees — that feels comfortable to me.",
     sentence_pron: "セット ザ サーモスタット トゥー セブンティトゥー ディグリーズ ザット フィールズ カンフォータブル トゥー ミー",
     sentence_jp: "サーモスタットを72度（約22℃）に設定してください。私には快適な温度です。",
-    synonyms: [{ word: "temperature control", pron: "テンパラチャー コントロール" }],
+    synonyms: [
+      { word: "temperature control", pron: "テンパラチャー コントロール", mean: "温度調節" },
+    ],
     antonyms: [],
   },
   {
@@ -229,7 +318,9 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "I need to set up electricity and gas in our name as soon as possible.",
     sentence_pron: "アイ ニード トゥー セット アップ エレクトリシティ アンド ガス イン アワー ネイム アズ スーン アズ ポッシブル",
     sentence_jp: "できるだけ早く、私たちの名前で電気とガスを申込みしないと。",
-    synonyms: [{ word: "power", pron: "パワー" }],
+    synonyms: [
+      { word: "power", pron: "パワー", mean: "電力" },
+    ],
     antonyms: [],
   },
   {
@@ -239,7 +330,10 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "The outlets here are different — we need a power adapter.",
     sentence_pron: "ジ アウトレッツ ヒア アー ディファレント ウィー ニード ア パワー アダプター",
     sentence_jp: "こちらのコンセントは形が違います。電源アダプターが必要です。",
-    synonyms: [{ word: "socket", pron: "ソケット" }, { word: "power point", pron: "パワー ポイント" }],
+    synonyms: [
+      { word: "socket", pron: "ソケット", mean: "コンセント穴" },
+      { word: "power point", pron: "パワー ポイント", mean: "コンセント（英）" },
+    ],
     antonyms: [],
   },
   {
@@ -249,7 +343,10 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "Which switch turns on the living room light?",
     sentence_pron: "ウィッチ スウィッチ ターンズ オン ザ リヴィング ルーム ライト",
     sentence_jp: "どのスイッチがリビングの電気をつけるの？",
-    synonyms: [{ word: "button", pron: "バトン" }, { word: "toggle", pron: "トグル" }],
+    synonyms: [
+      { word: "button", pron: "バトン", mean: "ボタン" },
+      { word: "toggle", pron: "トグル", mean: "切り替えスイッチ" },
+    ],
     antonyms: [],
   },
   {
@@ -259,7 +356,9 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "The refrigerator is huge — much bigger than ours in Japan.",
     sentence_pron: "ザ リフリジャレイター イズ ヒュージ マッチ ビガー ザン アワーズ イン ジャパン",
     sentence_jp: "冷蔵庫が大きい！日本のよりずっと大きいですね。",
-    synonyms: [{ word: "fridge", pron: "フリッジ" }],
+    synonyms: [
+      { word: "fridge", pron: "フリッジ", mean: "冷蔵庫" },
+    ],
     antonyms: [],
   },
   {
@@ -269,7 +368,9 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "Heat it up in the microwave for two minutes.",
     sentence_pron: "ヒート イット アップ イン ザ マイクロウェイヴ フォー トゥー ミニッツ",
     sentence_jp: "電子レンジで2分温めてください。",
-    synonyms: [{ word: "microwave oven", pron: "マイクロウェイヴ オーヴン" }],
+    synonyms: [
+      { word: "microwave oven", pron: "マイクロウェイヴ オーヴン", mean: "電子レンジ" },
+    ],
     antonyms: [],
   },
   {
@@ -279,7 +380,10 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "The stove here is electric — it's different from the gas stove in Japan.",
     sentence_pron: "ザ ストウヴ ヒア イズ エレクトリック イッツ ディファレント フロム ザ ガス ストウヴ イン ジャパン",
     sentence_jp: "こちらのコンロは電気式です。日本のガスコンロとは違いますね。",
-    synonyms: [{ word: "cooktop", pron: "クックトップ" }, { word: "range", pron: "レンジ" }],
+    synonyms: [
+      { word: "cooktop", pron: "クックトップ", mean: "クッキングトップ" },
+      { word: "range", pron: "レンジ", mean: "調理台" },
+    ],
     antonyms: [],
   },
   {
@@ -289,7 +393,9 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "I want to learn how to bake bread using this oven.",
     sentence_pron: "アイ ウォント トゥー ラーン ハウ トゥー ベイク ブレッド ユージング ディス オーヴン",
     sentence_jp: "このオーブンを使ってパンを焼く方法を覚えたいです。",
-    synonyms: [{ word: "baking oven", pron: "ベイキング オーヴン" }],
+    synonyms: [
+      { word: "baking oven", pron: "ベイキング オーヴン", mean: "焼き窯" },
+    ],
     antonyms: [],
   },
   {
@@ -299,8 +405,12 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "We have a dishwasher — no more hand-washing dishes every night!",
     sentence_pron: "ウィー ハヴ ア ディッシュウォッシャー ノー モア ハンドウォッシング ディッシズ エブリー ナイト",
     sentence_jp: "食洗機があります。毎晩手洗いしなくていい！",
-    synonyms: [{ word: "dish cleaning machine", pron: "ディッシュ クリーニング マシーン" }],
-    antonyms: [{ word: "hand washing", pron: "ハンド ウォッシング" }],
+    synonyms: [
+      { word: "dish cleaning machine", pron: "ディッシュ クリーニング マシーン", mean: "皿洗い機" },
+    ],
+    antonyms: [
+      { word: "hand washing", pron: "ハンド ウォッシング", mean: "手洗い" },
+    ],
   },
   {
     word: "Wi-Fi",
@@ -309,8 +419,13 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "Could you send me the Wi-Fi password for our apartment?",
     sentence_pron: "クッジュー センド ミー ザ ワイファイ パスワード フォー アワー アパートメント",
     sentence_jp: "アパートのWi-Fiパスワードを送ってもらえる？",
-    synonyms: [{ word: "wireless internet", pron: "ワイアレス インターネット" }, { word: "internet connection", pron: "インターネット コネクション" }],
-    antonyms: [{ word: "wired connection", pron: "ワイアード コネクション" }],
+    synonyms: [
+      { word: "wireless internet", pron: "ワイアレス インターネット", mean: "無線インターネット" },
+      { word: "internet connection", pron: "インターネット コネクション", mean: "インターネット接続" },
+    ],
+    antonyms: [
+      { word: "wired connection", pron: "ワイアード コネクション", mean: "有線接続" },
+    ],
   },
   {
     word: "router",
@@ -319,7 +434,9 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "The router is behind the TV — try restarting it if it's slow.",
     sentence_pron: "ザ ルーター イズ ビハインド ザ ティーヴィー トライ リスターティング イット イフ イッツ スロウ",
     sentence_jp: "ルーターはテレビの後ろにあります。遅いときは再起動してみてください。",
-    synonyms: [{ word: "modem", pron: "モデム" }],
+    synonyms: [
+      { word: "modem", pron: "モデム", mean: "モデム" },
+    ],
     antonyms: [],
   },
   {
@@ -329,7 +446,10 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "The bathroom here is much bigger than in our Japanese apartment.",
     sentence_pron: "ザ バスルーム ヒア イズ マッチ ビガー ザン イン アワー ジャパニーズ アパートメント",
     sentence_jp: "こちらのバスルームは日本のアパートよりずっと大きいです。",
-    synonyms: [{ word: "restroom", pron: "レストルーム" }, { word: "washroom", pron: "ウォッシュルーム" }],
+    synonyms: [
+      { word: "restroom", pron: "レストルーム", mean: "洗面所・トイレ" },
+      { word: "washroom", pron: "ウォッシュルーム", mean: "化粧室" },
+    ],
     antonyms: [],
   },
   {
@@ -339,7 +459,10 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "The closet in the bedroom is a walk-in — plenty of space.",
     sentence_pron: "ザ クローゼット イン ザ ベッドルーム イズ ア ウォークイン プレンティ オブ スペース",
     sentence_jp: "ベッドルームのクローゼットはウォークインタイプで、十分なスペースがあります。",
-    synonyms: [{ word: "wardrobe", pron: "ウォードロウブ" }, { word: "storage", pron: "ストレッジ" }],
+    synonyms: [
+      { word: "wardrobe", pron: "ウォードロウブ", mean: "衣装棚" },
+      { word: "storage", pron: "ストレッジ", mean: "収納スペース" },
+    ],
     antonyms: [],
   },
   {
@@ -349,7 +472,9 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "I joined a neighborhood app to learn about local events and safety.",
     sentence_pron: "アイ ジョインド ア ネイバーフッド アップ トゥー ラーン アバウト ロウカル イベンツ アンド セイフティ",
     sentence_jp: "地域のイベントや安全情報を知るために、近所向けアプリに登録しました。",
-    synonyms: [{ word: "community app", pron: "コミュニティ アップ" }],
+    synonyms: [
+      { word: "community app", pron: "コミュニティ アップ", mean: "コミュニティアプリ" },
+    ],
     antonyms: [],
   },
   {
@@ -359,8 +484,13 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "We share all household chores — cooking, cleaning, and shopping.",
     sentence_pron: "ウィー シェア オール ハウスホウルド チョアーズ クッキング クリーニング アンド ショッピング",
     sentence_jp: "家事は全て分担しています。料理、掃除、買い物など。",
-    synonyms: [{ word: "divide", pron: "ディヴァイド" }, { word: "split", pron: "スプリット" }],
-    antonyms: [{ word: "keep for yourself", pron: "キープ フォー ユアセルフ" }],
+    synonyms: [
+      { word: "divide", pron: "ディヴァイド", mean: "分ける" },
+      { word: "split", pron: "スプリット", mean: "分担する" },
+    ],
+    antonyms: [
+      { word: "keep for yourself", pron: "キープ フォー ユアセルフ", mean: "独り占めする" },
+    ],
   },
   {
     word: "chore",
@@ -369,7 +499,10 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "My least favorite chore is cleaning the bathroom.",
     sentence_pron: "マイ リースト フェイバリット チョア イズ クリーニング ザ バスルーム",
     sentence_jp: "一番嫌いな家事はバスルームの掃除です。",
-    synonyms: [{ word: "task", pron: "タスク" }, { word: "housework", pron: "ハウスワーク" }],
+    synonyms: [
+      { word: "task", pron: "タスク", mean: "仕事・作業" },
+      { word: "housework", pron: "ハウスワーク", mean: "家事" },
+    ],
     antonyms: [],
   },
   {
@@ -379,8 +512,14 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "I cook most meals, and he handles the dishes.",
     sentence_pron: "アイ クック モスト ミールズ アンド ヒー ハンドルズ ザ ディッシズ",
     sentence_jp: "私がほとんどの料理を作って、夫が皿洗いをしてくれます。",
-    synonyms: [{ word: "prepare food", pron: "プリペア フード" }, { word: "make a meal", pron: "メイク ア ミール" }],
-    antonyms: [{ word: "order out", pron: "オーダー アウト" }, { word: "eat out", pron: "イート アウト" }],
+    synonyms: [
+      { word: "prepare food", pron: "プリペア フード", mean: "食事の準備をする" },
+      { word: "make a meal", pron: "メイク ア ミール", mean: "食事を作る" },
+    ],
+    antonyms: [
+      { word: "order out", pron: "オーダー アウト", mean: "出前を頼む" },
+      { word: "eat out", pron: "イート アウト", mean: "外食する" },
+    ],
   },
   {
     word: "ingredient",
@@ -389,7 +528,10 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "I couldn't find some Japanese ingredients at the local store.",
     sentence_pron: "アイ クッドント ファインド サム ジャパニーズ イングリーディエンツ アット ザ ロウカル ストア",
     sentence_jp: "地元のお店では、日本の食材が見つかりませんでした。",
-    synonyms: [{ word: "item", pron: "アイテム" }, { word: "component", pron: "コンポーネント" }],
+    synonyms: [
+      { word: "item", pron: "アイテム", mean: "品目" },
+      { word: "component", pron: "コンポーネント", mean: "構成要素" },
+    ],
     antonyms: [],
   },
   {
@@ -399,8 +541,13 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "I feel a little homesick, especially when I smell Japanese food.",
     sentence_pron: "アイ フィール ア リトル ホウムシック エスペシャリー ウェン アイ スメル ジャパニーズ フード",
     sentence_jp: "日本食のにおいをかぐと、少しホームシックになります。",
-    synonyms: [{ word: "nostalgic", pron: "ノスタルジック" }],
-    antonyms: [{ word: "at home", pron: "アット ホウム" }, { word: "settled", pron: "セトルド" }],
+    synonyms: [
+      { word: "nostalgic", pron: "ノスタルジック", mean: "懐かしさを感じる" },
+    ],
+    antonyms: [
+      { word: "at home", pron: "アット ホウム", mean: "くつろいでいる" },
+      { word: "settled", pron: "セトルド", mean: "落ち着いた" },
+    ],
   },
   {
     word: "adjust",
@@ -409,8 +556,13 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "It takes time to adjust to life in a new country.",
     sentence_pron: "イット テイクス タイム トゥー アジャスト トゥー ライフ イン ア ニュー カントリー",
     sentence_jp: "新しい国での生活に慣れるには時間がかかります。",
-    synonyms: [{ word: "adapt", pron: "アダプト" }, { word: "get used to", pron: "ゲット ユーズド トゥー" }],
-    antonyms: [{ word: "struggle", pron: "ストラッグル" }],
+    synonyms: [
+      { word: "adapt", pron: "アダプト", mean: "適応する" },
+      { word: "get used to", pron: "ゲット ユーズド トゥー", mean: "慣れる" },
+    ],
+    antonyms: [
+      { word: "struggle", pron: "ストラッグル", mean: "苦労する" },
+    ],
   },
   {
     word: "grocery list",
@@ -419,7 +571,9 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "I keep a grocery list on my phone so I never forget anything.",
     sentence_pron: "アイ キープ ア グロウサリー リスト オン マイ フォウン ソー アイ ネヴァー フォーゲット エニシング",
     sentence_jp: "スマホに買い物リストを残しておくと、何も忘れないですよ。",
-    synonyms: [{ word: "shopping list", pron: "ショッピング リスト" }],
+    synonyms: [
+      { word: "shopping list", pron: "ショッピング リスト", mean: "買い物リスト" },
+    ],
     antonyms: [],
   },
   {
@@ -429,8 +583,13 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "We set a monthly budget for food, transport, and other expenses.",
     sentence_pron: "ウィー セット ア マンスリー バジェット フォー フード トランスポート アンド アザー エクスペンシズ",
     sentence_jp: "食費・交通費などの月間予算を設定しました。",
-    synonyms: [{ word: "allowance", pron: "アラウアンス" }, { word: "limit", pron: "リミット" }],
-    antonyms: [{ word: "overspend", pron: "オーバースペンド" }],
+    synonyms: [
+      { word: "allowance", pron: "アラウアンス", mean: "予算・手当" },
+      { word: "limit", pron: "リミット", mean: "上限" },
+    ],
+    antonyms: [
+      { word: "overspend", pron: "オーバースペンド", mean: "使いすぎる" },
+    ],
   },
   {
     word: "bill",
@@ -439,8 +598,13 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "The first utility bill arrived — electricity was higher than I expected.",
     sentence_pron: "ザ ファースト ユーティリティ ビル アライヴド エレクトリシティ ワズ ハイアー ザン アイ エクスペクティド",
     sentence_jp: "最初の光熱費の請求書が届きました。電気代が予想より高かったです。",
-    synonyms: [{ word: "invoice", pron: "インヴォイス" }, { word: "statement", pron: "ステイトメント" }],
-    antonyms: [{ word: "refund", pron: "リファンド" }],
+    synonyms: [
+      { word: "invoice", pron: "インヴォイス", mean: "請求書" },
+      { word: "statement", pron: "ステイトメント", mean: "明細書" },
+    ],
+    antonyms: [
+      { word: "refund", pron: "リファンド", mean: "返金" },
+    ],
   },
   {
     word: "bank account",
@@ -449,7 +613,10 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "Opening a bank account was one of my first tasks after arriving.",
     sentence_pron: "オープニング ア バンク アカウント ワズ ワン オブ マイ ファースト タスクス アフター アライヴィング",
     sentence_jp: "到着後の最初のやることの一つが、銀行口座の開設でした。",
-    synonyms: [{ word: "checking account", pron: "チェッキング アカウント" }, { word: "savings account", pron: "セイヴィングズ アカウント" }],
+    synonyms: [
+      { word: "checking account", pron: "チェッキング アカウント", mean: "当座預金口座" },
+      { word: "savings account", pron: "セイヴィングズ アカウント", mean: "普通預金口座" },
+    ],
     antonyms: [],
   },
   {
@@ -459,8 +626,13 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "We support each other through the challenges of starting over.",
     sentence_pron: "ウィー サポート イーチ アザー スルー ザ チャレンジズ オブ スターティング オーバー",
     sentence_jp: "新生活の大変さをお互い支え合っています。",
-    synonyms: [{ word: "help", pron: "ヘルプ" }, { word: "back up", pron: "バック アップ" }],
-    antonyms: [{ word: "abandon", pron: "アバンドン" }],
+    synonyms: [
+      { word: "help", pron: "ヘルプ", mean: "助ける" },
+      { word: "back up", pron: "バック アップ", mean: "支援する" },
+    ],
+    antonyms: [
+      { word: "abandon", pron: "アバンドン", mean: "見捨てる" },
+    ],
   },
   {
     word: "together",
@@ -469,7 +641,13 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "As long as we're together, we can handle anything.",
     sentence_pron: "アズ ロング アズ ウィーア トゥゲザー ウィー キャン ハンドル エニシング",
     sentence_jp: "二人一緒なら、どんなことでも乗り越えられます。",
-    synonyms: [{ word: "side by side", pron: "サイド バイ サイド" }, { word: "jointly", pron: "ジョイントリー" }],
-    antonyms: [{ word: "apart", pron: "アパート" }, { word: "separately", pron: "セパレートリー" }],
+    synonyms: [
+      { word: "side by side", pron: "サイド バイ サイド", mean: "並んで" },
+      { word: "jointly", pron: "ジョイントリー", mean: "共同で" },
+    ],
+    antonyms: [
+      { word: "apart", pron: "アパート", mean: "離れて" },
+      { word: "separately", pron: "セパレートリー", mean: "別々に" },
+    ],
   },
 ];

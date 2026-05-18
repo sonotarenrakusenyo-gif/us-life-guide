@@ -9,6 +9,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "My husband's coworkers are having a casual get-together on Saturday.",
     sentence_pron: "マイ ハズバンズ コウワーカーズ アー ハヴィング ア キャジュアル ゲット トゥゲザー オン サタデイ",
     sentence_jp: "土曜日に夫の同僚たちのカジュアルな集まりがあります。",
+    synonyms: [
+      { word: "gathering", pron: "ギャザリング", mean: "集まり" },
+      { word: "meetup", pron: "ミートアップ", mean: "集まり" },
+    ],
+    antonyms: [
+      { word: "formal party", pron: "フォーマル パーティ", mean: "正式なパーティー" },
+    ],
   },
   {
     word: "I've heard so much about you",
@@ -17,6 +24,12 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "I've heard so much about you — my husband talks about you all the time!",
     sentence_pron: "アイヴ ハード ソー マッチ アバウト ユー マイ ハズバンド トークス アバウト ユー オール ザ タイム",
     sentence_jp: "あなたのことはよく聞いています！夫がいつも話してくれるんですよ！",
+    synonyms: [
+      { word: "I know all about you", pron: "アイ ノウ オール アバウト ユー", mean: "あなたのことはよく知っています" },
+    ],
+    antonyms: [
+      { word: "I don't know you at all", pron: "アイ ドント ノウ ユー アット オール", mean: "あなたのことを全く知りません" },
+    ],
   },
   {
     word: "pleased to meet you",
@@ -25,6 +38,11 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "Pleased to meet you — I'm Ruka, his wife.",
     sentence_pron: "プリーズド トゥー ミート ユー アイム ルカ ヒズ ワイフ",
     sentence_jp: "お会いできて光栄です。妻のルカと申します。",
+    synonyms: [
+      { word: "nice to meet you", pron: "ナイス トゥー ミート ユー", mean: "はじめまして" },
+      { word: "glad to meet you", pron: "グラッド トゥー ミート ユー", mean: "お会いできて嬉しいです" },
+    ],
+    antonyms: [],
   },
   {
     word: "introduce",
@@ -33,6 +51,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "Let me introduce you to everyone — this is my wife, Ruka.",
     sentence_pron: "レット ミー イントロデュース ユー トゥー エブリワン ディス イズ マイ ワイフ ルカ",
     sentence_jp: "皆に紹介させてください。妻のルカです。",
+    synonyms: [
+      { word: "present", pron: "プレゼント", mean: "紹介する" },
+      { word: "acquaint", pron: "アクウェイント", mean: "知り合わせる" },
+    ],
+    antonyms: [
+      { word: "conceal", pron: "コンシール", mean: "隠す" },
+    ],
   },
   {
     word: "originally from",
@@ -41,6 +66,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "I'm originally from Tokyo, but I've been living here for a few months now.",
     sentence_pron: "アイム オリジナリー フロム トウキョウ バット アイヴ ビン リヴィング ヒア フォー ア フュー マンスズ ナウ",
     sentence_jp: "東京出身ですが、今はこちらに数ヶ月住んでいます。",
+    synonyms: [
+      { word: "born in", pron: "ボーン イン", mean: "〜生まれ" },
+      { word: "native of", pron: "ネイティヴ オブ", mean: "〜の出身" },
+    ],
+    antonyms: [
+      { word: "currently living in", pron: "カレントリー リヴィング イン", mean: "現在〜に住んでいる" },
+    ],
   },
   {
     word: "currently",
@@ -49,6 +81,14 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "I'm currently studying English at the local community college.",
     sentence_pron: "アイム カレントリー スタディイング イングリッシュ アット ザ ロウカル コミュニティ カレッジ",
     sentence_jp: "現在は地元のコミュニティカレッジで英語を勉強しています。",
+    synonyms: [
+      { word: "now", pron: "ナウ", mean: "今" },
+      { word: "at the moment", pron: "アット ザ モウメント", mean: "今現在" },
+    ],
+    antonyms: [
+      { word: "formerly", pron: "フォーマリー", mean: "以前は" },
+      { word: "previously", pron: "プリーヴィアスリー", mean: "以前は" },
+    ],
   },
   {
     word: "used to",
@@ -57,6 +97,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "I used to work in marketing back in Japan.",
     sentence_pron: "アイ ユーズド トゥー ワーク イン マーケティング バック イン ジャパン",
     sentence_jp: "日本ではマーケティングの仕事をしていました。",
+    synonyms: [
+      { word: "formerly did", pron: "フォーマリー ディッド", mean: "以前は〜していた" },
+      { word: "was accustomed to", pron: "ワズ アカスタムド トゥー", mean: "〜に慣れていた" },
+    ],
+    antonyms: [
+      { word: "now do", pron: "ナウ ドゥー", mean: "今は〜している" },
+    ],
   },
   {
     word: "back home",
@@ -65,6 +112,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "Back home, I took the train every day — I miss that convenience.",
     sentence_pron: "バック ホウム アイ トゥック ザ トレイン エブリー デイ アイ ミス ザット コンヴィニエンス",
     sentence_jp: "日本では毎日電車に乗っていました。あの便利さが恋しいです。",
+    synonyms: [
+      { word: "in Japan", pron: "イン ジャパン", mean: "日本では" },
+      { word: "in my home country", pron: "イン マイ ホウム カントリー", mean: "故郷では" },
+    ],
+    antonyms: [
+      { word: "over here", pron: "オーバー ヒア", mean: "こちらでは" },
+    ],
   },
   {
     word: "still adjusting",
@@ -73,6 +127,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "I'm still adjusting to life here, but I'm really enjoying it so far.",
     sentence_pron: "アイム スティル アジャスティング トゥー ライフ ヒア バット アイム リアリー エンジョイイング イット ソー ファー",
     sentence_jp: "まだこちらの生活に慣れているところですが、今のところとても楽しんでいます。",
+    synonyms: [
+      { word: "getting used to", pron: "ゲッティング ユーズド トゥー", mean: "慣れていきているところ" },
+      { word: "adapting", pron: "アダプティング", mean: "適応中" },
+    ],
+    antonyms: [
+      { word: "fully settled", pron: "フリー セトルド", mean: "完全に慣れた" },
+    ],
   },
   {
     word: "fit in",
@@ -81,6 +142,14 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "Everyone made me feel so welcome — it was easy to fit in.",
     sentence_pron: "エブリワン メイド ミー フィール ソー ウェルカム イット ワズ イージー トゥー フィット イン",
     sentence_jp: "みんなが温かく迎えてくれたので、すんなり馴染めました。",
+    synonyms: [
+      { word: "blend in", pron: "ブレンド イン", mean: "溶け込む" },
+      { word: "belong", pron: "ビロング", mean: "所属する" },
+    ],
+    antonyms: [
+      { word: "stand out", pron: "スタンド アウト", mean: "目立つ" },
+      { word: "feel out of place", pron: "フィール アウト オブ プレイス", mean: "場違いに感じる" },
+    ],
   },
   {
     word: "right",
@@ -89,6 +158,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "Right, the weather here is so much warmer than Tokyo in winter.",
     sentence_pron: "ライト ザ ウェザー ヒア イズ ソー マッチ ウォーマー ザン トウキョウ イン ウィンター",
     sentence_jp: "そうですよね。冬はこちらの方が東京よりずっと暖かいですね。",
+    synonyms: [
+      { word: "exactly", pron: "エグザクトリー", mean: "まさに" },
+      { word: "true", pron: "トルー", mean: "そうですね" },
+    ],
+    antonyms: [
+      { word: "wrong", pron: "ロング", mean: "違う" },
+    ],
   },
   {
     word: "exactly",
@@ -97,6 +173,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "Exactly! The portion sizes here are huge compared to Japan.",
     sentence_pron: "エグザクトリー ザ ポーション サイジズ ヒア アー ヒュージ コンペアド トゥー ジャパン",
     sentence_jp: "まさに！こちらの食事の量は日本と比べて巨大ですよね。",
+    synonyms: [
+      { word: "precisely", pron: "プリサイスリー", mean: "正確に" },
+      { word: "that's right", pron: "ザッツ ライト", mean: "その通り" },
+    ],
+    antonyms: [
+      { word: "not at all", pron: "ナット アット オール", mean: "まったく違う" },
+    ],
   },
   {
     word: "totally",
@@ -105,6 +188,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "Totally — I still can't finish a whole American-sized meal by myself.",
     sentence_pron: "トウタリー アイ スティル キャント フィニッシュ ア ホウル アメリカンサイズド ミール バイ マイセルフ",
     sentence_jp: "本当に！アメリカサイズの食事、一人では食べきれないですよね。",
+    synonyms: [
+      { word: "absolutely", pron: "アブソリュートリー", mean: "絶対に" },
+      { word: "for sure", pron: "フォー シュア", mean: "確かに" },
+    ],
+    antonyms: [
+      { word: "not really", pron: "ナット リアリー", mean: "そうでもない" },
+    ],
   },
   {
     word: "I know, right?",
@@ -113,6 +203,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "I know, right? The customer service here is so different from Japan.",
     sentence_pron: "アイ ノウ ライト ザ カスタマー サービス ヒア イズ ソー ディファレント フロム ジャパン",
     sentence_jp: "わかります。こちらの接客は日本とすごく違いますよね。",
+    synonyms: [
+      { word: "tell me about it", pron: "テル ミー アバウト イット", mean: "本当そう" },
+      { word: "same", pron: "セイム", mean: "同じく" },
+    ],
+    antonyms: [
+      { word: "really?", pron: "リアリー", mean: "そうなの？（驚き）" },
+    ],
   },
   {
     word: "no way",
@@ -121,6 +218,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "No way! You've never tried sushi before? We have to fix that!",
     sentence_pron: "ノー ウェイ ユーヴ ネヴァー トライド スシ ビフォー ウィー ハヴ トゥー フィックス ザット",
     sentence_jp: "まさか！お寿司を一度も食べたことないの？それは何とかしないと！",
+    synonyms: [
+      { word: "seriously?", pron: "シリアスリー", mean: "マジで？" },
+      { word: "you're kidding", pron: "ユーア キッディング", mean: "冗談でしょ" },
+    ],
+    antonyms: [
+      { word: "of course", pron: "オブ コース", mean: "もちろん" },
+    ],
   },
   {
     word: "seriously",
@@ -129,6 +233,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "Seriously? You made all of this yourself? That's impressive!",
     sentence_pron: "シリアスリー ユー メイド オール オブ ディス ユアセルフ ザッツ インプレッシヴ",
     sentence_jp: "マジで？これ全部自分で作ったの？すごい！",
+    synonyms: [
+      { word: "really?", pron: "リアリー", mean: "本当に？" },
+      { word: "no kidding", pron: "ノー キッディング", mean: "冗談なしで" },
+    ],
+    antonyms: [
+      { word: "obviously", pron: "オブヴィアスリー", mean: "当たり前に" },
+    ],
   },
   {
     word: "that's so interesting",
@@ -137,6 +248,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "That's so interesting — I didn't know California had so many Japanese residents.",
     sentence_pron: "ザッツ ソー インタレスティング アイ ディドント ノウ カリフォルニア ハド ソー メニー ジャパニーズ レジデンツ",
     sentence_jp: "それはとても興味深いですね。カリフォルニアに日本人がそんなにいるとは知りませんでした。",
+    synonyms: [
+      { word: "fascinating", pron: "ファシネイティング", mean: "魅力的な" },
+      { word: "amazing", pron: "アメイジング", mean: "すごい" },
+    ],
+    antonyms: [
+      { word: "boring", pron: "ボーリング", mean: "退屈な" },
+    ],
   },
   {
     word: "I had no idea",
@@ -145,6 +263,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "I had no idea you could surf here — I definitely want to try!",
     sentence_pron: "アイ ハド ノー アイディア ユー クッド サーフ ヒア アイ デフィニトリー ウォント トゥー トライ",
     sentence_jp: "ここでサーフィンができるとは全然知りませんでした。ぜひ試してみたいです！",
+    synonyms: [
+      { word: "I didn't know", pron: "アイ ディドント ノウ", mean: "知りませんでした" },
+      { word: "I wasn't aware", pron: "アイ ワズント アウェア", mean: "気づきませんでした" },
+    ],
+    antonyms: [
+      { word: "I already knew", pron: "アイ オールレディ ニュー", mean: "すでに知っていました" },
+    ],
   },
   {
     word: "that makes sense",
@@ -153,6 +278,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "Oh, that makes sense — no wonder the traffic is worse on Fridays.",
     sentence_pron: "オウ ザット メイクス センス ノー ワンダー ザ トラフィック イズ ワース オン フライデイズ",
     sentence_jp: "なるほど、金曜日の渋滞がひどいのも納得です。",
+    synonyms: [
+      { word: "I see", pron: "アイ シー", mean: "なるほど" },
+      { word: "that explains it", pron: "ザット エクスプレインズ イット", mean: "それで納得" },
+    ],
+    antonyms: [
+      { word: "that doesn't make sense", pron: "ザット ダズント メイク センス", mean: "それは理解できない" },
+    ],
   },
   {
     word: "tell me about it",
@@ -161,6 +293,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "The traffic is terrible here. — Tell me about it! I was stuck for an hour.",
     sentence_pron: "ザ トラフィック イズ テリブル ヒア テル ミー アバウト イット アイ ワズ スタック フォー アン アワー",
     sentence_jp: "渋滞がひどいですよね。 ―― 本当に！1時間も動けなかったです。",
+    synonyms: [
+      { word: "I know, right?", pron: "アイ ノウ ライト", mean: "わかる" },
+      { word: "you're telling me", pron: "ユーア テリング ミー", mean: "それはそうですよ" },
+    ],
+    antonyms: [
+      { word: "really?", pron: "リアリー", mean: "そうなの？（意外に思う）" },
+    ],
   },
   {
     word: "culture",
@@ -169,6 +308,11 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "There's such a big culture difference between Japan and the U.S.",
     sentence_pron: "ゼアズ サッチ ア ビッグ カルチャー ディファレンス ビトウィーン ジャパン アンド ザ ユーエス",
     sentence_jp: "日本とアメリカでは文化の違いがとても大きいですね。",
+    synonyms: [
+      { word: "tradition", pron: "トラディション", mean: "伝統" },
+      { word: "custom", pron: "カスタム", mean: "慣習" },
+    ],
+    antonyms: [],
   },
   {
     word: "curious",
@@ -177,6 +321,14 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "I'm really curious about American holidays — do you celebrate Thanksgiving?",
     sentence_pron: "アイム リアリー キュリアス アバウト アメリカン ホリデイズ ドゥー ユー セレブレイト センクスギヴィング",
     sentence_jp: "アメリカの祝日にとても興味があります。感謝祭は祝うんですか？",
+    synonyms: [
+      { word: "interested", pron: "インタレスティド", mean: "興味のある" },
+      { word: "inquisitive", pron: "インクウィジティヴ", mean: "好奇心旺盛な" },
+    ],
+    antonyms: [
+      { word: "indifferent", pron: "インディファレント", mean: "無関心な" },
+      { word: "uninterested", pron: "アンインタレスティド", mean: "興味のない" },
+    ],
   },
   {
     word: "compare",
@@ -185,6 +337,11 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "People always compare Japanese trains to American ones — there's no competition!",
     sentence_pron: "ピープル オールウェイズ コンペア ジャパニーズ トレインズ トゥー アメリカン ワンズ ゼアズ ノー コンペティション",
     sentence_jp: "日本の電車とアメリカの電車はよく比べられますが、比較にならないですよね！",
+    synonyms: [
+      { word: "contrast", pron: "コントラスト", mean: "対比する" },
+      { word: "measure against", pron: "メジャー アゲインスト", mean: "〜と比べる" },
+    ],
+    antonyms: [],
   },
   {
     word: "unique",
@@ -193,6 +350,14 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "Japanese convenience stores are so unique — there's nothing like them here.",
     sentence_pron: "ジャパニーズ コンヴィニエンス ストアズ アー ソー ユニーク ゼアズ ナッシング ライク ゼム ヒア",
     sentence_jp: "日本のコンビニは本当に独特ですね。ここにはそういうものがないです。",
+    synonyms: [
+      { word: "one-of-a-kind", pron: "ワン オブ ア カインド", mean: "唯一無二の" },
+      { word: "original", pron: "オリジナル", mean: "独創的な" },
+    ],
+    antonyms: [
+      { word: "common", pron: "コモン", mean: "一般的な" },
+      { word: "ordinary", pron: "オーディナリー", mean: "普通の" },
+    ],
   },
   {
     word: "traditional",
@@ -201,6 +366,14 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "I brought some traditional Japanese sweets — would you like to try one?",
     sentence_pron: "アイ ブロート サム トラディショナル ジャパニーズ スウィーツ ウッジュー ライク トゥー トライ ワン",
     sentence_jp: "伝統的な和菓子を持ってきました。一つ試してみますか？",
+    synonyms: [
+      { word: "classic", pron: "クラシック", mean: "クラシックな" },
+      { word: "conventional", pron: "コンヴェンショナル", mean: "慣習的な" },
+    ],
+    antonyms: [
+      { word: "modern", pron: "モダン", mean: "現代的な" },
+      { word: "contemporary", pron: "コンテンポラリー", mean: "現代の" },
+    ],
   },
   {
     word: "on the other hand",
@@ -209,6 +382,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "Japan is incredibly safe. On the other hand, everything closes so early!",
     sentence_pron: "ジャパン イズ インクレディブリー セイフ オン ジ アザー ハンド エブリシング クロウジズ ソー アーリー",
     sentence_jp: "日本はとても安全です。一方で、お店が早く閉まりすぎるんですけどね！",
+    synonyms: [
+      { word: "however", pron: "ハウエヴァー", mean: "しかしながら" },
+      { word: "in contrast", pron: "イン コントラスト", mean: "対照的に" },
+    ],
+    antonyms: [
+      { word: "similarly", pron: "シミラリー", mean: "同様に" },
+    ],
   },
   {
     word: "it depends",
@@ -217,6 +397,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "Do you prefer Japan or America? — It depends on what we're talking about!",
     sentence_pron: "ドゥー ユー プリファー ジャパン オア アメリカ イット ディペンズ オン ワット ウィーア トーキング アバウト",
     sentence_jp: "日本とアメリカ、どちらが好きですか？ ―― 何の話かによりますよ！",
+    synonyms: [
+      { word: "it varies", pron: "イット ヴェアリーズ", mean: "場合によります" },
+    ],
+    antonyms: [
+      { word: "always", pron: "オールウェイズ", mean: "常に" },
+      { word: "definitely", pron: "デフィニトリー", mean: "間違いなく" },
+    ],
   },
   {
     word: "honestly speaking",
@@ -225,6 +412,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "Honestly speaking, the hardest part of moving here was the language barrier.",
     sentence_pron: "オネストリー スピーキング ザ ハーデスト パート オブ ムービング ヒア ワズ ザ ランゲッジ バリア",
     sentence_jp: "正直に言うと、こちらへの引っ越しで一番大変だったのは言葉の壁でした。",
+    synonyms: [
+      { word: "to be honest", pron: "トゥー ビー オネスト", mean: "正直なところ" },
+      { word: "frankly", pron: "フランクリー", mean: "率直に言えば" },
+    ],
+    antonyms: [
+      { word: "to put it politely", pron: "トゥー プット イット ポライトリー", mean: "丁寧に言えば" },
+    ],
   },
   {
     word: "language barrier",
@@ -233,6 +427,12 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "The language barrier is real, but people are generally very patient with me.",
     sentence_pron: "ザ ランゲッジ バリア イズ リール バット ピープル アー ジェネラリー ヴェリー ペイシェント ウィズ ミー",
     sentence_jp: "言語の壁は確かにあります。でもみんな大体気長に接してくれています。",
+    synonyms: [
+      { word: "communication gap", pron: "コミュニケーション ギャップ", mean: "コミュニケーションの差" },
+    ],
+    antonyms: [
+      { word: "fluency", pron: "フルーエンシー", mean: "流暢さ" },
+    ],
   },
   {
     word: "miss",
@@ -241,6 +441,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "I miss ramen and onsen the most — those are hard to replicate here.",
     sentence_pron: "アイ ミス ラーメン アンド オンセン ザ モウスト ゾウズ アー ハード トゥー レプリケイト ヒア",
     sentence_jp: "一番恋しいのはラーメンと温泉です。こちらでは再現が難しいんですよね。",
+    synonyms: [
+      { word: "long for", pron: "ロング フォー", mean: "〜を切に求める" },
+      { word: "yearn for", pron: "ヤーン フォー", mean: "〜を恋しく思う" },
+    ],
+    antonyms: [
+      { word: "enjoy", pron: "エンジョイ", mean: "楽しむ" },
+    ],
   },
   {
     word: "sushi",
@@ -249,6 +456,11 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "The sushi here is decent, but nothing beats fresh fish in Japan.",
     sentence_pron: "ザ スシ ヒア イズ ディーセント バット ナッシング ビーツ フレッシュ フィッシュ イン ジャパン",
     sentence_jp: "こちらのお寿司も悪くないですが、日本の新鮮なお魚には勝てません。",
+    synonyms: [
+      { word: "nigiri", pron: "ニギリ", mean: "握り寿司" },
+      { word: "roll", pron: "ロール", mean: "巻き寿司" },
+    ],
+    antonyms: [],
   },
   {
     word: "ramen",
@@ -257,6 +469,10 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "There's actually a really good ramen shop nearby — I'll take you all sometime.",
     sentence_pron: "ゼアズ アクチュアリー ア リアリー グッド ラーメン ショップ ニアバイ アイル テイク ユー オール サムタイム",
     sentence_jp: "近くに本当においしいラーメン屋があるんです。いつかみんなを連れて行きますね。",
+    synonyms: [
+      { word: "noodle soup", pron: "ヌードル スープ", mean: "ラーメン（直訳）" },
+    ],
+    antonyms: [],
   },
   {
     word: "onsen",
@@ -265,6 +481,11 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "In Japan, onsen are hot spring baths — they're incredibly relaxing.",
     sentence_pron: "イン ジャパン オンセン アー ホット スプリング バーズ ゼイア インクレディブリー リラクシング",
     sentence_jp: "日本では温泉は温かい天然温泉風呂のことです。本当にリラックスできます。",
+    synonyms: [
+      { word: "hot spring", pron: "ホット スプリング", mean: "温泉" },
+      { word: "thermal bath", pron: "サーマル バース", mean: "温泉風呂" },
+    ],
+    antonyms: [],
   },
   {
     word: "cherry blossom",
@@ -273,6 +494,10 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "Cherry blossom season in Japan is breathtaking — people have picnics under the trees.",
     sentence_pron: "チェリー ブロッサム シーズン イン ジャパン イズ ブレステイキング ピープル ハヴ ピクニックス アンダー ザ トリーズ",
     sentence_jp: "日本の桜の季節は息をのむほど美しい。木の下でピクニックをするんですよ。",
+    synonyms: [
+      { word: "sakura", pron: "サクラ", mean: "桜" },
+    ],
+    antonyms: [],
   },
   {
     word: "anime",
@@ -281,6 +506,12 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "Are you into anime? My husband's friends are all big fans.",
     sentence_pron: "アー ユー イントゥー アニメ マイ ハズバンズ フレンズ アー オール ビッグ ファンズ",
     sentence_jp: "アニメは好きですか？夫の友人たちはみんな大ファンなんです。",
+    synonyms: [
+      { word: "Japanese animation", pron: "ジャパニーズ アニメーション", mean: "日本のアニメーション" },
+    ],
+    antonyms: [
+      { word: "live action", pron: "ライヴ アクション", mean: "実写" },
+    ],
   },
   {
     word: "Mount Fuji",
@@ -289,6 +520,10 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "I always wanted to climb Mount Fuji — maybe someday I'll do it!",
     sentence_pron: "アイ オールウェイズ ウォンティッド トゥー クライム マウント フジ メイビー サムデイ アイル ドゥー イット",
     sentence_jp: "ずっと富士山に登りたいと思っていたんです。いつかきっと！",
+    synonyms: [
+      { word: "Fuji-san", pron: "フジサン", mean: "富士山（日本語）" },
+    ],
+    antonyms: [],
   },
   {
     word: "subway",
@@ -297,6 +532,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "The subway system in Tokyo is incredibly efficient — trains come every two minutes.",
     sentence_pron: "ザ サブウェイ システム イン トウキョウ イズ インクレディブリー エフィシェント トレインズ カム エブリー トゥー ミニッツ",
     sentence_jp: "東京の地下鉄はものすごく効率的で、2分おきに電車が来るんです。",
+    synonyms: [
+      { word: "metro", pron: "メトロ", mean: "地下鉄" },
+      { word: "underground", pron: "アンダーグラウンド", mean: "地下鉄（英）" },
+    ],
+    antonyms: [
+      { word: "car", pron: "カー", mean: "車" },
+    ],
   },
   {
     word: "mention",
@@ -305,6 +547,14 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "My husband mentioned you're a big foodie — is that right?",
     sentence_pron: "マイ ハズバンド メンションド ユーア ア ビッグ フーディー イズ ザット ライト",
     sentence_jp: "夫からあなたはグルメだと聞いていましたが、合ってますか？",
+    synonyms: [
+      { word: "bring up", pron: "ブリング アップ", mean: "話に出す" },
+      { word: "note", pron: "ノウト", mean: "触れる" },
+    ],
+    antonyms: [
+      { word: "omit", pron: "オウミット", mean: "省く" },
+      { word: "leave out", pron: "リーヴ アウト", mean: "省略する" },
+    ],
   },
   {
     word: "similar",
@@ -313,6 +563,14 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "American and Japanese work cultures are similar in some ways.",
     sentence_pron: "アメリカン アンド ジャパニーズ ワーク カルチャーズ アー シミラー イン サム ウェイズ",
     sentence_jp: "アメリカと日本の仕事文化はある面では似ていますね。",
+    synonyms: [
+      { word: "alike", pron: "アライク", mean: "似ている" },
+      { word: "comparable", pron: "コンパラブル", mean: "比較できるほど似た" },
+    ],
+    antonyms: [
+      { word: "different", pron: "ディファレント", mean: "異なる" },
+      { word: "opposite", pron: "オポジット", mean: "正反対の" },
+    ],
   },
   {
     word: "difference",
@@ -321,6 +579,14 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "The biggest difference for me is how directly people communicate here.",
     sentence_pron: "ザ ビゲスト ディファレンス フォー ミー イズ ハウ ダイレクトリー ピープル コミュニケイト ヒア",
     sentence_jp: "私にとって一番の違いは、こちらの人たちがいかに率直に話すかということです。",
+    synonyms: [
+      { word: "contrast", pron: "コントラスト", mean: "対比" },
+      { word: "gap", pron: "ギャップ", mean: "差異" },
+    ],
+    antonyms: [
+      { word: "similarity", pron: "シミラリティ", mean: "類似点" },
+      { word: "common ground", pron: "コモン グラウンド", mean: "共通点" },
+    ],
   },
   {
     word: "in common",
@@ -329,6 +595,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "It turns out we have a lot in common — we both love hiking and cooking.",
     sentence_pron: "イット ターンズ アウト ウィー ハヴ ア ロット イン コモン ウィー ボウス ラヴ ハイキング アンド クッキング",
     sentence_jp: "実は共通点がたくさんありました。二人ともハイキングと料理が好きなんです。",
+    synonyms: [
+      { word: "shared", pron: "シェアード", mean: "共通の" },
+      { word: "mutual interest", pron: "ミューチュアル インタレスト", mean: "共通の興味" },
+    ],
+    antonyms: [
+      { word: "nothing in common", pron: "ナッシング イン コモン", mean: "共通点がない" },
+    ],
   },
   {
     word: "it turns out",
@@ -337,6 +610,10 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "It turns out his best friend lived in Tokyo for two years — small world!",
     sentence_pron: "イット ターンズ アウト ヒズ ベスト フレンド リヴド イン トウキョウ フォー トゥー イヤーズ スモール ワールド",
     sentence_jp: "彼の親友が東京に2年住んでいたことがわかりました。世界って狭いですね！",
+    synonyms: [
+      { word: "as it happened", pron: "アズ イット ハプンド", mean: "実はそうだった" },
+    ],
+    antonyms: [],
   },
   {
     word: "small world",
@@ -345,6 +622,10 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "You know my neighbor from Tokyo? What a small world!",
     sentence_pron: "ユー ノウ マイ ネイバー フロム トウキョウ ワット ア スモール ワールド",
     sentence_jp: "東京の私の隣人を知っているの？世界って狭いですね！",
+    synonyms: [
+      { word: "what a coincidence", pron: "ワット ア コウインシデンス", mean: "なんという偶然" },
+    ],
+    antonyms: [],
   },
   {
     word: "feel welcome",
@@ -353,6 +634,12 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "Your friends made me feel so welcome — I really appreciate that.",
     sentence_pron: "ユア フレンズ メイド ミー フィール ソー ウェルカム アイ リアリー アプリーシエイト ザット",
     sentence_jp: "あなたの友人たちがとても温かく迎えてくれました。本当にありがとう。",
+    synonyms: [
+      { word: "feel at home", pron: "フィール アット ホウム", mean: "くつろいだ気持ちになる" },
+    ],
+    antonyms: [
+      { word: "feel excluded", pron: "フィール エクスクルーデッド", mean: "仲間外れに感じる" },
+    ],
   },
   {
     word: "appreciate",
@@ -361,6 +648,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "I really appreciate how patient everyone was with my English.",
     sentence_pron: "アイ リアリー アプリーシエイト ハウ ペイシェント エブリワン ワズ ウィズ マイ イングリッシュ",
     sentence_jp: "みんなが私の英語に気長に付き合ってくれたことを本当に感謝しています。",
+    synonyms: [
+      { word: "be grateful for", pron: "ビー グレイトフル フォー", mean: "〜に感謝する" },
+      { word: "value", pron: "ヴァリュー", mean: "大切にする" },
+    ],
+    antonyms: [
+      { word: "take for granted", pron: "テイク フォー グランティド", mean: "当たり前と思う" },
+    ],
   },
   {
     word: "patient",
@@ -369,6 +663,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "Thank you for being so patient — my English is still a work in progress.",
     sentence_pron: "センキュー フォー ビーイング ソー ペイシェント マイ イングリッシュ イズ スティル ア ワーク イン プログレス",
     sentence_jp: "辛抱強く聞いてくれてありがとう。英語はまだまだ練習中なので。",
+    synonyms: [
+      { word: "tolerant", pron: "トレラント", mean: "寛容な" },
+      { word: "understanding", pron: "アンダスタンディング", mean: "理解のある" },
+    ],
+    antonyms: [
+      { word: "impatient", pron: "インペイシェント", mean: "せっかちな" },
+    ],
   },
   {
     word: "a work in progress",
@@ -377,6 +678,14 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "My English is a work in progress, but I'm improving every day.",
     sentence_pron: "マイ イングリッシュ イズ ア ワーク イン プログレス バット アイム インプルービング エブリー デイ",
     sentence_jp: "英語はまだまだ発展途上ですが、毎日少しずつ上達しています。",
+    synonyms: [
+      { word: "still learning", pron: "スティル ラーニング", mean: "まだ学習中" },
+      { word: "improving", pron: "インプルービング", mean: "上達中" },
+    ],
+    antonyms: [
+      { word: "mastered", pron: "マスタード", mean: "マスターした" },
+      { word: "fluent", pron: "フルーエント", mean: "流暢な" },
+    ],
   },
   {
     word: "laugh",
@@ -385,6 +694,14 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "We laughed so much that night — I felt like I'd known them for years.",
     sentence_pron: "ウィー ラフト ソー マッチ ザット ナイト アイ フェルト ライク アイド ノウン ゼム フォー イヤーズ",
     sentence_jp: "その夜はみんなでたくさん笑いました。何年も前から知っている気がしました。",
+    synonyms: [
+      { word: "chuckle", pron: "チャックル", mean: "くすくす笑う" },
+      { word: "giggle", pron: "ギグル", mean: "くすくす笑う" },
+    ],
+    antonyms: [
+      { word: "cry", pron: "クライ", mean: "泣く" },
+      { word: "frown", pron: "フラウン", mean: "眉をひそめる" },
+    ],
   },
   {
     word: "can't wait to see you again",
@@ -393,6 +710,10 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "I can't wait to see you again — let's do this more often!",
     sentence_pron: "アイ キャント ウェイト トゥー シー ユー アゲン レッツ ドゥー ディス モア オフン",
     sentence_jp: "またすぐ会いたいです。もっと頻繁に集まりましょう！",
+    synonyms: [
+      { word: "looking forward to seeing you", pron: "ルッキング フォーワード トゥー シーイング ユー", mean: "会えるのを楽しみにしている" },
+    ],
+    antonyms: [],
   },
   {
     word: "host",
@@ -401,6 +722,13 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "Next time, I'd love to host everyone at our place and cook Japanese food.",
     sentence_pron: "ネクスト タイム アイド ラヴ トゥー ホウスト エブリワン アット アワー プレイス アンド クック ジャパニーズ フード",
     sentence_jp: "次回は私たちの家に皆さんを招いて、日本料理を作りたいです。",
+    synonyms: [
+      { word: "entertain", pron: "エンタテイン", mean: "もてなす" },
+      { word: "invite over", pron: "インヴァイト オーバー", mean: "自宅に招待する" },
+    ],
+    antonyms: [
+      { word: "guest", pron: "ゲスト", mean: "ゲスト（もてなされる側）" },
+    ],
   },
   {
     word: "bond",
@@ -409,5 +737,12 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "We really bonded over our love of good food and funny stories.",
     sentence_pron: "ウィー リアリー ボンデッド オーバー アワー ラヴ オブ グッド フード アンド ファニー ストーリーズ",
     sentence_jp: "おいしい食べ物と面白い話が好きという共通点で本当に仲良くなりました。",
+    synonyms: [
+      { word: "connect", pron: "コネクト", mean: "つながる" },
+      { word: "form a friendship", pron: "フォーム ア フレンドシップ", mean: "友情を育む" },
+    ],
+    antonyms: [
+      { word: "drift apart", pron: "ドリフト アパート", mean: "疎遠になる" },
+    ],
   },
 ];

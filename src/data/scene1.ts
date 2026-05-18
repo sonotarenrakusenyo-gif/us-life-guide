@@ -1,6 +1,5 @@
 import type { VocabularyItem } from "@/types/vocabulary";
 
-/** シーン1：出国当日（50語） */
 export const scene1Vocabulary: VocabularyItem[] = [
   {
     word: "suitcase",
@@ -9,7 +8,10 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "I packed two suitcases for our move to the U.S.",
     sentence_pron: "アイ パクト トゥー スーツケイシズ フォー アワー ムーヴ トゥー ザ ユーエス",
     sentence_jp: "アメリカへの引っ越しのために、スーツケースを2つ詰めました。",
-    synonyms: [{ word: "luggage", pron: "ラゲッジ" }, { word: "bag", pron: "バッグ" }],
+    synonyms: [
+      { word: "luggage", pron: "ラゲッジ", mean: "荷物" },
+      { word: "bag", pron: "バッグ", mean: "かばん" },
+    ],
     antonyms: [],
   },
   {
@@ -19,7 +21,10 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Don't forget your passport — we need it at check-in.",
     sentence_pron: "ドント フォーゲット ユア パスポート ウィー ニード イット アット チェックイン",
     sentence_jp: "パスポートを忘れないで。チェックインで必要ですよ。",
-    synonyms: [{ word: "travel document", pron: "トラベル ドキュメント" }, { word: "ID", pron: "アイディー" }],
+    synonyms: [
+      { word: "travel document", pron: "トラベル ドキュメント", mean: "旅行書類" },
+      { word: "ID", pron: "アイディー", mean: "身分証明書" },
+    ],
     antonyms: [],
   },
   {
@@ -29,8 +34,13 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "My husband is carrying the heavier suitcase today.",
     sentence_pron: "マイ ハズバンド イズ キャリイング ザ ヘビア スーツケース トゥデイ",
     sentence_jp: "今日は夫が重い方のスーツケースを持ってくれています。",
-    synonyms: [{ word: "spouse", pron: "スパウス" }, { word: "partner", pron: "パートナー" }],
-    antonyms: [{ word: "wife", pron: "ワイフ" }],
+    synonyms: [
+      { word: "spouse", pron: "スパウス", mean: "配偶者" },
+      { word: "partner", pron: "パートナー", mean: "パートナー" },
+    ],
+    antonyms: [
+      { word: "wife", pron: "ワイフ", mean: "妻" },
+    ],
   },
   {
     word: "carry-on",
@@ -39,8 +49,13 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Keep your medications in your carry-on, not in checked bags.",
     sentence_pron: "キープ ユア メディケイションズ イン ユア キャリーオン ナット イン チェクト バッグズ",
     sentence_jp: "薬は預け荷物ではなく、機内持ち込みに入れておいてね。",
-    synonyms: [{ word: "hand luggage", pron: "ハンド ラゲッジ" }, { word: "cabin bag", pron: "キャビン バッグ" }],
-    antonyms: [{ word: "checked bag", pron: "チェクト バッグ" }],
+    synonyms: [
+      { word: "hand luggage", pron: "ハンド ラゲッジ", mean: "手荷物" },
+      { word: "cabin bag", pron: "キャビン バッグ", mean: "機内持ち込みかばん" },
+    ],
+    antonyms: [
+      { word: "checked bag", pron: "チェクト バッグ", mean: "預け荷物" },
+    ],
   },
   {
     word: "luggage",
@@ -49,7 +64,10 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "We have too much luggage for just one taxi.",
     sentence_pron: "ウィー ハヴ トゥー マッチ ラゲッジ フォー ジャスト ワン タクシー",
     sentence_jp: "タクシー1台には荷物が多すぎるわね。",
-    synonyms: [{ word: "baggage", pron: "バゲッジ" }, { word: "bags", pron: "バッグズ" }],
+    synonyms: [
+      { word: "baggage", pron: "バゲッジ", mean: "手荷物" },
+      { word: "bags", pron: "バッグズ", mean: "かばん類" },
+    ],
     antonyms: [],
   },
   {
@@ -59,8 +77,13 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Did you lock the front door? I already checked twice.",
     sentence_pron: "ディド ユー ロック ザ フロント ドア アイ オールレディ チェクト トゥイス",
     sentence_jp: "玄関の鍵、かけた？私、もう2回確認したけど。",
-    synonyms: [{ word: "secure", pron: "セキュア" }, { word: "bolt", pron: "ボウルト" }],
-    antonyms: [{ word: "unlock", pron: "アンロック" }],
+    synonyms: [
+      { word: "secure", pron: "セキュア", mean: "安全にする" },
+      { word: "bolt", pron: "ボウルト", mean: "かんぬきをかける" },
+    ],
+    antonyms: [
+      { word: "unlock", pron: "アンロック", mean: "鍵を開ける" },
+    ],
   },
   {
     word: "hurry",
@@ -69,8 +92,13 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "We should hurry — our train to Narita leaves in twenty minutes.",
     sentence_pron: "ウィー シュッド ハリー アワー トレイン トゥー ナリタ リーヴズ イン トゥエンティ ミニッツ",
     sentence_jp: "急がないと。成田行きの電車、あと20分で出るわよ。",
-    synonyms: [{ word: "rush", pron: "ラッシュ" }, { word: "speed up", pron: "スピード アップ" }],
-    antonyms: [{ word: "slow down", pron: "スロウ ダウン" }],
+    synonyms: [
+      { word: "rush", pron: "ラッシュ", mean: "急ぐ" },
+      { word: "speed up", pron: "スピード アップ", mean: "急速に進む" },
+    ],
+    antonyms: [
+      { word: "slow down", pron: "スロウ ダウン", mean: "ゆっくりする" },
+    ],
   },
   {
     word: "departure",
@@ -79,8 +107,13 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Today is our departure day — I still can't believe it.",
     sentence_pron: "トゥデイ イズ アワー ディパーチャー デイ アイ スティル キャント ビリーヴ イット",
     sentence_jp: "今日が出発の日なのね。まだ信じられないわ。",
-    synonyms: [{ word: "leaving", pron: "リービング" }, { word: "takeoff", pron: "テイクオフ" }],
-    antonyms: [{ word: "arrival", pron: "アライバル" }],
+    synonyms: [
+      { word: "leaving", pron: "リービング", mean: "旅立ち" },
+      { word: "takeoff", pron: "テイクオフ", mean: "離陸" },
+    ],
+    antonyms: [
+      { word: "arrival", pron: "アライバル", mean: "到着" },
+    ],
   },
   {
     word: "goodbye",
@@ -89,8 +122,14 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "We said goodbye to our apartment and took one last photo.",
     sentence_pron: "ウィー セッド グッバイ トゥー アワー アパートメント アンド トゥック ワン ラスト フォウト",
     sentence_jp: "アパートにさよならを言って、最後の写真を撮りました。",
-    synonyms: [{ word: "farewell", pron: "フェアウェル" }, { word: "see you later", pron: "シー ユー レイター" }],
-    antonyms: [{ word: "hello", pron: "ヘロウ" }, { word: "welcome", pron: "ウェルカム" }],
+    synonyms: [
+      { word: "farewell", pron: "フェアウェル", mean: "さようなら（別れの言葉）" },
+      { word: "see you later", pron: "シー ユー レイター", mean: "またね" },
+    ],
+    antonyms: [
+      { word: "hello", pron: "ヘロウ", mean: "こんにちは" },
+      { word: "welcome", pron: "ウェルカム", mean: "ようこそ" },
+    ],
   },
   {
     word: "nervous",
@@ -99,8 +138,14 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "I'm a little nervous, but I'm ready for this new chapter.",
     sentence_pron: "アイム ア リトル ナーバス バット アイム レディ フォー ディス ニュー チャプター",
     sentence_jp: "少し緊張するけど、この新しい章の準備はできています。",
-    synonyms: [{ word: "anxious", pron: "アングシャス" }, { word: "worried", pron: "ワリード" }],
-    antonyms: [{ word: "calm", pron: "カーム" }, { word: "relaxed", pron: "リラクスト" }],
+    synonyms: [
+      { word: "anxious", pron: "アングシャス", mean: "不安な" },
+      { word: "worried", pron: "ワリード", mean: "心配している" },
+    ],
+    antonyms: [
+      { word: "calm", pron: "カーム", mean: "落ち着いた" },
+      { word: "relaxed", pron: "リラクスト", mean: "リラックスした" },
+    ],
   },
   {
     word: "excited",
@@ -109,8 +154,14 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "I'm excited to start our life in America together.",
     sentence_pron: "アイム エキサイティド トゥー スタート アワー ライフ イン アメリカ トゥゲザー",
     sentence_jp: "二人でアメリカでの生活を始めるのが楽しみです。",
-    synonyms: [{ word: "thrilled", pron: "スリルド" }, { word: "eager", pron: "イーガー" }],
-    antonyms: [{ word: "bored", pron: "ボアード" }, { word: "indifferent", pron: "インディファレント" }],
+    synonyms: [
+      { word: "thrilled", pron: "スリルド", mean: "とても興奮した" },
+      { word: "eager", pron: "イーガー", mean: "熱心な" },
+    ],
+    antonyms: [
+      { word: "bored", pron: "ボアード", mean: "退屈した" },
+      { word: "indifferent", pron: "インディファレント", mean: "無関心な" },
+    ],
   },
   {
     word: "remind",
@@ -119,8 +170,13 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Remind me to turn off the gas before we leave.",
     sentence_pron: "リマインド ミー トゥー ターン オフ ザ ガス ビフォー ウィー リーヴ",
     sentence_jp: "出る前にガスを止めるの、思い出させてね。",
-    synonyms: [{ word: "alert", pron: "アラート" }, { word: "notify", pron: "ノウティファイ" }],
-    antonyms: [{ word: "forget", pron: "フォーゲット" }],
+    synonyms: [
+      { word: "alert", pron: "アラート", mean: "知らせる" },
+      { word: "notify", pron: "ノウティファイ", mean: "通知する" },
+    ],
+    antonyms: [
+      { word: "forget", pron: "フォーゲット", mean: "忘れる" },
+    ],
   },
   {
     word: "train",
@@ -129,8 +185,14 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "We're taking the train to Narita Airport this morning.",
     sentence_pron: "ウィーア テイキング ザ トレイン トゥー ナリタ エアポート ディス モーニング",
     sentence_jp: "今朝は電車で成田空港に行きます。",
-    synonyms: [{ word: "subway", pron: "サブウェイ" }, { word: "rail", pron: "レイル" }],
-    antonyms: [{ word: "car", pron: "カー" }, { word: "bus", pron: "バス" }],
+    synonyms: [
+      { word: "subway", pron: "サブウェイ", mean: "地下鉄" },
+      { word: "rail", pron: "レイル", mean: "鉄道" },
+    ],
+    antonyms: [
+      { word: "car", pron: "カー", mean: "自動車" },
+      { word: "bus", pron: "バス", mean: "バス" },
+    ],
   },
   {
     word: "platform",
@@ -139,7 +201,9 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "The airport express leaves from platform number three.",
     sentence_pron: "ジ エアポート エクスプレス リーヴズ フロム プラットフォーム ナンバー スリー",
     sentence_jp: "空港快速は3番ホームから出ます。",
-    synonyms: [{ word: "track", pron: "トラック" }],
+    synonyms: [
+      { word: "track", pron: "トラック", mean: "線路、ホーム" },
+    ],
     antonyms: [],
   },
   {
@@ -149,8 +213,13 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Let's take the express so we get to the airport faster.",
     sentence_pron: "レッツ テイク ザ エクスプレス ソー ウィー ゲット トゥー ザ エアポート ファスター",
     sentence_jp: "快速に乗りましょう。空港に早く着けますから。",
-    synonyms: [{ word: "limited express", pron: "リミティド エクスプレス" }, { word: "rapid", pron: "ラピッド" }],
-    antonyms: [{ word: "local", pron: "ロウカル" }],
+    synonyms: [
+      { word: "limited express", pron: "リミティド エクスプレス", mean: "特急" },
+      { word: "rapid", pron: "ラピッド", mean: "急行" },
+    ],
+    antonyms: [
+      { word: "local", pron: "ロウカル", mean: "各駅停車" },
+    ],
   },
   {
     word: "ticket gate",
@@ -159,8 +228,13 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Tap your IC card at the ticket gate to enter the station.",
     sentence_pron: "タップ ユア アイシー カード アット ザ ティケット ゲート トゥー エンター ザ ステーション",
     sentence_jp: "改札ではICカードをタップして駅に入ります。",
-    synonyms: [{ word: "turnstile", pron: "ターンスタイル" }, { word: "entry gate", pron: "エントリー ゲート" }],
-    antonyms: [{ word: "exit gate", pron: "エグジット ゲート" }],
+    synonyms: [
+      { word: "turnstile", pron: "ターンスタイル", mean: "回転式改札" },
+      { word: "entry gate", pron: "エントリー ゲート", mean: "入口ゲート" },
+    ],
+    antonyms: [
+      { word: "exit gate", pron: "エグジット ゲート", mean: "出口ゲート" },
+    ],
   },
   {
     word: "transfer",
@@ -169,8 +243,13 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "We need to transfer once before we reach Narita.",
     sentence_pron: "ウィー ニード トゥー トランスファー ワンス ビフォー ウィー リーチ ナリタ",
     sentence_jp: "成田に着く前に、1回乗り換えが必要です。",
-    synonyms: [{ word: "change", pron: "チェンジ" }, { word: "switch", pron: "スウィッチ" }],
-    antonyms: [{ word: "direct", pron: "ダイレクト" }],
+    synonyms: [
+      { word: "change", pron: "チェンジ", mean: "乗り換える" },
+      { word: "switch", pron: "スウィッチ", mean: "切り替える" },
+    ],
+    antonyms: [
+      { word: "direct", pron: "ダイレクト", mean: "直通の" },
+    ],
   },
   {
     word: "seat",
@@ -179,7 +258,10 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Is this seat taken, or may I sit here?",
     sentence_pron: "イズ ディス シート テイクン オア メイ アイ シット ヒア",
     sentence_jp: "この席、空いていますか？ここに座ってもいいですか？",
-    synonyms: [{ word: "chair", pron: "チェア" }, { word: "spot", pron: "スポット" }],
+    synonyms: [
+      { word: "chair", pron: "チェア", mean: "いす" },
+      { word: "spot", pron: "スポット", mean: "場所" },
+    ],
     antonyms: [],
   },
   {
@@ -189,8 +271,14 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "We bought reserved seats so we can sit together.",
     sentence_pron: "ウィー ボート リザーブド シーツ ソー ウィー キャン シット トゥゲザー",
     sentence_jp: "隣同士に座れるように、指定席を買いました。",
-    synonyms: [{ word: "booked", pron: "ブックト" }, { word: "assigned", pron: "アサインド" }],
-    antonyms: [{ word: "unreserved", pron: "アンリザーブド" }, { word: "free seating", pron: "フリー シーティング" }],
+    synonyms: [
+      { word: "booked", pron: "ブックト", mean: "予約済みの" },
+      { word: "assigned", pron: "アサインド", mean: "割り当てられた" },
+    ],
+    antonyms: [
+      { word: "unreserved", pron: "アンリザーブド", mean: "自由席の" },
+      { word: "free seating", pron: "フリー シーティング", mean: "自由席" },
+    ],
   },
   {
     word: "crowded",
@@ -199,8 +287,14 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "The train is crowded because it's rush hour.",
     sentence_pron: "ザ トレイン イズ クラウデッド ビコーズ イッツ ラッシュ アワー",
     sentence_jp: "ラッシュアワーだから、電車が混んでいますね。",
-    synonyms: [{ word: "packed", pron: "パクト" }, { word: "jammed", pron: "ジャムド" }],
-    antonyms: [{ word: "empty", pron: "エンプティー" }, { word: "quiet", pron: "クワイエット" }],
+    synonyms: [
+      { word: "packed", pron: "パクト", mean: "ぎゅうぎゅうに詰まった" },
+      { word: "jammed", pron: "ジャムド", mean: "混雑した" },
+    ],
+    antonyms: [
+      { word: "empty", pron: "エンプティー", mean: "空いている" },
+      { word: "quiet", pron: "クワイエット", mean: "静かな" },
+    ],
   },
   {
     word: "rush hour",
@@ -209,8 +303,13 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "We left early to avoid the worst rush hour crowds.",
     sentence_pron: "ウィー レフト アーリー トゥー アボイド ザ ワースト ラッシュ アワー クラウズ",
     sentence_jp: "一番混む時間を避けるために、早めに出ました。",
-    synonyms: [{ word: "peak hour", pron: "ピーク アワー" }, { word: "busy hour", pron: "ビジー アワー" }],
-    antonyms: [{ word: "off-peak", pron: "オフ ピーク" }],
+    synonyms: [
+      { word: "peak hour", pron: "ピーク アワー", mean: "ピーク時間帯" },
+      { word: "busy hour", pron: "ビジー アワー", mean: "繁忙時間" },
+    ],
+    antonyms: [
+      { word: "off-peak", pron: "オフ ピーク", mean: "閑散時間帯" },
+    ],
   },
   {
     word: "arrive",
@@ -219,8 +318,14 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "We finally arrived at Narita Terminal 1.",
     sentence_pron: "ウィー ファイナリー アライヴド アット ナリタ ターミナル ワン",
     sentence_jp: "ついに成田第1ターミナルに着きました。",
-    synonyms: [{ word: "reach", pron: "リーチ" }, { word: "get to", pron: "ゲット トゥー" }],
-    antonyms: [{ word: "depart", pron: "ディパート" }, { word: "leave", pron: "リーヴ" }],
+    synonyms: [
+      { word: "reach", pron: "リーチ", mean: "達する" },
+      { word: "get to", pron: "ゲット トゥー", mean: "〜に着く" },
+    ],
+    antonyms: [
+      { word: "depart", pron: "ディパート", mean: "出発する" },
+      { word: "leave", pron: "リーヴ", mean: "離れる" },
+    ],
   },
   {
     word: "airport",
@@ -229,7 +334,10 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "The airport is busier than I expected today.",
     sentence_pron: "ジ エアポート イズ ビジア ザン アイ エクスペクティド トゥデイ",
     sentence_jp: "今日の空港は、思っていたより混んでいますね。",
-    synonyms: [{ word: "airfield", pron: "エアフィールド" }, { word: "air terminal", pron: "エア ターミナル" }],
+    synonyms: [
+      { word: "airfield", pron: "エアフィールド", mean: "飛行場" },
+      { word: "air terminal", pron: "エア ターミナル", mean: "航空ターミナル" },
+    ],
     antonyms: [],
   },
   {
@@ -239,7 +347,9 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Our flight departs from Terminal 1, not Terminal 2.",
     sentence_pron: "アワー フライト ディパーツ フロム ターミナル ワン ナット ターミナル トゥー",
     sentence_jp: "私たちの便は第2ターミナルではなく、第1ターミナルから出発します。",
-    synonyms: [{ word: "concourse", pron: "コンコース" }],
+    synonyms: [
+      { word: "concourse", pron: "コンコース", mean: "コンコース（広場）" },
+    ],
     antonyms: [],
   },
   {
@@ -249,8 +359,13 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Follow the signs to the international departure area.",
     sentence_pron: "フォロー ザ サインズ トゥー ジ インターナショナル ディパーチャー エリア",
     sentence_jp: "国際線出発エリアへの案内表示に従ってください。",
-    synonyms: [{ word: "global", pron: "グロウバル" }, { word: "overseas", pron: "オーバーシーズ" }],
-    antonyms: [{ word: "domestic", pron: "ドメスティック" }],
+    synonyms: [
+      { word: "global", pron: "グロウバル", mean: "世界的な" },
+      { word: "overseas", pron: "オーバーシーズ", mean: "海外の" },
+    ],
+    antonyms: [
+      { word: "domestic", pron: "ドメスティック", mean: "国内の" },
+    ],
   },
   {
     word: "flight",
@@ -259,7 +374,10 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Our flight to Los Angeles boards in two hours.",
     sentence_pron: "アワー フライト トゥー ロサンゼルス ボーズ イン トゥー アワーズ",
     sentence_jp: "ロサンゼルス行きの便は、あと2時間で搭乗です。",
-    synonyms: [{ word: "trip", pron: "トリップ" }, { word: "service", pron: "サービス" }],
+    synonyms: [
+      { word: "trip", pron: "トリップ", mean: "旅行" },
+      { word: "service", pron: "サービス", mean: "運行便" },
+    ],
     antonyms: [],
   },
   {
@@ -269,7 +387,10 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Which airline are you flying with today?",
     sentence_pron: "ウィッチ エアライン アー ユー フライイング ウィズ トゥデイ",
     sentence_jp: "今日はどちらの航空会社を利用されますか？",
-    synonyms: [{ word: "carrier", pron: "キャリア" }, { word: "air carrier", pron: "エア キャリア" }],
+    synonyms: [
+      { word: "carrier", pron: "キャリア", mean: "航空会社" },
+      { word: "air carrier", pron: "エア キャリア", mean: "航空業者" },
+    ],
     antonyms: [],
   },
   {
@@ -279,8 +400,12 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Let's check in online first to save time at the counter.",
     sentence_pron: "レッツ チェック イン オンライン ファースト トゥー セイヴ タイム アット ザ カウンター",
     sentence_jp: "まずオンラインでチェックインして、カウンターでの時間を短くしましょう。",
-    synonyms: [{ word: "register", pron: "レジスター" }],
-    antonyms: [{ word: "check-out", pron: "チェックアウト" }],
+    synonyms: [
+      { word: "register", pron: "レジスター", mean: "登録する" },
+    ],
+    antonyms: [
+      { word: "check-out", pron: "チェックアウト", mean: "チェックアウト" },
+    ],
   },
   {
     word: "counter",
@@ -289,7 +414,10 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "We still need to drop our bags at the check-in counter.",
     sentence_pron: "ウィー スティル ニード トゥー ドロップ アワー バッグズ アット ザ チェックイン カウンター",
     sentence_jp: "チェックインカウンターで、まだ荷物を預ける必要があります。",
-    synonyms: [{ word: "desk", pron: "デスク" }, { word: "service desk", pron: "サービス デスク" }],
+    synonyms: [
+      { word: "desk", pron: "デスク", mean: "受付台" },
+      { word: "service desk", pron: "サービス デスク", mean: "サービスカウンター" },
+    ],
     antonyms: [],
   },
   {
@@ -299,8 +427,13 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "I have our booking confirmation on my phone.",
     sentence_pron: "アイ ハヴ アワー ブッキング コンファメーション オン マイ フォウン",
     sentence_jp: "予約確認書はスマホに入っています。",
-    synonyms: [{ word: "verification", pron: "ヴェリフィケーション" }, { word: "booking", pron: "ブッキング" }],
-    antonyms: [{ word: "cancellation", pron: "キャンセレーション" }],
+    synonyms: [
+      { word: "verification", pron: "ヴェリフィケーション", mean: "確認" },
+      { word: "booking", pron: "ブッキング", mean: "予約" },
+    ],
+    antonyms: [
+      { word: "cancellation", pron: "キャンセレーション", mean: "キャンセル" },
+    ],
   },
   {
     word: "boarding pass",
@@ -309,7 +442,10 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Please show your boarding pass and passport at the gate.",
     sentence_pron: "プリーズ ショウ ユア ボーディング パス アンド パスポート アット ザ ゲート",
     sentence_jp: "ゲートでは搭乗券とパスポートをご提示ください。",
-    synonyms: [{ word: "ticket", pron: "ティケット" }, { word: "e-ticket", pron: "イー ティケット" }],
+    synonyms: [
+      { word: "ticket", pron: "ティケット", mean: "チケット" },
+      { word: "e-ticket", pron: "イー ティケット", mean: "電子チケット" },
+    ],
     antonyms: [],
   },
   {
@@ -319,8 +455,13 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "I'd like an aisle seat so I can stretch my legs.",
     sentence_pron: "アイド ライク アン アイル シート ソー アイ キャン ストレッチ マイ レッグズ",
     sentence_jp: "足を伸ばせるように、通路側の席がいいです。",
-    synonyms: [{ word: "walkway", pron: "ウォークウェイ" }, { word: "corridor", pron: "コリドア" }],
-    antonyms: [{ word: "window seat", pron: "ウィンドウ シート" }],
+    synonyms: [
+      { word: "walkway", pron: "ウォークウェイ", mean: "通路" },
+      { word: "corridor", pron: "コリドア", mean: "廊下" },
+    ],
+    antonyms: [
+      { word: "window seat", pron: "ウィンドウ シート", mean: "窓側席" },
+    ],
   },
   {
     word: "window seat",
@@ -329,8 +470,12 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "She prefers a window seat to watch the clouds.",
     sentence_pron: "シー プリファーズ ア ウィンドウ シート トゥー ウォッチ ザ クラウズ",
     sentence_jp: "彼女は雲を見たいので、窓側の席が好きです。",
-    synonyms: [{ word: "window side", pron: "ウィンドウ サイド" }],
-    antonyms: [{ word: "aisle seat", pron: "アイル シート" }],
+    synonyms: [
+      { word: "window side", pron: "ウィンドウ サイド", mean: "窓側" },
+    ],
+    antonyms: [
+      { word: "aisle seat", pron: "アイル シート", mean: "通路側の席" },
+    ],
   },
   {
     word: "overweight",
@@ -339,8 +484,14 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Our suitcase is overweight by two kilograms.",
     sentence_pron: "アワー スーツケース イズ オーバーウェイト バイ トゥー キログラムズ",
     sentence_jp: "スーツケースが2キロオーバーしています。",
-    synonyms: [{ word: "excess weight", pron: "エクセス ウェイト" }, { word: "too heavy", pron: "トゥー ヘビー" }],
-    antonyms: [{ word: "underweight", pron: "アンダーウェイト" }, { word: "within limit", pron: "ウィズイン リミット" }],
+    synonyms: [
+      { word: "excess weight", pron: "エクセス ウェイト", mean: "超過重量" },
+      { word: "too heavy", pron: "トゥー ヘビー", mean: "重すぎる" },
+    ],
+    antonyms: [
+      { word: "underweight", pron: "アンダーウェイト", mean: "重量不足" },
+      { word: "within limit", pron: "ウィズイン リミット", mean: "制限内" },
+    ],
   },
   {
     word: "baggage tag",
@@ -349,7 +500,10 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Attach the baggage tag before you send the suitcase through.",
     sentence_pron: "アタッチ ザ バゲッジ タグ ビフォー ユー センド ザ スーツケース スルー",
     sentence_jp: "スーツケースを流す前に、荷物タグを付けてください。",
-    synonyms: [{ word: "luggage label", pron: "ラゲッジ レイベル" }, { word: "claim tag", pron: "クレイム タッグ" }],
+    synonyms: [
+      { word: "luggage label", pron: "ラゲッジ レイベル", mean: "荷物ラベル" },
+      { word: "claim tag", pron: "クレイム タッグ", mean: "引換タグ" },
+    ],
     antonyms: [],
   },
   {
@@ -359,7 +513,10 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Security screening usually takes about twenty minutes.",
     sentence_pron: "セキュリティ スクリーニング ユージュアリー テイクス アバウト トゥエンティ ミニッツ",
     sentence_jp: "保安検査はだいたい20分くらいかかります。",
-    synonyms: [{ word: "screening", pron: "スクリーニング" }, { word: "inspection", pron: "インスペクション" }],
+    synonyms: [
+      { word: "screening", pron: "スクリーニング", mean: "検査" },
+      { word: "inspection", pron: "インスペクション", mean: "検査・点検" },
+    ],
     antonyms: [],
   },
   {
@@ -369,7 +526,10 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "All passengers must go through security screening.",
     sentence_pron: "オール パッセンジャーズ マスト ゴー スルー セキュリティ スクリーニング",
     sentence_jp: "すべての乗客は保安検査を受けなければなりません。",
-    synonyms: [{ word: "check", pron: "チェック" }, { word: "inspection", pron: "インスペクション" }],
+    synonyms: [
+      { word: "check", pron: "チェック", mean: "確認・検査" },
+      { word: "inspection", pron: "インスペクション", mean: "検査" },
+    ],
     antonyms: [],
   },
   {
@@ -379,8 +539,13 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Put liquids in a clear bag — each bottle must be under 100 ml.",
     sentence_pron: "プット リキッズ イン ア クリア バッグ イーチ ボトル マスト ビー アンダー ワン ハンドレッド エムエル",
     sentence_jp: "液体は透明な袋に入れて。各ボトルは100ml以下にしてください。",
-    synonyms: [{ word: "fluid", pron: "フルーイド" }],
-    antonyms: [{ word: "solid", pron: "ソリッド" }, { word: "gas", pron: "ガス" }],
+    synonyms: [
+      { word: "fluid", pron: "フルーイド", mean: "液体・流体" },
+    ],
+    antonyms: [
+      { word: "solid", pron: "ソリッド", mean: "固体" },
+      { word: "gas", pron: "ガス", mean: "気体" },
+    ],
   },
   {
     word: "remove",
@@ -389,8 +554,14 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Please remove your belt and jacket before the scanner.",
     sentence_pron: "プリーズ リムーブ ユア ベルト アンド ジャケット ビフォー ザ スキャナー",
     sentence_jp: "スキャナーの前に、ベルトとジャケットを外してください。",
-    synonyms: [{ word: "take off", pron: "テイク オフ" }, { word: "strip off", pron: "ストリップ オフ" }],
-    antonyms: [{ word: "put on", pron: "プット オン" }, { word: "wear", pron: "ウェア" }],
+    synonyms: [
+      { word: "take off", pron: "テイク オフ", mean: "外す・脱ぐ" },
+      { word: "strip off", pron: "ストリップ オフ", mean: "はがす" },
+    ],
+    antonyms: [
+      { word: "put on", pron: "プット オン", mean: "着る・つける" },
+      { word: "wear", pron: "ウェア", mean: "身につける" },
+    ],
   },
   {
     word: "belt",
@@ -399,7 +570,9 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "I forgot to take off my belt and had to go back.",
     sentence_pron: "アイ フォーガット トゥー テイク オフ マイ ベルト アンド ハド トゥー ゴー バック",
     sentence_jp: "ベルトを外し忘れて、戻らなきゃいけなかったわ。",
-    synonyms: [{ word: "strap", pron: "ストラップ" }],
+    synonyms: [
+      { word: "strap", pron: "ストラップ", mean: "ひも・バンド" },
+    ],
     antonyms: [],
   },
   {
@@ -409,8 +582,13 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Take your laptop out of your bag and place it in the tray.",
     sentence_pron: "テイク ユア ラップトップ アウト オブ ユア バッグ アンド プレイス イット イン ザ トレイ",
     sentence_jp: "ノートパソコンをかばんから出して、トレイに置いてください。",
-    synonyms: [{ word: "notebook", pron: "ノートブック" }, { word: "computer", pron: "コンピューター" }],
-    antonyms: [{ word: "desktop", pron: "デスクトップ" }],
+    synonyms: [
+      { word: "notebook", pron: "ノートブック", mean: "ノートPC" },
+      { word: "computer", pron: "コンピューター", mean: "コンピューター" },
+    ],
+    antonyms: [
+      { word: "desktop", pron: "デスクトップ", mean: "デスクトップPC" },
+    ],
   },
   {
     word: "tray",
@@ -419,7 +597,10 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Put your phone and keys in the tray as well.",
     sentence_pron: "プット ユア フォウン アンド キーズ イン ザ トレイ アズ ウェル",
     sentence_jp: "スマホと鍵もトレイに入れてください。",
-    synonyms: [{ word: "bin", pron: "ビン" }, { word: "container", pron: "コンテイナー" }],
+    synonyms: [
+      { word: "bin", pron: "ビン", mean: "ケース・容器" },
+      { word: "container", pron: "コンテイナー", mean: "容器" },
+    ],
     antonyms: [],
   },
   {
@@ -429,8 +610,14 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Boarding for our flight will begin at gate 42.",
     sentence_pron: "ボーディング フォー アワー フライト ウィル ビギン アット ゲート フォーティートゥー",
     sentence_jp: "私たちの便の搭乗は、42番ゲートから始まります。",
-    synonyms: [{ word: "embarking", pron: "エンバーキング" }, { word: "getting on", pron: "ゲッティング オン" }],
-    antonyms: [{ word: "disembarking", pron: "ディスエンバーキング" }, { word: "alighting", pron: "アライティング" }],
+    synonyms: [
+      { word: "embarking", pron: "エンバーキング", mean: "乗り込むこと" },
+      { word: "getting on", pron: "ゲッティング オン", mean: "乗ること" },
+    ],
+    antonyms: [
+      { word: "disembarking", pron: "ディスエンバーキング", mean: "降機すること" },
+      { word: "alighting", pron: "アライティング", mean: "降りること" },
+    ],
   },
   {
     word: "gate",
@@ -439,8 +626,13 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Our gate changed — we're now boarding from gate 38.",
     sentence_pron: "アワー ゲート チェインド ウィーア ナウ ボーディング フロム ゲート サーティエイト",
     sentence_jp: "ゲートが変わったわ。今は38番ゲートから搭乗です。",
-    synonyms: [{ word: "door", pron: "ドア" }, { word: "entrance", pron: "エントランス" }],
-    antonyms: [{ word: "exit", pron: "エグジット" }],
+    synonyms: [
+      { word: "door", pron: "ドア", mean: "扉" },
+      { word: "entrance", pron: "エントランス", mean: "入口" },
+    ],
+    antonyms: [
+      { word: "exit", pron: "エグジット", mean: "出口" },
+    ],
   },
   {
     word: "delay",
@@ -449,8 +641,14 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "The flight is delayed by thirty minutes due to weather.",
     sentence_pron: "ザ フライト イズ ディレイド バイ サーティ ミニッツ デュー トゥー ウェザー",
     sentence_jp: "天候のため、便が30分遅れています。",
-    synonyms: [{ word: "postponement", pron: "ポストポウンメント" }, { word: "setback", pron: "セットバック" }],
-    antonyms: [{ word: "on time", pron: "オン タイム" }, { word: "early", pron: "アーリー" }],
+    synonyms: [
+      { word: "postponement", pron: "ポストポウンメント", mean: "延期" },
+      { word: "setback", pron: "セットバック", mean: "遅れ・後退" },
+    ],
+    antonyms: [
+      { word: "on time", pron: "オン タイム", mean: "定刻通り" },
+      { word: "early", pron: "アーリー", mean: "早い" },
+    ],
   },
   {
     word: "announcement",
@@ -459,7 +657,10 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Did you hear the announcement? Boarding starts soon.",
     sentence_pron: "ディド ユー ヒア ザ アナウンスメント ボーディング スターツ スーン",
     sentence_jp: "アナウンス聞いた？もうすぐ搭乗が始まるわよ。",
-    synonyms: [{ word: "notice", pron: "ノウティス" }, { word: "broadcast", pron: "ブロードキャスト" }],
+    synonyms: [
+      { word: "notice", pron: "ノウティス", mean: "お知らせ" },
+      { word: "broadcast", pron: "ブロードキャスト", mean: "放送" },
+    ],
     antonyms: [],
   },
   {
@@ -469,8 +670,13 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Passengers with small children may line up first.",
     sentence_pron: "パッセンジャーズ ウィズ スモール チルドレン メイ ライン アップ ファースト",
     sentence_jp: "小さなお子さん連れの乗客は、先に並んでいただけます。",
-    synonyms: [{ word: "queue", pron: "キュー" }, { word: "wait in line", pron: "ウェイト イン ライン" }],
-    antonyms: [{ word: "cut in line", pron: "カット イン ライン" }],
+    synonyms: [
+      { word: "queue", pron: "キュー", mean: "列に並ぶ" },
+      { word: "wait in line", pron: "ウェイト イン ライン", mean: "列で待つ" },
+    ],
+    antonyms: [
+      { word: "cut in line", pron: "カット イン ライン", mean: "割り込む" },
+    ],
   },
   {
     word: "row",
@@ -479,8 +685,12 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "We're in row 35, seats A and B.",
     sentence_pron: "ウィーア イン ロウ サーティファイブ シーツ エー アンド ビー",
     sentence_jp: "35列のAとBの席です。",
-    synonyms: [{ word: "line", pron: "ライン" }],
-    antonyms: [{ word: "column", pron: "コラム" }],
+    synonyms: [
+      { word: "line", pron: "ライン", mean: "列" },
+    ],
+    antonyms: [
+      { word: "column", pron: "コラム", mean: "縦列" },
+    ],
   },
   {
     word: "buckle up",
@@ -489,8 +699,13 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Please buckle up — we're preparing for takeoff.",
     sentence_pron: "プリーズ バックル アップ ウィーア プリペアリング フォー テイクオフ",
     sentence_jp: "シートベルトをお締めください。離陸の準備をしています。",
-    synonyms: [{ word: "fasten your seatbelt", pron: "ファスン ユア シートベルト" }],
-    antonyms: [{ word: "unfasten", pron: "アンファスン" }, { word: "unbuckle", pron: "アンバックル" }],
+    synonyms: [
+      { word: "fasten your seatbelt", pron: "ファスン ユア シートベルト", mean: "シートベルトを締める" },
+    ],
+    antonyms: [
+      { word: "unfasten", pron: "アンファスン", mean: "外す" },
+      { word: "unbuckle", pron: "アンバックル", mean: "バックルを外す" },
+    ],
   },
   {
     word: "takeoff",
@@ -499,7 +714,13 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "The takeoff was smooth, and I finally relaxed.",
     sentence_pron: "ザ テイクオフ ワズ スムース アンド アイ ファイナリー リラックスド",
     sentence_jp: "離陸はスムーズで、ようやくほっとしました。",
-    synonyms: [{ word: "liftoff", pron: "リフトオフ" }, { word: "departure", pron: "ディパーチャー" }],
-    antonyms: [{ word: "landing", pron: "ランディング" }, { word: "touchdown", pron: "タッチダウン" }],
+    synonyms: [
+      { word: "liftoff", pron: "リフトオフ", mean: "打ち上げ・離陸" },
+      { word: "departure", pron: "ディパーチャー", mean: "出発" },
+    ],
+    antonyms: [
+      { word: "landing", pron: "ランディング", mean: "着陸" },
+      { word: "touchdown", pron: "タッチダウン", mean: "着地" },
+    ],
   },
 ];

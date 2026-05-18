@@ -1,6 +1,7 @@
 export type RelatedWord = {
   word: string;
   pron: string;
+  mean: string;
 };
 
 export type VocabularyItem = {

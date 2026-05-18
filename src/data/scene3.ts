@@ -1,6 +1,5 @@
 import type { VocabularyItem } from "@/types/vocabulary";
 
-/** シーン3：移動と到着（50語） */
 export const scene3Vocabulary: VocabularyItem[] = [
   {
     word: "rideshare",
@@ -9,8 +8,13 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "Let's use a rideshare app to get from the airport to our new place.",
     sentence_pron: "レッツ ユーズ ア ライドシェア アップ トゥー ゲット フロム ジ エアポート トゥー アワー ニュー プレイス",
     sentence_jp: "配車アプリを使って空港から新居まで行きましょう。",
-    synonyms: [{ word: "ride-hailing", pron: "ライドヘイリング" }, { word: "car service", pron: "カー サービス" }],
-    antonyms: [{ word: "public transit", pron: "パブリック トランジット" }],
+    synonyms: [
+      { word: "ride-hailing", pron: "ライドヘイリング", mean: "配車サービス" },
+      { word: "car service", pron: "カー サービス", mean: "車の送迎サービス" },
+    ],
+    antonyms: [
+      { word: "public transit", pron: "パブリック トランジット", mean: "公共交通機関" },
+    ],
   },
   {
     word: "request",
@@ -19,8 +23,13 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "I requested a ride on Uber — the driver is five minutes away.",
     sentence_pron: "アイ リクエスティド ア ライド オン ウーバー ザ ドライバー イズ ファイブ ミニッツ アウェイ",
     sentence_jp: "Uberに乗車をリクエストしました。ドライバーはあと5分のところにいます。",
-    synonyms: [{ word: "order", pron: "オーダー" }, { word: "book", pron: "ブック" }],
-    antonyms: [{ word: "cancel", pron: "キャンセル" }],
+    synonyms: [
+      { word: "order", pron: "オーダー", mean: "注文する" },
+      { word: "book", pron: "ブック", mean: "予約する" },
+    ],
+    antonyms: [
+      { word: "cancel", pron: "キャンセル", mean: "キャンセルする" },
+    ],
   },
   {
     word: "pickup",
@@ -29,8 +38,12 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "The pickup location is outside Terminal 1, at the ride app zone.",
     sentence_pron: "ザ ピックアップ ロウケーション イズ アウトサイド ターミナル ワン アット ザ ライド アップ ゾーン",
     sentence_jp: "乗車場所は第1ターミナル外の配車アプリ専用ゾーンです。",
-    synonyms: [{ word: "boarding point", pron: "ボーディング ポイント" }],
-    antonyms: [{ word: "drop-off", pron: "ドロップオフ" }],
+    synonyms: [
+      { word: "boarding point", pron: "ボーディング ポイント", mean: "乗車地点" },
+    ],
+    antonyms: [
+      { word: "drop-off", pron: "ドロップオフ", mean: "降車地点" },
+    ],
   },
   {
     word: "drop-off",
@@ -39,8 +52,12 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "Can you drop us off right in front of the building?",
     sentence_pron: "キャン ユー ドロップ アス オフ ライト イン フロント オブ ザ ビルディング",
     sentence_jp: "建物の真ん前で降ろしてもらえますか？",
-    synonyms: [{ word: "delivery point", pron: "デリバリー ポイント" }],
-    antonyms: [{ word: "pickup", pron: "ピックアップ" }],
+    synonyms: [
+      { word: "delivery point", pron: "デリバリー ポイント", mean: "降車・届け先" },
+    ],
+    antonyms: [
+      { word: "pickup", pron: "ピックアップ", mean: "乗車地点" },
+    ],
   },
   {
     word: "fare",
@@ -49,8 +66,13 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "The fare was about forty dollars, including the tip.",
     sentence_pron: "ザ フェア ワズ アバウト フォーティ ダラーズ インクルーディング ザ ティップ",
     sentence_jp: "チップ込みで料金は約40ドルでした。",
-    synonyms: [{ word: "charge", pron: "チャージ" }, { word: "fee", pron: "フィー" }],
-    antonyms: [{ word: "free ride", pron: "フリー ライド" }],
+    synonyms: [
+      { word: "charge", pron: "チャージ", mean: "料金" },
+      { word: "fee", pron: "フィー", mean: "料金・手数料" },
+    ],
+    antonyms: [
+      { word: "free ride", pron: "フリー ライド", mean: "無料乗車" },
+    ],
   },
   {
     word: "surge pricing",
@@ -59,8 +81,14 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "There's surge pricing right now because the airport is crowded.",
     sentence_pron: "ゼアズ サージ プライシング ライト ナウ ビコーズ ジ エアポート イズ クラウデッド",
     sentence_jp: "空港が混んでいるので、今は割増料金が適用されています。",
-    synonyms: [{ word: "dynamic pricing", pron: "ダイナミック プライシング" }, { word: "peak pricing", pron: "ピーク プライシング" }],
-    antonyms: [{ word: "flat rate", pron: "フラット レイト" }, { word: "standard fare", pron: "スタンダード フェア" }],
+    synonyms: [
+      { word: "dynamic pricing", pron: "ダイナミック プライシング", mean: "変動価格制" },
+      { word: "peak pricing", pron: "ピーク プライシング", mean: "最繁忙時料金" },
+    ],
+    antonyms: [
+      { word: "flat rate", pron: "フラット レイト", mean: "定額料金" },
+      { word: "standard fare", pron: "スタンダード フェア", mean: "通常料金" },
+    ],
   },
   {
     word: "estimated",
@@ -69,8 +97,14 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "The estimated arrival time is thirty-five minutes.",
     sentence_pron: "ジ エスティメーティド アライバル タイム イズ サーティファイブ ミニッツ",
     sentence_jp: "到着予定時間は35分です。",
-    synonyms: [{ word: "approximate", pron: "アプロクシメット" }, { word: "projected", pron: "プロジェクティド" }],
-    antonyms: [{ word: "exact", pron: "エグザクト" }, { word: "precise", pron: "プリサイス" }],
+    synonyms: [
+      { word: "approximate", pron: "アプロクシメット", mean: "おおよその" },
+      { word: "projected", pron: "プロジェクティド", mean: "予測された" },
+    ],
+    antonyms: [
+      { word: "exact", pron: "エグザクト", mean: "正確な" },
+      { word: "precise", pron: "プリサイス", mean: "精密な" },
+    ],
   },
   {
     word: "driver",
@@ -79,8 +113,14 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "Our driver's name is Marcus and his rating is 4.9 stars.",
     sentence_pron: "アワー ドライバーズ ネーム イズ マーカス アンド ヒズ レーティング イズ フォーポイントナイン スターズ",
     sentence_jp: "ドライバーの名前はマーカスさんで、評価は4.9星です。",
-    synonyms: [{ word: "chauffeur", pron: "ショウファー" }, { word: "operator", pron: "オペレイター" }],
-    antonyms: [{ word: "passenger", pron: "パッセンジャー" }, { word: "rider", pron: "ライダー" }],
+    synonyms: [
+      { word: "chauffeur", pron: "ショウファー", mean: "専任運転手" },
+      { word: "operator", pron: "オペレイター", mean: "操作者・運転者" },
+    ],
+    antonyms: [
+      { word: "passenger", pron: "パッセンジャー", mean: "乗客" },
+      { word: "rider", pron: "ライダー", mean: "乗客" },
+    ],
   },
   {
     word: "rate",
@@ -89,7 +129,10 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "Don't forget to rate your driver after the trip.",
     sentence_pron: "ドント フォーゲット トゥー レイト ユア ドライバー アフター ザ トリップ",
     sentence_jp: "乗車後はドライバーへの評価を忘れずに。",
-    synonyms: [{ word: "review", pron: "リヴュー" }, { word: "evaluate", pron: "イヴァルユエイト" }],
+    synonyms: [
+      { word: "review", pron: "リヴュー", mean: "レビューする" },
+      { word: "evaluate", pron: "イヴァルユエイト", mean: "評価する" },
+    ],
     antonyms: [],
   },
   {
@@ -99,7 +142,9 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "He helped with our heavy luggage, so I gave him a generous tip.",
     sentence_pron: "ヒー ヘルプト ウィズ アワー ヘビー ラゲッジ ソー アイ ゲイヴ ヒム ア ジェネラス ティップ",
     sentence_jp: "重い荷物を手伝ってくれたので、たっぷりチップを渡しました。",
-    synonyms: [{ word: "gratuity", pron: "グラチューイティ" }],
+    synonyms: [
+      { word: "gratuity", pron: "グラチューイティ", mean: "心付け" },
+    ],
     antonyms: [],
   },
   {
@@ -109,8 +154,14 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "Confirm your destination on the app before the driver starts.",
     sentence_pron: "コンファーム ユア デスティネーション オン ザ アップ ビフォー ザ ドライバー スターツ",
     sentence_jp: "ドライバーが出発する前に、アプリで目的地を確認してください。",
-    synonyms: [{ word: "verify", pron: "ヴェリファイ" }, { word: "check", pron: "チェック" }],
-    antonyms: [{ word: "cancel", pron: "キャンセル" }, { word: "deny", pron: "ダイナイ" }],
+    synonyms: [
+      { word: "verify", pron: "ヴェリファイ", mean: "確認する" },
+      { word: "check", pron: "チェック", mean: "確認する" },
+    ],
+    antonyms: [
+      { word: "cancel", pron: "キャンセル", mean: "キャンセルする" },
+      { word: "deny", pron: "ダイナイ", mean: "否定する" },
+    ],
   },
   {
     word: "route",
@@ -119,7 +170,10 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "The driver took a different route to avoid the traffic jam.",
     sentence_pron: "ザ ドライバー トゥック ア ディファレント ルート トゥー アボイド ザ トラフィック ジャム",
     sentence_jp: "ドライバーは渋滞を避けるために別のルートを通りました。",
-    synonyms: [{ word: "path", pron: "パス" }, { word: "way", pron: "ウェイ" }],
+    synonyms: [
+      { word: "path", pron: "パス", mean: "道・経路" },
+      { word: "way", pron: "ウェイ", mean: "道" },
+    ],
     antonyms: [],
   },
   {
@@ -129,7 +183,10 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "The navigation app says we'll arrive in about twenty minutes.",
     sentence_pron: "ザ ナビゲーション アップ セズ ウィール アライヴ イン アバウト トゥエンティ ミニッツ",
     sentence_jp: "ナビアプリによると、約20分で到着するようです。",
-    synonyms: [{ word: "GPS", pron: "ジーピーエス" }, { word: "directions", pron: "ダイレクションズ" }],
+    synonyms: [
+      { word: "GPS", pron: "ジーピーエス", mean: "GPSナビ" },
+      { word: "directions", pron: "ダイレクションズ", mean: "道案内" },
+    ],
     antonyms: [],
   },
   {
@@ -139,8 +196,14 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "We got on the freeway and the city view was amazing.",
     sentence_pron: "ウィー ガット オン ザ フリーウェイ アンド ザ シティ ヴュー ワズ アメイジング",
     sentence_jp: "高速道路に乗ると、街の景色が素晴らしかったです。",
-    synonyms: [{ word: "highway", pron: "ハイウェイ" }, { word: "expressway", pron: "エクスプレスウェイ" }],
-    antonyms: [{ word: "local road", pron: "ロウカル ロウド" }, { word: "side street", pron: "サイド ストリート" }],
+    synonyms: [
+      { word: "highway", pron: "ハイウェイ", mean: "幹線道路" },
+      { word: "expressway", pron: "エクスプレスウェイ", mean: "高速道路" },
+    ],
+    antonyms: [
+      { word: "local road", pron: "ロウカル ロウド", mean: "一般道" },
+      { word: "side street", pron: "サイド ストリート", mean: "脇道" },
+    ],
   },
   {
     word: "traffic",
@@ -149,8 +212,14 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "There's heavy traffic on the freeway right now.",
     sentence_pron: "ゼアズ ヘビー トラフィック オン ザ フリーウェイ ライト ナウ",
     sentence_jp: "今、高速道路がひどく渋滞しています。",
-    synonyms: [{ word: "congestion", pron: "コンジェスチョン" }, { word: "gridlock", pron: "グリッドロック" }],
-    antonyms: [{ word: "clear road", pron: "クリア ロウド" }, { word: "no traffic", pron: "ノー トラフィック" }],
+    synonyms: [
+      { word: "congestion", pron: "コンジェスチョン", mean: "渋滞" },
+      { word: "gridlock", pron: "グリッドロック", mean: "完全渋滞" },
+    ],
+    antonyms: [
+      { word: "clear road", pron: "クリア ロウド", mean: "空いた道路" },
+      { word: "no traffic", pron: "ノー トラフィック", mean: "交通量なし" },
+    ],
   },
   {
     word: "carpool lane",
@@ -159,8 +228,13 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "Uber counts as a carpool, so we can use the carpool lane.",
     sentence_pron: "ウーバー カウンツ アズ ア カープール ソー ウィー キャン ユーズ ザ カープール レーン",
     sentence_jp: "Uberは相乗り扱いなので、相乗り専用車線を使えます。",
-    synonyms: [{ word: "HOV lane", pron: "エイチオーヴィー レーン" }, { word: "express lane", pron: "エクスプレス レーン" }],
-    antonyms: [{ word: "regular lane", pron: "レギュラー レーン" }],
+    synonyms: [
+      { word: "HOV lane", pron: "エイチオーヴィー レーン", mean: "高乗車率車線" },
+      { word: "express lane", pron: "エクスプレス レーン", mean: "急行車線" },
+    ],
+    antonyms: [
+      { word: "regular lane", pron: "レギュラー レーン", mean: "通常車線" },
+    ],
   },
   {
     word: "exit",
@@ -169,8 +243,14 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "Our exit is number 42 — Main Street.",
     sentence_pron: "アワー エグジット イズ ナンバー フォーティートゥー メイン ストリート",
     sentence_jp: "私たちの降り口は42番出口、メインストリートです。",
-    synonyms: [{ word: "off-ramp", pron: "オフ ランプ" }, { word: "way out", pron: "ウェイ アウト" }],
-    antonyms: [{ word: "on-ramp", pron: "オン ランプ" }, { word: "entrance", pron: "エントランス" }],
+    synonyms: [
+      { word: "off-ramp", pron: "オフ ランプ", mean: "高速出口路" },
+      { word: "way out", pron: "ウェイ アウト", mean: "出口" },
+    ],
+    antonyms: [
+      { word: "on-ramp", pron: "オン ランプ", mean: "高速入口路" },
+      { word: "entrance", pron: "エントランス", mean: "入口" },
+    ],
   },
   {
     word: "neighborhood",
@@ -179,7 +259,10 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "Our neighborhood looks quiet and safe — I really like it.",
     sentence_pron: "アワー ネイバーフッド ルックス クワイエット アンド セイフ アイ リアリー ライク イット",
     sentence_jp: "近所は静かで安全そうです。とても気に入りました。",
-    synonyms: [{ word: "area", pron: "エリア" }, { word: "district", pron: "ディストリクト" }],
+    synonyms: [
+      { word: "area", pron: "エリア", mean: "地域" },
+      { word: "district", pron: "ディストリクト", mean: "地区" },
+    ],
     antonyms: [],
   },
   {
@@ -189,8 +272,14 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "We live in the suburbs, about thirty minutes from downtown.",
     sentence_pron: "ウィー リヴ イン ザ サバーブズ アバウト サーティ ミニッツ フロム ダウンタウン",
     sentence_jp: "私たちはダウンタウンから車で約30分の郊外に住んでいます。",
-    synonyms: [{ word: "outskirts", pron: "アウトスカーツ" }, { word: "residential area", pron: "レジデンシャル エリア" }],
-    antonyms: [{ word: "downtown", pron: "ダウンタウン" }, { word: "city center", pron: "シティ センター" }],
+    synonyms: [
+      { word: "outskirts", pron: "アウトスカーツ", mean: "郊外・外れ" },
+      { word: "residential area", pron: "レジデンシャル エリア", mean: "住宅地" },
+    ],
+    antonyms: [
+      { word: "downtown", pron: "ダウンタウン", mean: "市街地" },
+      { word: "city center", pron: "シティ センター", mean: "都心" },
+    ],
   },
   {
     word: "intersection",
@@ -199,7 +288,10 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "Turn right at the next intersection.",
     sentence_pron: "ターン ライト アット ザ ネクスト インターセクション",
     sentence_jp: "次の交差点を右折してください。",
-    synonyms: [{ word: "crossroads", pron: "クロスロウズ" }, { word: "junction", pron: "ジャンクション" }],
+    synonyms: [
+      { word: "crossroads", pron: "クロスロウズ", mean: "交差点" },
+      { word: "junction", pron: "ジャンクション", mean: "合流点" },
+    ],
     antonyms: [],
   },
   {
@@ -209,7 +301,9 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "Our apartment is just two blocks from the convenience store.",
     sentence_pron: "アワー アパートメント イズ ジャスト トゥー ブロックス フロム ザ コンヴィニエンス ストア",
     sentence_jp: "私たちのアパートはコンビニからちょうど2ブロックのところです。",
-    synonyms: [{ word: "street section", pron: "ストリート セクション" }],
+    synonyms: [
+      { word: "street section", pron: "ストリート セクション", mean: "街路区画" },
+    ],
     antonyms: [],
   },
   {
@@ -219,8 +313,13 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "Our apartment is on the third floor of a modern building.",
     sentence_pron: "アワー アパートメント イズ オン ザ サード フロア オブ ア モダン ビルディング",
     sentence_jp: "私たちのアパートは近代的なビルの3階にあります。",
-    synonyms: [{ word: "unit", pron: "ユニット" }, { word: "flat", pron: "フラット" }],
-    antonyms: [{ word: "house", pron: "ハウス" }],
+    synonyms: [
+      { word: "unit", pron: "ユニット", mean: "部屋" },
+      { word: "flat", pron: "フラット", mean: "フラット（英語圏の言い方）" },
+    ],
+    antonyms: [
+      { word: "house", pron: "ハウス", mean: "一戸建て" },
+    ],
   },
   {
     word: "complex",
@@ -229,7 +328,10 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "The apartment complex has a pool and a gym.",
     sentence_pron: "ジ アパートメント コンプレックス ハズ ア プール アンド ア ジム",
     sentence_jp: "この集合住宅にはプールとジムがあります。",
-    synonyms: [{ word: "building complex", pron: "ビルディング コンプレックス" }, { word: "residential complex", pron: "レジデンシャル コンプレックス" }],
+    synonyms: [
+      { word: "building complex", pron: "ビルディング コンプレックス", mean: "複合施設" },
+      { word: "residential complex", pron: "レジデンシャル コンプレックス", mean: "集合住宅" },
+    ],
     antonyms: [],
   },
   {
@@ -239,7 +341,10 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "We're in unit 305 — the door is on the right side of the hallway.",
     sentence_pron: "ウィーア イン ユニット スリーオーファイブ ザ ドア イズ オン ザ ライト サイド オブ ザ ハルウェイ",
     sentence_jp: "私たちは305号室です。廊下の右側にドアがあります。",
-    synonyms: [{ word: "apartment", pron: "アパートメント" }, { word: "suite", pron: "スウィート" }],
+    synonyms: [
+      { word: "apartment", pron: "アパートメント", mean: "部屋" },
+      { word: "suite", pron: "スウィート", mean: "スイートルーム" },
+    ],
     antonyms: [],
   },
   {
@@ -249,8 +354,13 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "The landlord left two sets of keys in the lockbox.",
     sentence_pron: "ザ ランドロード レフト トゥー セッツ オブ キーズ イン ザ ロックボックス",
     sentence_jp: "大家さんが錠前箱に2セットの鍵を入れておいてくれました。",
-    synonyms: [{ word: "keycard", pron: "キーカード" }, { word: "fob", pron: "フォブ" }],
-    antonyms: [{ word: "lock", pron: "ロック" }],
+    synonyms: [
+      { word: "keycard", pron: "キーカード", mean: "カード鍵" },
+      { word: "fob", pron: "フォブ", mean: "電子キー" },
+    ],
+    antonyms: [
+      { word: "lock", pron: "ロック", mean: "錠前" },
+    ],
   },
   {
     word: "lockbox",
@@ -259,7 +369,10 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "Enter the code 4892 to open the lockbox and get the key.",
     sentence_pron: "エンター ザ コード フォーエイトナイントゥー トゥー オープン ザ ロックボックス アンド ゲット ザ キー",
     sentence_jp: "4892を入力して錠前箱を開け、鍵を取り出してください。",
-    synonyms: [{ word: "key safe", pron: "キー セイフ" }, { word: "key box", pron: "キー ボックス" }],
+    synonyms: [
+      { word: "key safe", pron: "キー セイフ", mean: "鍵保管ボックス" },
+      { word: "key box", pron: "キー ボックス", mean: "鍵入れ" },
+    ],
     antonyms: [],
   },
   {
@@ -269,8 +382,14 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "Our landlord is very friendly and responded to texts quickly.",
     sentence_pron: "アワー ランドロード イズ ヴェリー フレンドリー アンド リスポンディド トゥー テクスツ クウィックリー",
     sentence_jp: "大家さんはとても親切で、メッセージへの返信も早かったです。",
-    synonyms: [{ word: "property owner", pron: "プロパティ オウナー" }, { word: "lessor", pron: "レッサー" }],
-    antonyms: [{ word: "tenant", pron: "テナント" }, { word: "renter", pron: "レンター" }],
+    synonyms: [
+      { word: "property owner", pron: "プロパティ オウナー", mean: "物件オーナー" },
+      { word: "lessor", pron: "レッサー", mean: "賃貸人" },
+    ],
+    antonyms: [
+      { word: "tenant", pron: "テナント", mean: "借家人" },
+      { word: "renter", pron: "レンター", mean: "借り手" },
+    ],
   },
   {
     word: "lease",
@@ -279,7 +398,10 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "We signed a one-year lease before flying to America.",
     sentence_pron: "ウィー サインド ア ワン イヤー リース ビフォー フライイング トゥー アメリカ",
     sentence_jp: "アメリカに飛ぶ前に、1年間の賃貸契約を結びました。",
-    synonyms: [{ word: "rental agreement", pron: "レンタル アグリーメント" }, { word: "contract", pron: "コントラクト" }],
+    synonyms: [
+      { word: "rental agreement", pron: "レンタル アグリーメント", mean: "賃貸契約" },
+      { word: "contract", pron: "コントラクト", mean: "契約書" },
+    ],
     antonyms: [],
   },
   {
@@ -289,7 +411,10 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "Leave your packages in the lobby if we're not home.",
     sentence_pron: "リーヴ ユア パッケジズ イン ザ ロビー イフ ウィーア ナット ホウム",
     sentence_jp: "不在の場合は荷物をロビーに置いておいてください。",
-    synonyms: [{ word: "entrance hall", pron: "エントランス ホール" }, { word: "foyer", pron: "フォイヤー" }],
+    synonyms: [
+      { word: "entrance hall", pron: "エントランス ホール", mean: "玄関ホール" },
+      { word: "foyer", pron: "フォイヤー", mean: "ロビー" },
+    ],
     antonyms: [],
   },
   {
@@ -299,8 +424,12 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "We took the elevator up to the third floor with all our bags.",
     sentence_pron: "ウィー トゥック ジ エレベーター アップ トゥー ザ サード フロア ウィズ オール アワー バッグズ",
     sentence_jp: "全荷物を持ってエレベーターで3階まで上がりました。",
-    synonyms: [{ word: "lift", pron: "リフト" }],
-    antonyms: [{ word: "stairs", pron: "ステアーズ" }],
+    synonyms: [
+      { word: "lift", pron: "リフト", mean: "エレベーター（英）" },
+    ],
+    antonyms: [
+      { word: "stairs", pron: "ステアーズ", mean: "階段" },
+    ],
   },
   {
     word: "hallway",
@@ -309,7 +438,10 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "The hallway was quiet — everyone seemed to already be asleep.",
     sentence_pron: "ザ ハルウェイ ワズ クワイエット エブリワン シームド トゥー オールレディ ビー アスリープ",
     sentence_jp: "廊下は静かで、皆もう寝ているようでした。",
-    synonyms: [{ word: "corridor", pron: "コリドア" }, { word: "passage", pron: "パッセージ" }],
+    synonyms: [
+      { word: "corridor", pron: "コリドア", mean: "廊下" },
+      { word: "passage", pron: "パッセージ", mean: "通路" },
+    ],
     antonyms: [],
   },
   {
@@ -319,7 +451,10 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "There's one assigned parking spot in the underground garage.",
     sentence_pron: "ゼアズ ワン アサインド パーキング スポット イン ジ アンダーグラウンド ガレージ",
     sentence_jp: "地下駐車場に指定の駐車スペースが1つあります。",
-    synonyms: [{ word: "car park", pron: "カー パーク" }, { word: "lot", pron: "ロット" }],
+    synonyms: [
+      { word: "car park", pron: "カー パーク", mean: "駐車場" },
+      { word: "lot", pron: "ロット", mean: "駐車場" },
+    ],
     antonyms: [],
   },
   {
@@ -329,7 +464,10 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "The garage door opens automatically with the remote.",
     sentence_pron: "ザ ガレージ ドア オープンズ オートマティカリー ウィズ ザ リモート",
     sentence_jp: "ガレージのドアはリモコンで自動的に開きます。",
-    synonyms: [{ word: "car port", pron: "カー ポート" }, { word: "parking space", pron: "パーキング スペース" }],
+    synonyms: [
+      { word: "car port", pron: "カー ポート", mean: "屋根付き駐車場" },
+      { word: "parking space", pron: "パーキング スペース", mean: "駐車スペース" },
+    ],
     antonyms: [],
   },
   {
@@ -339,7 +477,10 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "Our mailbox number is 305 — same as our unit number.",
     sentence_pron: "アワー メイルボックス ナンバー イズ スリーオーファイブ セイム アズ アワー ユニット ナンバー",
     sentence_jp: "郵便受けの番号は305番で、部屋番号と同じです。",
-    synonyms: [{ word: "letterbox", pron: "レターボックス" }, { word: "post box", pron: "ポスト ボックス" }],
+    synonyms: [
+      { word: "letterbox", pron: "レターボックス", mean: "郵便受け（英）" },
+      { word: "post box", pron: "ポスト ボックス", mean: "ポスト" },
+    ],
     antonyms: [],
   },
   {
@@ -349,8 +490,13 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "Today is our first official move-in day in America!",
     sentence_pron: "トゥデイ イズ アワー ファースト オフィシャル ムーブイン デイ イン アメリカ",
     sentence_jp: "今日がアメリカでの正式な引っ越し初日です！",
-    synonyms: [{ word: "settle in", pron: "セトル イン" }, { word: "arrive", pron: "アライヴ" }],
-    antonyms: [{ word: "move out", pron: "ムーブ アウト" }],
+    synonyms: [
+      { word: "settle in", pron: "セトル イン", mean: "落ち着く" },
+      { word: "arrive", pron: "アライヴ", mean: "到着する" },
+    ],
+    antonyms: [
+      { word: "move out", pron: "ムーブ アウト", mean: "引っ越す（出る）" },
+    ],
   },
   {
     word: "settle in",
@@ -359,8 +505,13 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "It'll take a few weeks to fully settle in, but we're happy.",
     sentence_pron: "イトル テイク ア フュー ウィークス トゥー フリー セトル イン バット ウィーア ハッピー",
     sentence_jp: "完全に落ち着くまでに数週間かかるけど、楽しいです。",
-    synonyms: [{ word: "get comfortable", pron: "ゲット カンフォータブル" }, { word: "adjust", pron: "アジャスト" }],
-    antonyms: [{ word: "move out", pron: "ムーブ アウト" }],
+    synonyms: [
+      { word: "get comfortable", pron: "ゲット カンフォータブル", mean: "慣れる" },
+      { word: "adjust", pron: "アジャスト", mean: "適応する" },
+    ],
+    antonyms: [
+      { word: "move out", pron: "ムーブ アウト", mean: "引っ越す" },
+    ],
   },
   {
     word: "utilities",
@@ -369,7 +520,10 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "The rent includes water, but we pay for electricity and gas separately.",
     sentence_pron: "ザ レント インクルーズ ウォーター バット ウィー ペイ フォー エレクトリシティ アンド ガス セパレートリー",
     sentence_jp: "家賃に水道代は含まれていますが、電気とガスは別払いです。",
-    synonyms: [{ word: "bills", pron: "ビルズ" }, { word: "services", pron: "サービシズ" }],
+    synonyms: [
+      { word: "bills", pron: "ビルズ", mean: "公共料金" },
+      { word: "services", pron: "サービシズ", mean: "サービス料" },
+    ],
     antonyms: [],
   },
   {
@@ -379,8 +533,12 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "Luckily, the apartment came partially furnished.",
     sentence_pron: "ラキリー ジ アパートメント ケイム パーシャリー ファーニッシュト",
     sentence_jp: "ラッキーなことに、アパートには一部家具が備わっていました。",
-    synonyms: [{ word: "equipped", pron: "イクウィプト" }],
-    antonyms: [{ word: "unfurnished", pron: "アンファーニッシュト" }],
+    synonyms: [
+      { word: "equipped", pron: "イクウィプト", mean: "設備が整った" },
+    ],
+    antonyms: [
+      { word: "unfurnished", pron: "アンファーニッシュト", mean: "家具なしの" },
+    ],
   },
   {
     word: "furniture",
@@ -389,7 +547,9 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "We need to buy furniture — the apartment is almost empty.",
     sentence_pron: "ウィー ニード トゥー バイ ファーニチャー ジ アパートメント イズ オールモースト エンプティー",
     sentence_jp: "家具を買わないと。アパートがほぼ空っぽです。",
-    synonyms: [{ word: "furnishings", pron: "ファーニッシングズ" }],
+    synonyms: [
+      { word: "furnishings", pron: "ファーニッシングズ", mean: "家具・調度品" },
+    ],
     antonyms: [],
   },
   {
@@ -399,8 +559,12 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "Our neighbor next door waved and said hello as we moved in.",
     sentence_pron: "アワー ネイバー ネクスト ドア ウェイブド アンド セッド ヘロウ アズ ウィー ムーブド イン",
     sentence_jp: "引っ越してくると、隣の人が手を振って挨拶してくれました。",
-    synonyms: [{ word: "next-door", pron: "ネクスト ドア" }],
-    antonyms: [{ word: "stranger", pron: "ストレンジャー" }],
+    synonyms: [
+      { word: "next-door", pron: "ネクスト ドア", mean: "隣の人" },
+    ],
+    antonyms: [
+      { word: "stranger", pron: "ストレンジャー", mean: "見知らぬ人" },
+    ],
   },
   {
     word: "intercom",
@@ -409,7 +573,10 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "Press the intercom button and I'll buzz you in.",
     sentence_pron: "プレス ザ インターコム バトン アンド アイル バズ ユー イン",
     sentence_jp: "インターホンを押してください。解錠しますから。",
-    synonyms: [{ word: "doorbell", pron: "ドアベル" }, { word: "buzzer", pron: "バザー" }],
+    synonyms: [
+      { word: "doorbell", pron: "ドアベル", mean: "呼び鈴" },
+      { word: "buzzer", pron: "バザー", mean: "ブザー" },
+    ],
     antonyms: [],
   },
   {
@@ -419,7 +586,9 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "I'll hit the buzzer to unlock the front door for you.",
     sentence_pron: "アイル ヒット ザ バザー トゥー アンロック ザ フロント ドア フォー ユー",
     sentence_jp: "玄関のドアを開けるためにボタンを押しますね。",
-    synonyms: [{ word: "door release", pron: "ドア リリース" }],
+    synonyms: [
+      { word: "door release", pron: "ドア リリース", mean: "扉解錠ボタン" },
+    ],
     antonyms: [],
   },
   {
@@ -429,7 +598,9 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "There was a welcome mat in front of our door — it felt like home.",
     sentence_pron: "ゼア ワズ ア ウェルカム マット イン フロント オブ アワー ドア イット フェルト ライク ホウム",
     sentence_jp: "ドアの前に玄関マットがあって、家のような気持ちになりました。",
-    synonyms: [{ word: "doormat", pron: "ドアマット" }],
+    synonyms: [
+      { word: "doormat", pron: "ドアマット", mean: "玄関マット" },
+    ],
     antonyms: [],
   },
   {
@@ -439,7 +610,10 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "The scenery on the way from the airport was so different from Japan.",
     sentence_pron: "ザ シーナリー オン ザ ウェイ フロム ジ エアポート ワズ ソー ディファレント フロム ジャパン",
     sentence_jp: "空港からの道の景色は日本とまったく違いました。",
-    synonyms: [{ word: "view", pron: "ヴュー" }, { word: "landscape", pron: "ランドスケープ" }],
+    synonyms: [
+      { word: "view", pron: "ヴュー", mean: "眺め" },
+      { word: "landscape", pron: "ランドスケープ", mean: "風景" },
+    ],
     antonyms: [],
   },
   {
@@ -449,8 +623,13 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "The roads here are so wide compared to Japan.",
     sentence_pron: "ザ ロウズ ヒア アー ソー ワイド コンペアド トゥー ジャパン",
     sentence_jp: "こちらの道路は日本と比べてとても広いですね。",
-    synonyms: [{ word: "broad", pron: "ブロード" }, { word: "spacious", pron: "スペイシャス" }],
-    antonyms: [{ word: "narrow", pron: "ナロウ" }],
+    synonyms: [
+      { word: "broad", pron: "ブロード", mean: "幅広い" },
+      { word: "spacious", pron: "スペイシャス", mean: "広々した" },
+    ],
+    antonyms: [
+      { word: "narrow", pron: "ナロウ", mean: "狭い" },
+    ],
   },
   {
     word: "highway",
@@ -459,8 +638,13 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "The driver merged onto the highway and we picked up speed.",
     sentence_pron: "ザ ドライバー マージド オントゥー ザ ハイウェイ アンド ウィー ピクト アップ スピード",
     sentence_jp: "ドライバーが幹線道路に合流してスピードが上がりました。",
-    synonyms: [{ word: "freeway", pron: "フリーウェイ" }, { word: "motorway", pron: "モーターウェイ" }],
-    antonyms: [{ word: "side road", pron: "サイド ロウド" }],
+    synonyms: [
+      { word: "freeway", pron: "フリーウェイ", mean: "高速道路" },
+      { word: "motorway", pron: "モーターウェイ", mean: "高速道路（英）" },
+    ],
+    antonyms: [
+      { word: "side road", pron: "サイド ロウド", mean: "脇道" },
+    ],
   },
   {
     word: "deposit",
@@ -469,8 +653,13 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "We paid a security deposit equal to one month's rent.",
     sentence_pron: "ウィー ペイド ア セキュリティ ディポジット イクウォル トゥー ワン マンスズ レント",
     sentence_jp: "家賃1ヶ月分の敷金を支払いました。",
-    synonyms: [{ word: "security deposit", pron: "セキュリティ ディポジット" }, { word: "down payment", pron: "ダウン ペイメント" }],
-    antonyms: [{ word: "refund", pron: "リファンド" }],
+    synonyms: [
+      { word: "security deposit", pron: "セキュリティ ディポジット", mean: "敷金" },
+      { word: "down payment", pron: "ダウン ペイメント", mean: "頭金" },
+    ],
+    antonyms: [
+      { word: "refund", pron: "リファンド", mean: "返金" },
+    ],
   },
   {
     word: "rent",
@@ -479,7 +668,10 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "Rent is due on the first of every month.",
     sentence_pron: "レント イズ デュー オン ザ ファースト オブ エブリー マンス",
     sentence_jp: "家賃は毎月1日が支払い期限です。",
-    synonyms: [{ word: "monthly fee", pron: "マンスリー フィー" }, { word: "lease payment", pron: "リース ペイメント" }],
+    synonyms: [
+      { word: "monthly fee", pron: "マンスリー フィー", mean: "月額料金" },
+      { word: "lease payment", pron: "リース ペイメント", mean: "賃貸料" },
+    ],
     antonyms: [],
   },
   {
@@ -489,7 +681,10 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "The floor plan showed two bedrooms and an open kitchen.",
     sentence_pron: "ザ フロア プラン ショウド トゥー ベッドルームズ アンド アン オープン キッチン",
     sentence_jp: "間取り図にはベッドルームが2つとオープンキッチンがありました。",
-    synonyms: [{ word: "layout", pron: "レイアウト" }, { word: "blueprint", pron: "ブループリント" }],
+    synonyms: [
+      { word: "layout", pron: "レイアウト", mean: "配置図" },
+      { word: "blueprint", pron: "ブループリント", mean: "設計図" },
+    ],
     antonyms: [],
   },
   {
@@ -499,7 +694,10 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "We stepped out onto the balcony and took in the view together.",
     sentence_pron: "ウィー ステップト アウト オントゥー ザ バルコニー アンド トゥック イン ザ ヴュー トゥゲザー",
     sentence_jp: "二人でバルコニーに出て、景色を眺めました。",
-    synonyms: [{ word: "terrace", pron: "テラス" }, { word: "deck", pron: "デック" }],
+    synonyms: [
+      { word: "terrace", pron: "テラス", mean: "テラス" },
+      { word: "deck", pron: "デック", mean: "屋外デッキ" },
+    ],
     antonyms: [],
   },
   {
@@ -509,7 +707,12 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "We finally made it — this is our new home in America.",
     sentence_pron: "ウィー ファイナリー メイド イット ディス イズ アワー ニュー ホウム イン アメリカ",
     sentence_jp: "ついに来られた。ここが私たちのアメリカでの新居です。",
-    synonyms: [{ word: "at last", pron: "アット ラスト" }, { word: "eventually", pron: "エヴェンチュアリー" }],
-    antonyms: [{ word: "never", pron: "ネヴァー" }],
+    synonyms: [
+      { word: "at last", pron: "アット ラスト", mean: "ついに" },
+      { word: "eventually", pron: "エヴェンチュアリー", mean: "結果的に" },
+    ],
+    antonyms: [
+      { word: "never", pron: "ネヴァー", mean: "決して〜ない" },
+    ],
   },
 ];

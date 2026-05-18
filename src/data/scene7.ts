@@ -9,6 +9,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "I go to the grocery store twice a week to keep the fridge stocked.",
     sentence_pron: "アイ ゴー トゥー ザ グロウサリー ストア トゥワイス ア ウィーク トゥー キープ ザ フリッジ ストックト",
     sentence_jp: "冷蔵庫を補充するために週2回スーパーに行っています。",
+    synonyms: [
+      { word: "supermarket", pron: "スーパーマーケット", mean: "スーパーマーケット" },
+      { word: "market", pron: "マーケット", mean: "市場" },
+    ],
+    antonyms: [
+      { word: "convenience store", pron: "コンヴィニエンス ストア", mean: "コンビニ" },
+    ],
   },
   {
     word: "cart",
@@ -17,6 +24,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "Grab a cart — we have a long shopping list today.",
     sentence_pron: "グラブ ア カート ウィー ハヴ ア ロング ショッピング リスト トゥデイ",
     sentence_jp: "カートを取って。今日は買い物リストが長いから。",
+    synonyms: [
+      { word: "trolley", pron: "トロリー", mean: "カート（英）" },
+      { word: "shopping cart", pron: "ショッピング カート", mean: "買い物カート" },
+    ],
+    antonyms: [
+      { word: "basket", pron: "バスケット", mean: "買い物かご" },
+    ],
   },
   {
     word: "basket",
@@ -25,6 +39,12 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "I only need a few things — a basket is fine.",
     sentence_pron: "アイ オウンリー ニード ア フュー シングズ ア バスケット イズ ファイン",
     sentence_jp: "少ししか買わないので、かごで大丈夫です。",
+    synonyms: [
+      { word: "shopping basket", pron: "ショッピング バスケット", mean: "買い物かご" },
+    ],
+    antonyms: [
+      { word: "cart", pron: "カート", mean: "ショッピングカート" },
+    ],
   },
   {
     word: "aisle",
@@ -33,6 +53,11 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "Excuse me, which aisle is the soy sauce in?",
     sentence_pron: "エクスキューズ ミー ウィッチ アイル イズ ザ ソイ ソース イン",
     sentence_jp: "すみません、醤油はどの通路ですか？",
+    synonyms: [
+      { word: "lane", pron: "レーン", mean: "通路" },
+      { word: "row", pron: "ロウ", mean: "列" },
+    ],
+    antonyms: [],
   },
   {
     word: "produce",
@@ -41,6 +66,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "The produce section is huge — I've never seen so many types of apples!",
     sentence_pron: "ザ プロデュース セクション イズ ヒュージ アイヴ ネヴァー シーン ソー メニー タイプス オブ アップルズ",
     sentence_jp: "農産物コーナーがとても広い！こんなにたくさんの種類のリンゴは見たことがない！",
+    synonyms: [
+      { word: "vegetables", pron: "ヴェジタブルズ", mean: "野菜" },
+      { word: "fresh food", pron: "フレッシュ フード", mean: "生鮮食品" },
+    ],
+    antonyms: [
+      { word: "frozen food", pron: "フロウズン フード", mean: "冷凍食品" },
+    ],
   },
   {
     word: "organic",
@@ -49,6 +81,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "I prefer organic vegetables, but they're a bit more expensive here.",
     sentence_pron: "アイ プリファー オーガニック ヴェジタブルズ バット ゼイア ア ビット モア エクスペンシヴ ヒア",
     sentence_jp: "オーガニック野菜が好きですが、こちらでは少し高めです。",
+    synonyms: [
+      { word: "natural", pron: "ナチュラル", mean: "自然の" },
+      { word: "chemical-free", pron: "ケミカル フリー", mean: "農薬不使用" },
+    ],
+    antonyms: [
+      { word: "conventional", pron: "コンヴェンショナル", mean: "慣行栽培の" },
+    ],
   },
   {
     word: "ingredient",
@@ -57,6 +96,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "I'm looking for ingredients to make miso soup — is there a Japanese section?",
     sentence_pron: "アイム ルッキング フォー イングリーディエンツ トゥー メイク ミソ スープ イズ ゼア ア ジャパニーズ セクション",
     sentence_jp: "味噌汁の材料を探しています。日本食コーナーはありますか？",
+    synonyms: [
+      { word: "item", pron: "アイテム", mean: "品目" },
+      { word: "component", pron: "コンポーネント", mean: "材料" },
+    ],
+    antonyms: [
+      { word: "finished product", pron: "フィニッシュト プロダクト", mean: "完成品" },
+    ],
   },
   {
     word: "expiration date",
@@ -65,6 +111,11 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "Always check the expiration date before putting things in your cart.",
     sentence_pron: "オールウェイズ チェック ジ エクスパイレーション デイト ビフォー プティング シングズ イン ユア カート",
     sentence_jp: "カートに入れる前に必ず賞味期限を確認してください。",
+    synonyms: [
+      { word: "best before date", pron: "ベスト ビフォー デイト", mean: "賞味期限" },
+      { word: "use by date", pron: "ユーズ バイ デイト", mean: "消費期限" },
+    ],
+    antonyms: [],
   },
   {
     word: "on sale",
@@ -73,6 +124,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "Strawberries are on sale this week — two packs for five dollars!",
     sentence_pron: "ストロウベリーズ アー オン セール ディス ウィーク トゥー パックス フォー ファイブ ダラーズ",
     sentence_jp: "今週いちごがセールです。2パックで5ドルです！",
+    synonyms: [
+      { word: "discounted", pron: "ディスカウンティド", mean: "割引された" },
+      { word: "reduced", pron: "リデュースト", mean: "値下げされた" },
+    ],
+    antonyms: [
+      { word: "full price", pron: "フル プライス", mean: "正規価格" },
+    ],
   },
   {
     word: "coupon",
@@ -81,6 +139,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "I downloaded the store app to get digital coupons.",
     sentence_pron: "アイ ダウンロウディド ザ ストア アップ トゥー ゲット デジタル クーポンズ",
     sentence_jp: "デジタルクーポンを使うためにお店のアプリをダウンロードしました。",
+    synonyms: [
+      { word: "discount voucher", pron: "ディスカウント ヴァウチャー", mean: "割引券" },
+      { word: "deal", pron: "ディール", mean: "お得な取引" },
+    ],
+    antonyms: [
+      { word: "full price", pron: "フル プライス", mean: "定価" },
+    ],
   },
   {
     word: "loyalty card",
@@ -89,6 +154,11 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "Do you have a loyalty card? You save about ten percent with it.",
     sentence_pron: "ドゥー ユー ハヴ ア ロイヤルティ カード ユー セイヴ アバウト テン パーセント ウィズ イット",
     sentence_jp: "ポイントカードはお持ちですか？それを使うと約10%お得になります。",
+    synonyms: [
+      { word: "rewards card", pron: "リウォーズ カード", mean: "ポイントカード" },
+      { word: "member card", pron: "メンバー カード", mean: "会員カード" },
+    ],
+    antonyms: [],
   },
   {
     word: "bulk",
@@ -97,6 +167,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "It's cheaper to buy in bulk at Costco than at a regular grocery store.",
     sentence_pron: "イッツ チーパー トゥー バイ イン バルク アット コストコ ザン アット ア レギュラー グロウサリー ストア",
     sentence_jp: "コストコでまとめ買いした方が普通のスーパーより安いです。",
+    synonyms: [
+      { word: "wholesale", pron: "ホウルセール", mean: "卸売り・大量購入" },
+      { word: "large quantity", pron: "ラージ クォンティティ", mean: "大量" },
+    ],
+    antonyms: [
+      { word: "single unit", pron: "シングル ユニット", mean: "1個単位" },
+    ],
   },
   {
     word: "brand",
@@ -105,6 +182,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "I don't mind buying the store brand — it's just as good.",
     sentence_pron: "アイ ドント マインド バイイング ザ ストア ブランド イッツ ジャスト アズ グッド",
     sentence_jp: "プライベートブランドでも全然気にしません。品質は同じですよ。",
+    synonyms: [
+      { word: "label", pron: "レイベル", mean: "ブランド・ラベル" },
+      { word: "make", pron: "メイク", mean: "製造会社・銘柄" },
+    ],
+    antonyms: [
+      { word: "generic", pron: "ジェネリック", mean: "ノーブランドの" },
+    ],
   },
   {
     word: "frozen",
@@ -113,6 +197,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "I stocked up on frozen vegetables for quick weeknight dinners.",
     sentence_pron: "アイ ストックト アップ オン フロウズン ヴェジタブルズ フォー クウィック ウィークナイト ディナーズ",
     sentence_jp: "平日の夕食を手早く作れるよう、冷凍野菜をまとめ買いしました。",
+    synonyms: [
+      { word: "iced", pron: "アイスト", mean: "氷で冷やされた" },
+      { word: "freeze-dried", pron: "フリーズ ドライド", mean: "凍結乾燥の" },
+    ],
+    antonyms: [
+      { word: "fresh", pron: "フレッシュ", mean: "生鮮の" },
+    ],
   },
   {
     word: "dairy",
@@ -121,6 +212,12 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "Milk, butter, and cheese are all in the dairy section.",
     sentence_pron: "ミルク バター アンド チーズ アー オール イン ザ デアリー セクション",
     sentence_jp: "牛乳・バター・チーズはすべて乳製品コーナーにあります。",
+    synonyms: [
+      { word: "milk products", pron: "ミルク プロダクツ", mean: "乳製品" },
+    ],
+    antonyms: [
+      { word: "non-dairy", pron: "ノン デアリー", mean: "乳製品不使用の" },
+    ],
   },
   {
     word: "locate",
@@ -129,6 +226,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "Could you help me locate the tofu? I've checked every aisle.",
     sentence_pron: "クッジュー ヘルプ ミー ロウケイト ザ トウフー アイヴ チェクト エブリー アイル",
     sentence_jp: "豆腐の場所を探すのを手伝ってもらえますか？全ての通路を確認したんですが。",
+    synonyms: [
+      { word: "find", pron: "ファインド", mean: "見つける" },
+      { word: "spot", pron: "スポット", mean: "見つける" },
+    ],
+    antonyms: [
+      { word: "lose", pron: "ルーズ", mean: "見失う" },
+    ],
   },
   {
     word: "checkout",
@@ -137,6 +241,11 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "The checkout line is really long — let's try the self-checkout.",
     sentence_pron: "ザ チェックアウト ライン イズ リアリー ロング レッツ トライ ザ セルフチェックアウト",
     sentence_jp: "レジの列がすごく長い。セルフレジを試してみましょう。",
+    synonyms: [
+      { word: "register", pron: "レジスター", mean: "レジ" },
+      { word: "cash desk", pron: "キャッシュ デスク", mean: "レジカウンター" },
+    ],
+    antonyms: [],
   },
   {
     word: "self-checkout",
@@ -145,6 +254,12 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "I used the self-checkout for the first time — it was easier than I thought.",
     sentence_pron: "アイ ユーズド ザ セルフ チェックアウト フォー ザ ファースト タイム イット ワズ イージア ザン アイ ソート",
     sentence_jp: "初めてセルフレジを使いました。思っていたより簡単でした。",
+    synonyms: [
+      { word: "automated checkout", pron: "オートメイティド チェックアウト", mean: "自動レジ" },
+    ],
+    antonyms: [
+      { word: "staffed checkout", pron: "スタッフト チェックアウト", mean: "有人レジ" },
+    ],
   },
   {
     word: "cashier",
@@ -153,6 +268,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "The cashier was so friendly — she even recommended her favorite snack.",
     sentence_pron: "ザ キャッシャー ワズ ソー フレンドリー シー イーヴン レコメンデッド ハー フェイバリット スナック",
     sentence_jp: "レジ係の方がとても親切で、お気に入りのお菓子まで教えてくれました。",
+    synonyms: [
+      { word: "clerk", pron: "クラーク", mean: "店員" },
+      { word: "checkout person", pron: "チェックアウト パーソン", mean: "レジ担当" },
+    ],
+    antonyms: [
+      { word: "customer", pron: "カスタマー", mean: "お客さん" },
+    ],
   },
   {
     word: "scan",
@@ -161,6 +283,10 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "Just scan the barcode and place the item in the bagging area.",
     sentence_pron: "ジャスト スキャン ザ バーコード アンド プレイス ジ アイテム イン ザ バギング エリア",
     sentence_jp: "バーコードをスキャンして、商品を袋詰め場所に置いてください。",
+    synonyms: [
+      { word: "read", pron: "リード", mean: "読み取る" },
+    ],
+    antonyms: [],
   },
   {
     word: "total",
@@ -169,6 +295,11 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "Your total comes to thirty-two dollars and forty-five cents.",
     sentence_pron: "ユア トウタル カムズ トゥー サーティトゥー ダラーズ アンド フォーティファイブ センツ",
     sentence_jp: "合計は32ドル45セントになります。",
+    synonyms: [
+      { word: "amount", pron: "アマウント", mean: "金額" },
+      { word: "sum", pron: "サム", mean: "合計" },
+    ],
+    antonyms: [],
   },
   {
     word: "cash",
@@ -177,6 +308,14 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "Do you take cash, or is it card only?",
     sentence_pron: "ドゥー ユー テイク キャッシュ オア イズ イット カード オウンリー",
     sentence_jp: "現金は使えますか？それともカードのみですか？",
+    synonyms: [
+      { word: "bills", pron: "ビルズ", mean: "紙幣" },
+      { word: "notes", pron: "ノウツ", mean: "紙幣（英）" },
+    ],
+    antonyms: [
+      { word: "card", pron: "カード", mean: "カード払い" },
+      { word: "digital payment", pron: "デジタル ペイメント", mean: "電子決済" },
+    ],
   },
   {
     word: "debit card",
@@ -185,6 +324,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "I usually pay with my debit card to avoid overspending.",
     sentence_pron: "アイ ユージュアリー ペイ ウィズ マイ デビット カード トゥー アボイド オーバースペンディング",
     sentence_jp: "使いすぎを防ぐために、いつもデビットカードで払っています。",
+    synonyms: [
+      { word: "bank card", pron: "バンク カード", mean: "銀行カード" },
+    ],
+    antonyms: [
+      { word: "credit card", pron: "クレジット カード", mean: "クレジットカード" },
+      { word: "cash", pron: "キャッシュ", mean: "現金" },
+    ],
   },
   {
     word: "paper or plastic",
@@ -193,6 +339,10 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "Paper or plastic? — Paper, please. I'm trying to be eco-friendly.",
     sentence_pron: "ペイパー オア プラスティック ペイパー プリーズ アイム トライイング トゥー ビー エコフレンドリー",
     sentence_jp: "紙袋とビニール袋どちらにしますか？ ―― 紙袋でお願いします。エコを心がけているので。",
+    synonyms: [
+      { word: "bag choice", pron: "バッグ チョイス", mean: "袋の選択" },
+    ],
+    antonyms: [],
   },
   {
     word: "reusable bag",
@@ -201,6 +351,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "I brought my own reusable bag — California charges for plastic bags.",
     sentence_pron: "アイ ブロート マイ オウン リユーザブル バッグ カリフォルニア チャージズ フォー プラスティック バッグズ",
     sentence_jp: "エコバッグを持参しました。カリフォルニアではビニール袋は有料なんです。",
+    synonyms: [
+      { word: "eco bag", pron: "エコ バッグ", mean: "エコバッグ" },
+        { word: "shopping bag", pron: "ショッピング バッグ", mean: "買い物袋" },
+    ],
+    antonyms: [
+      { word: "plastic bag", pron: "プラスティック バッグ", mean: "ビニール袋" },
+    ],
   },
   {
     word: "change",
@@ -209,6 +366,11 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "Here's your change — three dollars and fifty-five cents.",
     sentence_pron: "ヒアズ ユア チェンジ スリー ダラーズ アンド フィフティファイブ センツ",
     sentence_jp: "おつりです。3ドル55セントになります。",
+    synonyms: [
+      { word: "coins", pron: "コインズ", mean: "硬貨" },
+      { word: "balance", pron: "バランス", mean: "残額" },
+    ],
+    antonyms: [],
   },
   {
     word: "receipt",
@@ -217,6 +379,10 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "Keep your receipt in case you need to return anything.",
     sentence_pron: "キープ ユア リシート イン ケース ユー ニード トゥー リターン エニシング",
     sentence_jp: "返品が必要な場合に備えてレシートを取っておいてください。",
+    synonyms: [
+      { word: "proof of purchase", pron: "プルーフ オブ パーチャス", mean: "購入証明" },
+    ],
+    antonyms: [],
   },
   {
     word: "fitting room",
@@ -225,6 +391,11 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "Excuse me, where is the fitting room? I'd like to try these on.",
     sentence_pron: "エクスキューズ ミー ウェア イズ ザ フィッティング ルーム アイド ライク トゥー トライ ジーズ オン",
     sentence_jp: "すみません、試着室はどこですか？これを試着したいのですが。",
+    synonyms: [
+      { word: "changing room", pron: "チェンジング ルーム", mean: "試着室（英）" },
+      { word: "dressing room", pron: "ドレッシング ルーム", mean: "試着室" },
+    ],
+    antonyms: [],
   },
   {
     word: "try on",
@@ -233,6 +404,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "Can I try this on? I'm not sure if it's my size.",
     sentence_pron: "キャン アイ トライ ディス オン アイム ナット シュア イフ イッツ マイ サイズ",
     sentence_jp: "これを試着してもいいですか？サイズが合うかわからなくて。",
+    synonyms: [
+      { word: "fit on", pron: "フィット オン", mean: "着てみる" },
+      { word: "wear", pron: "ウェア", mean: "着る" },
+    ],
+    antonyms: [
+      { word: "take off", pron: "テイク オフ", mean: "脱ぐ" },
+    ],
   },
   {
     word: "size",
@@ -241,6 +419,11 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "What size are you? American sizes run a bit larger than Japanese ones.",
     sentence_pron: "ワット サイズ アー ユー アメリカン サイズズ ラン ア ビット ラージャー ザン ジャパニーズ ワンズ",
     sentence_jp: "サイズは何ですか？アメリカのサイズは日本よりやや大きめです。",
+    synonyms: [
+      { word: "measurement", pron: "メジャーメント", mean: "寸法" },
+      { word: "dimension", pron: "ダイメンション", mean: "サイズ・寸法" },
+    ],
+    antonyms: [],
   },
   {
     word: "fit",
@@ -249,6 +432,14 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "This dress fits perfectly — I'll take it!",
     sentence_pron: "ディス ドレス フィッツ パーフェクトリー アイル テイク イット",
     sentence_jp: "このワンピース、ぴったりです。これにします！",
+    synonyms: [
+      { word: "suit", pron: "スウート", mean: "似合う" },
+      { word: "match", pron: "マッチ", mean: "合う" },
+    ],
+    antonyms: [
+      { word: "too tight", pron: "トゥー タイト", mean: "きつすぎる" },
+      { word: "too loose", pron: "トゥー ルース", mean: "ゆるすぎる" },
+    ],
   },
   {
     word: "too tight",
@@ -257,6 +448,14 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "These jeans are a bit too tight around the waist — do you have the next size up?",
     sentence_pron: "ジーズ ジーンズ アー ア ビット トゥー タイト アラウンド ザ ウェイスト ドゥー ユー ハヴ ザ ネクスト サイズ アップ",
     sentence_jp: "このジーンズ、ウエスト周りが少しきつい。1つ上のサイズはありますか？",
+    synonyms: [
+      { word: "snug", pron: "スナッグ", mean: "ぴったりすぎる" },
+      { word: "too small", pron: "トゥー スモール", mean: "小さすぎる" },
+    ],
+    antonyms: [
+      { word: "too loose", pron: "トゥー ルース", mean: "ゆるすぎる" },
+      { word: "perfect fit", pron: "パーフェクト フィット", mean: "ぴったり" },
+    ],
   },
   {
     word: "too loose",
@@ -265,6 +464,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "The shoulders are too loose — it doesn't quite work for me.",
     sentence_pron: "ザ ショウルダーズ アー トゥー ルース イット ダズント クワイト ワーク フォー ミー",
     sentence_jp: "肩がゆるすぎる。ちょっと合わないみたいです。",
+    synonyms: [
+      { word: "baggy", pron: "バギー", mean: "ぶかぶかの" },
+      { word: "too big", pron: "トゥー ビッグ", mean: "大きすぎる" },
+    ],
+    antonyms: [
+      { word: "too tight", pron: "トゥー タイト", mean: "きつすぎる" },
+    ],
   },
   {
     word: "style",
@@ -273,6 +479,11 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "I love the style, but the color isn't really my thing.",
     sentence_pron: "アイ ラヴ ザ スタイル バット ザ カラー イズント リアリー マイ シング",
     sentence_jp: "デザインは大好きなんですが、色が私には合わないかな。",
+    synonyms: [
+      { word: "design", pron: "デザイン", mean: "デザイン" },
+      { word: "look", pron: "ルック", mean: "見た目" },
+    ],
+    antonyms: [],
   },
   {
     word: "clearance",
@@ -281,6 +492,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "I found this jacket on the clearance rack for only fifteen dollars!",
     sentence_pron: "アイ ファウンド ディス ジャケット オン ザ クリアランス ラック フォー オウンリー フィフティーン ダラーズ",
     sentence_jp: "クリアランスラックでこのジャケットがたった15ドルで見つかりました！",
+    synonyms: [
+      { word: "final sale", pron: "ファイナル セール", mean: "最終セール" },
+      { word: "markdown", pron: "マークダウン", mean: "値引き" },
+    ],
+    antonyms: [
+      { word: "new arrivals", pron: "ニュー アライバルズ", mean: "新入荷" },
+    ],
   },
   {
     word: "discount",
@@ -289,6 +507,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "Is there a student discount? I have my student ID with me.",
     sentence_pron: "イズ ゼア ア スチューデント ディスカウント アイ ハヴ マイ スチューデント アイディー ウィズ ミー",
     sentence_jp: "学生割引はありますか？学生証を持っています。",
+    synonyms: [
+      { word: "reduction", pron: "リダクション", mean: "値引き" },
+      { word: "deal", pron: "ディール", mean: "割引" },
+    ],
+    antonyms: [
+      { word: "surcharge", pron: "サーチャージ", mean: "追加料金" },
+    ],
   },
   {
     word: "tax",
@@ -297,6 +522,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "The price tag says twenty dollars, but with tax it'll be around twenty-two.",
     sentence_pron: "ザ プライス タッグ セズ トゥエンティ ダラーズ バット ウィズ タックス イトル ビー アラウンド トゥエンティトゥー",
     sentence_jp: "値札は20ドルですが、税込みだと約22ドルになります。",
+    synonyms: [
+      { word: "sales tax", pron: "セールズ タックス", mean: "消費税" },
+      { word: "levy", pron: "レヴィ", mean: "課税" },
+    ],
+    antonyms: [
+      { word: "tax-free", pron: "タックス フリー", mean: "免税" },
+    ],
   },
   {
     word: "return",
@@ -305,6 +537,14 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "I'd like to return this jacket — it doesn't fit my husband.",
     sentence_pron: "アイド ライク トゥー リターン ディス ジャケット イット ダズント フィット マイ ハズバンド",
     sentence_jp: "このジャケットを返品したいのですが。夫に合わないので。",
+    synonyms: [
+      { word: "bring back", pron: "ブリング バック", mean: "持ち帰る・返す" },
+      { word: "give back", pron: "ギヴ バック", mean: "返す" },
+    ],
+    antonyms: [
+      { word: "keep", pron: "キープ", mean: "手元に置く" },
+      { word: "buy", pron: "バイ", mean: "購入する" },
+    ],
   },
   {
     word: "refund",
@@ -313,6 +553,14 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "Can I get a full refund, or is it store credit only?",
     sentence_pron: "キャン アイ ゲット ア フル リファンド オア イズ イット ストア クレジット オウンリー",
     sentence_jp: "全額返金してもらえますか？それとも店舗クレジットだけですか？",
+    synonyms: [
+      { word: "reimbursement", pron: "リインバースメント", mean: "払い戻し" },
+      { word: "money back", pron: "マニー バック", mean: "返金" },
+    ],
+    antonyms: [
+      { word: "charge", pron: "チャージ", mean: "請求する" },
+      { word: "payment", pron: "ペイメント", mean: "支払い" },
+    ],
   },
   {
     word: "store credit",
@@ -321,6 +569,12 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "Without a receipt, we can only offer store credit.",
     sentence_pron: "ウィザウト ア リシート ウィー キャン オウンリー オファー ストア クレジット",
     sentence_jp: "レシートがない場合は、店舗クレジットのみのご対応となります。",
+    synonyms: [
+      { word: "in-store credit", pron: "インストア クレジット", mean: "店内クレジット" },
+    ],
+    antonyms: [
+      { word: "cash refund", pron: "キャッシュ リファンド", mean: "現金返金" },
+    ],
   },
   {
     word: "exchange",
@@ -329,6 +583,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "I'd like to exchange this for a size small — do you have one in stock?",
     sentence_pron: "アイド ライク トゥー エクスチェンジ ディス フォー ア サイズ スモール ドゥー ユー ハヴ ワン イン ストック",
     sentence_jp: "これをSサイズに交換したいのですが、在庫はありますか？",
+    synonyms: [
+      { word: "swap", pron: "スワップ", mean: "取り換える" },
+      { word: "replace", pron: "リプレイス", mean: "交換する" },
+    ],
+    antonyms: [
+      { word: "keep", pron: "キープ", mean: "手元に置く" },
+    ],
   },
   {
     word: "return policy",
@@ -337,6 +598,12 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "What's your return policy? How many days do I have?",
     sentence_pron: "ワッツ ユア リターン ポリシー ハウ メニー デイズ ドゥー アイ ハヴ",
     sentence_jp: "返品ポリシーはどうなっていますか？何日以内に持ってくればいいですか？",
+    synonyms: [
+      { word: "refund policy", pron: "リファンド ポリシー", mean: "返金ポリシー" },
+    ],
+    antonyms: [
+      { word: "no returns", pron: "ノー リターンズ", mean: "返品不可" },
+    ],
   },
   {
     word: "receipt required",
@@ -345,6 +612,12 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "A receipt is required for all returns and exchanges.",
     sentence_pron: "ア リシート イズ リクワイアード フォー オール リターンズ アンド エクスチェンジズ",
     sentence_jp: "すべての返品・交換にはレシートが必要です。",
+    synonyms: [
+      { word: "proof required", pron: "プルーフ リクワイアード", mean: "証明が必要" },
+    ],
+    antonyms: [
+      { word: "no receipt needed", pron: "ノー リシート ニーデッド", mean: "レシート不要" },
+    ],
   },
   {
     word: "defective",
@@ -353,6 +626,14 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "The zipper was defective, so I brought it back the next day.",
     sentence_pron: "ザ ジッパー ワズ ディフェクティヴ ソー アイ ブロート イット バック ザ ネクスト デイ",
     sentence_jp: "ジッパーが壊れていたので、翌日持ち帰って返品しました。",
+    synonyms: [
+      { word: "faulty", pron: "フォルティ", mean: "欠陥のある" },
+      { word: "damaged", pron: "ダメージド", mean: "破損した" },
+    ],
+    antonyms: [
+      { word: "perfect", pron: "パーフェクト", mean: "完璧な" },
+      { word: "flawless", pron: "フローレス", mean: "欠点のない" },
+    ],
   },
   {
     word: "in stock",
@@ -361,6 +642,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "Do you have this blouse in stock in a medium?",
     sentence_pron: "ドゥー ユー ハヴ ディス ブラウス イン ストック イン ア ミーディアム",
     sentence_jp: "このブラウスのMサイズは在庫がありますか？",
+    synonyms: [
+      { word: "available", pron: "アヴェイラブル", mean: "在庫あり" },
+    ],
+    antonyms: [
+      { word: "out of stock", pron: "アウト オブ ストック", mean: "在庫切れ" },
+      { word: "sold out", pron: "ソウルド アウト", mean: "売り切れ" },
+    ],
   },
   {
     word: "out of stock",
@@ -369,6 +657,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "I'm sorry, that color is out of stock right now.",
     sentence_pron: "アイム ソーリー ザット カラー イズ アウト オブ ストック ライト ナウ",
     sentence_jp: "申し訳ありません、その色は現在在庫切れです。",
+    synonyms: [
+      { word: "sold out", pron: "ソウルド アウト", mean: "売り切れ" },
+      { word: "unavailable", pron: "アナヴェイラブル", mean: "入手不可" },
+    ],
+    antonyms: [
+      { word: "in stock", pron: "イン ストック", mean: "在庫あり" },
+    ],
   },
   {
     word: "online order",
@@ -377,6 +672,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "I made an online order and picked it up at the store — so convenient!",
     sentence_pron: "アイ メイド アン オンライン オーダー アンド ピクト イット アップ アット ザ ストア ソー コンヴィニエント",
     sentence_jp: "オンラインで注文してお店で受け取りました。すごく便利！",
+    synonyms: [
+      { word: "e-commerce order", pron: "イーコマース オーダー", mean: "ネット注文" },
+      { word: "web order", pron: "ウェブ オーダー", mean: "ウェブ注文" },
+    ],
+    antonyms: [
+      { word: "in-store purchase", pron: "インストア パーチャス", mean: "店頭購入" },
+    ],
   },
   {
     word: "price tag",
@@ -385,6 +687,11 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "The price tag had already been removed — that was a little confusing.",
     sentence_pron: "ザ プライス タッグ ハド オールレディ ビン リムーブド ザット ワズ ア リトル コンフューズィング",
     sentence_jp: "値札がすでに取り除かれていて、少し混乱しました。",
+    synonyms: [
+      { word: "label", pron: "レイベル", mean: "ラベル・値札" },
+      { word: "sticker", pron: "スティッカー", mean: "値段シール" },
+    ],
+    antonyms: [],
   },
   {
     word: "fabric",
@@ -393,6 +700,11 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "I love the fabric — it feels so soft and lightweight.",
     sentence_pron: "アイ ラヴ ザ ファブリック イット フィールズ ソー ソフト アンド ライトウェイト",
     sentence_jp: "この生地が好きです。とても柔らかくて軽い感じがします。",
+    synonyms: [
+      { word: "material", pron: "マテリアル", mean: "素材" },
+      { word: "cloth", pron: "クロス", mean: "布地" },
+    ],
+    antonyms: [],
   },
   {
     word: "color",
@@ -401,6 +713,11 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "Do you have this in a different color? Maybe navy or black?",
     sentence_pron: "ドゥー ユー ハヴ ディス イン ア ディファレント カラー メイビー ネイビー オア ブラック",
     sentence_jp: "これの別の色はありますか？ネイビーか黒はありますか？",
+    synonyms: [
+      { word: "shade", pron: "シェード", mean: "色合い" },
+      { word: "hue", pron: "ヒュー", mean: "色調" },
+    ],
+    antonyms: [],
   },
   {
     word: "sale rack",
@@ -409,6 +726,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "I always check the sale rack first — there are great deals there.",
     sentence_pron: "アイ オールウェイズ チェック ザ セール ラック ファースト ゼア アー グレイト ディールズ ゼア",
     sentence_jp: "いつもまずセール品コーナーから見ます。お得な商品があるんです。",
+    synonyms: [
+      { word: "clearance rack", pron: "クリアランス ラック", mean: "クリアランス棚" },
+      { word: "bargain bin", pron: "バーゲン ビン", mean: "特売コーナー" },
+    ],
+    antonyms: [
+      { word: "new arrivals rack", pron: "ニュー アライバルズ ラック", mean: "新着棚" },
+    ],
   },
   {
     word: "worth it",
@@ -417,5 +741,13 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "It's a bit expensive, but it's definitely worth it — great quality!",
     sentence_pron: "イッツ ア ビット エクスペンシヴ バット イッツ デフィニトリー ワース イット グレイト クオリティ",
     sentence_jp: "少し高いけど、絶対それだけの価値があります。品質がいいから！",
+    synonyms: [
+      { word: "value for money", pron: "ヴァリュー フォー マニー", mean: "コスパがいい" },
+      { word: "good deal", pron: "グッド ディール", mean: "お得な取引" },
+    ],
+    antonyms: [
+      { word: "not worth it", pron: "ナット ワース イット", mean: "それだけの価値はない" },
+      { word: "overpriced", pron: "オーバープライスト", mean: "高すぎる" },
+    ],
   },
 ];
