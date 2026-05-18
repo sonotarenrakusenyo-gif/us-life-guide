@@ -1,6 +1,6 @@
 "use client";
 
-import type { VocabularyItem } from "@/types/vocabulary";
+import type { RelatedWord, VocabularyItem } from "@/types/vocabulary";
 import { AudioButton } from "./AudioButton";
 import { CopyButton } from "./CopyButton";
 
@@ -46,7 +46,30 @@ export function WordCard({
             onClick={() => onSpeak(item.word)}
           />
         </div>
-        <div className="mt-2">
+
+        {((item.synonyms && item.synonyms.length > 0) ||
+          (item.antonyms && item.antonyms.length > 0)) && (
+          <div className="mt-3 flex flex-col gap-2">
+            {item.synonyms && item.synonyms.length > 0 && (
+              <RelatedWords
+                label="類義語"
+                words={item.synonyms}
+                color="teal"
+                onSpeak={onSpeak}
+              />
+            )}
+            {item.antonyms && item.antonyms.length > 0 && (
+              <RelatedWords
+                label="対義語"
+                words={item.antonyms}
+                color="rose"
+                onSpeak={onSpeak}
+              />
+            )}
+          </div>
+        )}
+
+        <div className="mt-3">
           <CopyButton
             text={item.word}
             copyKey={wordKey}
@@ -86,5 +109,43 @@ export function WordCard({
         </div>
       </div>
     </article>
+  );
+}
+
+type RelatedWordsProps = {
+  label: string;
+  words: RelatedWord[];
+  color: "teal" | "rose";
+  onSpeak: (text: string) => void;
+};
+
+function RelatedWords({ label, words, color, onSpeak }: RelatedWordsProps) {
+  const labelClass =
+    color === "teal"
+      ? "text-teal-600"
+      : "text-rose-500";
+
+  const chipClass =
+    color === "teal"
+      ? "bg-teal-50 text-teal-700 ring-teal-200 hover:bg-teal-100"
+      : "bg-rose-50 text-rose-700 ring-rose-200 hover:bg-rose-100";
+
+  return (
+    <div className="flex flex-wrap items-start gap-x-2 gap-y-1.5">
+      <span className={`shrink-0 pt-1 text-[11px] font-bold ${labelClass}`}>
+        {label}
+      </span>
+      {words.map((w) => (
+        <button
+          key={w.word}
+          type="button"
+          onClick={() => onSpeak(w.word)}
+          className={`inline-flex flex-col items-start rounded-xl px-2.5 py-1 ring-1 transition active:scale-95 ${chipClass}`}
+        >
+          <span className="text-xs font-semibold leading-tight">{w.word}</span>
+          <span className="text-[10px] leading-tight opacity-70">{w.pron}</span>
+        </button>
+      ))}
+    </div>
   );
 }

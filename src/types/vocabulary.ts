@@ -1,3 +1,8 @@
+export type RelatedWord = {
+  word: string;
+  pron: string;
+};
+
 export type VocabularyItem = {
   word: string;
   word_pron: string;
@@ -5,6 +10,8 @@ export type VocabularyItem = {
   sentence: string;
   sentence_pron: string;
   sentence_jp: string;
+  synonyms?: RelatedWord[];
+  antonyms?: RelatedWord[];
 };
 
 export type Scene = {

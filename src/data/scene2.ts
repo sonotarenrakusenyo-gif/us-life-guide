@@ -9,6 +9,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Excuse me, could the flight attendant bring me some water?",
     sentence_pron: "エクスキューズ ミー クッド ザ フライト アテンダント ブリング ミー サム ウォーター",
     sentence_jp: "すみません、客室乗務員さんにお水を持ってきてもらえますか？",
+    synonyms: [{ word: "cabin crew", pron: "キャビン クルー" }, { word: "stewardess", pron: "スチュワーデス" }],
+    antonyms: [{ word: "passenger", pron: "パッセンジャー" }],
   },
   {
     word: "meal",
@@ -17,6 +19,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "The in-flight meal was surprisingly delicious.",
     sentence_pron: "ジ インフライト ミール ワズ サープライジングリー デリシャス",
     sentence_jp: "機内食が思っていたより美味しかったです。",
+    synonyms: [{ word: "food", pron: "フード" }, { word: "dish", pron: "ディッシュ" }],
+    antonyms: [{ word: "snack", pron: "スナック" }],
   },
   {
     word: "beverage",
@@ -25,6 +29,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Would you like a beverage? We have juice, water, and coffee.",
     sentence_pron: "ウッジュー ライク ア ベバリッジ ウィー ハヴ ジュース ウォーター アンド コフィー",
     sentence_jp: "お飲み物はいかがですか？ジュース、お水、コーヒーがございます。",
+    synonyms: [{ word: "drink", pron: "ドリンク" }, { word: "liquid", pron: "リキッド" }],
+    antonyms: [{ word: "food", pron: "フード" }],
   },
   {
     word: "headphones",
@@ -33,6 +39,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "I used the headphones to watch a movie during the flight.",
     sentence_pron: "アイ ユーズド ザ ヘッドフォンズ トゥー ウォッチ ア ムービー デュアリング ザ フライト",
     sentence_jp: "フライト中、ヘッドフォンをつけて映画を見ました。",
+    synonyms: [{ word: "earphones", pron: "イヤーフォンズ" }, { word: "earbuds", pron: "イヤーバズ" }],
+    antonyms: [{ word: "speaker", pron: "スピーカー" }],
   },
   {
     word: "blanket",
@@ -41,6 +49,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Could I have a blanket? The cabin is a little cold.",
     sentence_pron: "クッダイ ハヴ ア ブランケット ザ キャビン イズ ア リトル コウルド",
     sentence_jp: "毛布をいただけますか？機内が少し寒いので。",
+    synonyms: [{ word: "cover", pron: "カバー" }, { word: "throw", pron: "スロウ" }],
+    antonyms: [],
   },
   {
     word: "pillow",
@@ -49,6 +59,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "She tucked the pillow behind her neck and fell asleep.",
     sentence_pron: "シー タクト ザ ピロウ ビハインド ハー ネック アンド フェル アスリープ",
     sentence_jp: "彼女は首の後ろに枕を当てて眠りにつきました。",
+    synonyms: [{ word: "cushion", pron: "クッション" }, { word: "neck pillow", pron: "ネック ピロウ" }],
+    antonyms: [],
   },
   {
     word: "turbulence",
@@ -57,6 +69,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Please stay seated — we're experiencing some turbulence.",
     sentence_pron: "プリーズ ステイ スィーティド ウィーア エクスペリエンシング サム タービュランス",
     sentence_jp: "着席してください。現在、乱気流が発生しています。",
+    synonyms: [{ word: "rough air", pron: "ラフ エア" }, { word: "bumps", pron: "バンプス" }],
+    antonyms: [{ word: "smooth air", pron: "スムース エア" }],
   },
   {
     word: "overhead bin",
@@ -65,6 +79,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Please store your carry-on in the overhead bin above your seat.",
     sentence_pron: "プリーズ ストア ユア キャリーオン イン ジ オーバーヘッド ビン アバヴ ユア シート",
     sentence_jp: "機内持ち込み荷物は、座席の上の荷物入れに収納してください。",
+    synonyms: [{ word: "luggage rack", pron: "ラゲッジ ラック" }, { word: "storage compartment", pron: "ストレッジ コンパートメント" }],
+    antonyms: [],
   },
   {
     word: "tray table",
@@ -73,6 +89,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "For landing, please fold up your tray table.",
     sentence_pron: "フォー ランディング プリーズ フォウルド アップ ユア トレイ テーブル",
     sentence_jp: "着陸のため、テーブルをお戻しください。",
+    synonyms: [{ word: "fold-down table", pron: "フォウルドダウン テーブル" }],
+    antonyms: [],
   },
   {
     word: "recline",
@@ -81,6 +99,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Mind if I recline my seat a little?",
     sentence_pron: "マインド イフ アイ リクライン マイ シート ア リトル",
     sentence_jp: "少しシートを倒してもいいですか？",
+    synonyms: [{ word: "lean back", pron: "リーン バック" }, { word: "tilt back", pron: "ティルト バック" }],
+    antonyms: [{ word: "sit up", pron: "シット アップ" }, { word: "upright", pron: "アップライト" }],
   },
   {
     word: "window shade",
@@ -89,6 +109,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Could you lower the window shade? The light is too bright.",
     sentence_pron: "クッジュー ロウア ザ ウィンドウ シェード ザ ライト イズ トゥー ブライト",
     sentence_jp: "窓のシェードを下げてもらえますか？光が眩しくて。",
+    synonyms: [{ word: "blind", pron: "ブラインド" }, { word: "shade", pron: "シェード" }],
+    antonyms: [],
   },
   {
     word: "entertainment",
@@ -97,6 +119,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "The in-flight entertainment had hundreds of movies to choose from.",
     sentence_pron: "ジ インフライト エンターテインメント ハド ハンドレッズ オブ ムービーズ トゥー チューズ フロム",
     sentence_jp: "機内エンターテインメントには数百本の映画がありました。",
+    synonyms: [{ word: "in-flight movies", pron: "インフライト ムービーズ" }, { word: "IFE", pron: "アイエフイー" }],
+    antonyms: [],
   },
   {
     word: "jet lag",
@@ -105,6 +129,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "I had terrible jet lag for the first three days in America.",
     sentence_pron: "アイ ハド テリブル ジェット ラグ フォー ザ ファースト スリー デイズ イン アメリカ",
     sentence_jp: "アメリカに来て最初の3日間、ひどい時差ぼけに悩まされました。",
+    synonyms: [{ word: "time zone fatigue", pron: "タイム ゾーン ファティーグ" }],
+    antonyms: [],
   },
   {
     word: "airsick",
@@ -113,6 +139,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "I felt a bit airsick during the turbulence, so I closed my eyes.",
     sentence_pron: "アイ フェルト ア ビット エアシック デュアリング ザ タービュランス ソー アイ クロウズド マイ アイズ",
     sentence_jp: "乱気流の中、少し飛行機酔いしたので目を閉じました。",
+    synonyms: [{ word: "motion sick", pron: "モウション シック" }, { word: "nauseous", pron: "ノーシャス" }],
+    antonyms: [{ word: "fine", pron: "ファイン" }, { word: "well", pron: "ウェル" }],
   },
   {
     word: "landing",
@@ -121,6 +149,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "We'll be starting our final descent and landing in about thirty minutes.",
     sentence_pron: "ウィール ビー スターティング アワー ファイナル ディセント アンド ランディング イン アバウト サーティ ミニッツ",
     sentence_jp: "あと約30分で最終降下に入り、着陸いたします。",
+    synonyms: [{ word: "touchdown", pron: "タッチダウン" }, { word: "arrival", pron: "アライバル" }],
+    antonyms: [{ word: "takeoff", pron: "テイクオフ" }, { word: "liftoff", pron: "リフトオフ" }],
   },
   {
     word: "arrival",
@@ -129,6 +159,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Upon arrival, please follow the signs to immigration.",
     sentence_pron: "アポン アライバル プリーズ フォロー ザ サインズ トゥー イミグレーション",
     sentence_jp: "到着後は、入国審査への案内表示に従ってください。",
+    synonyms: [{ word: "coming in", pron: "カミング イン" }, { word: "landing", pron: "ランディング" }],
+    antonyms: [{ word: "departure", pron: "ディパーチャー" }],
   },
   {
     word: "immigration",
@@ -137,6 +169,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "All non-U.S. citizens, please go to the immigration area.",
     sentence_pron: "オール ノン ユーエス シチズンズ プリーズ ゴー トゥー ジ イミグレーション エリア",
     sentence_jp: "アメリカ市民以外の方は、入国審査エリアへお進みください。",
+    synonyms: [{ word: "border control", pron: "ボーダー コントロール" }, { word: "passport control", pron: "パスポート コントロール" }],
+    antonyms: [{ word: "emigration", pron: "エミグレーション" }],
   },
   {
     word: "officer",
@@ -145,6 +179,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "The officer asked me how long I planned to stay.",
     sentence_pron: "ジ オフィサー アスクト ミー ハウ ロング アイ プランド トゥー ステイ",
     sentence_jp: "審査官に、どのくらい滞在する予定かを聞かれました。",
+    synonyms: [{ word: "agent", pron: "エイジェント" }, { word: "official", pron: "オフィシャル" }],
+    antonyms: [{ word: "civilian", pron: "シヴィリアン" }],
   },
   {
     word: "purpose",
@@ -153,6 +189,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "What is the purpose of your visit today?",
     sentence_pron: "ワット イズ ザ パーパス オブ ユア ヴィジット トゥデイ",
     sentence_jp: "本日の訪問の目的は何ですか？",
+    synonyms: [{ word: "reason", pron: "リーズン" }, { word: "aim", pron: "エイム" }],
+    antonyms: [],
   },
   {
     word: "visit",
@@ -161,6 +199,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "I'm here to visit my husband who lives in California.",
     sentence_pron: "アイム ヒア トゥー ヴィジット マイ ハズバンド フー リヴズ イン カリフォルニア",
     sentence_jp: "カリフォルニアに住む夫に会いに来ました。",
+    synonyms: [{ word: "trip", pron: "トリップ" }, { word: "stay", pron: "ステイ" }],
+    antonyms: [{ word: "leave", pron: "リーヴ" }],
   },
   {
     word: "resident",
@@ -169,6 +209,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "I'm a new resident — I just moved to California with my husband.",
     sentence_pron: "アイム ア ニュー レジデント アイ ジャスト ムーブド トゥー カリフォルニア ウィズ マイ ハズバンド",
     sentence_jp: "引っ越してきたばかりの新居住者です。夫と一緒にカリフォルニアに来ました。",
+    synonyms: [{ word: "inhabitant", pron: "インハビタント" }, { word: "local", pron: "ロウカル" }],
+    antonyms: [{ word: "visitor", pron: "ヴィジター" }, { word: "tourist", pron: "ツーリスト" }],
   },
   {
     word: "visa",
@@ -177,6 +219,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "I have a dependent visa — my husband is on a work visa.",
     sentence_pron: "アイ ハヴ ア ディペンデント ビザ マイ ハズバンド イズ オン ア ワーク ビザ",
     sentence_jp: "私は帯同ビザです。夫が就労ビザを持っています。",
+    synonyms: [{ word: "permit", pron: "パーミット" }, { word: "authorization", pron: "オーソライゼーション" }],
+    antonyms: [],
   },
   {
     word: "duration",
@@ -185,6 +229,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "What is the duration of your stay in the United States?",
     sentence_pron: "ワット イズ ザ デュレーション オブ ユア ステイ イン ジ ユナイティド ステイツ",
     sentence_jp: "アメリカでの滞在期間はどのくらいですか？",
+    synonyms: [{ word: "length", pron: "レングス" }, { word: "period", pron: "ピアリアド" }],
+    antonyms: [],
   },
   {
     word: "address",
@@ -193,6 +239,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Please write your U.S. address on the arrival form.",
     sentence_pron: "プリーズ ライト ユア ユーエス アドレス オン ジ アライバル フォーム",
     sentence_jp: "到着カードにアメリカの住所を記入してください。",
+    synonyms: [{ word: "location", pron: "ロウケーション" }, { word: "residence", pron: "レジデンス" }],
+    antonyms: [],
   },
   {
     word: "fingerprint",
@@ -201,6 +249,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Please place all four fingers on the scanner for fingerprints.",
     sentence_pron: "プリーズ プレイス オール フォー フィンガーズ オン ザ スキャナー フォー フィンガープリンツ",
     sentence_jp: "指紋採取のため、4本の指をスキャナーに置いてください。",
+    synonyms: [{ word: "biometric", pron: "バイオメトリック" }],
+    antonyms: [],
   },
   {
     word: "photograph",
@@ -209,6 +259,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Please look at the camera for your photograph.",
     sentence_pron: "プリーズ ルック アット ザ カメラ フォー ユア フォトグラフ",
     sentence_jp: "写真撮影のため、カメラを見てください。",
+    synonyms: [{ word: "photo", pron: "フォウト" }, { word: "picture", pron: "ピクチャー" }],
+    antonyms: [],
   },
   {
     word: "declare",
@@ -217,6 +269,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Do you have anything to declare?",
     sentence_pron: "ドゥー ユー ハヴ エニシング トゥー ディクレア",
     sentence_jp: "申告するものはありますか？",
+    synonyms: [{ word: "report", pron: "リポート" }, { word: "disclose", pron: "ディスクロウズ" }],
+    antonyms: [{ word: "conceal", pron: "コンシール" }, { word: "hide", pron: "ハイド" }],
   },
   {
     word: "customs",
@@ -225,6 +279,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "After immigration, we went through customs without any problems.",
     sentence_pron: "アフター イミグレーション ウィー ウェント スルー カスタムズ ウィザウト エニー プロブレムズ",
     sentence_jp: "入国審査の後、問題なく税関を通過しました。",
+    synonyms: [{ word: "border inspection", pron: "ボーダー インスペクション" }],
+    antonyms: [],
   },
   {
     word: "declaration form",
@@ -233,6 +289,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "I filled out the customs declaration form on the plane.",
     sentence_pron: "アイ フィルド アウト ザ カスタムズ デクラレーション フォーム オン ザ プレイン",
     sentence_jp: "機内で税関申告書を記入しました。",
+    synonyms: [{ word: "customs form", pron: "カスタムズ フォーム" }],
+    antonyms: [],
   },
   {
     word: "fill out",
@@ -241,6 +299,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Could you help me fill out this form? My English isn't perfect.",
     sentence_pron: "クッジュー ヘルプ ミー フィル アウト ディス フォーム マイ イングリッシュ イズント パーフェクト",
     sentence_jp: "この書類の記入を手伝ってもらえますか？英語が得意じゃなくて。",
+    synonyms: [{ word: "complete", pron: "コンプリート" }, { word: "write in", pron: "ライト イン" }],
+    antonyms: [{ word: "leave blank", pron: "リーヴ ブランク" }],
   },
   {
     word: "citizen",
@@ -249,6 +309,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "U.S. citizens use the left lane; all others use the right.",
     sentence_pron: "ユーエス シチズンズ ユーズ ザ レフト レーン オール アザーズ ユーズ ザ ライト",
     sentence_jp: "アメリカ市民は左の列を、それ以外の方は右の列をご利用ください。",
+    synonyms: [{ word: "national", pron: "ナショナル" }, { word: "passport holder", pron: "パスポート ホウルダー" }],
+    antonyms: [{ word: "foreigner", pron: "フォーリナー" }, { word: "alien", pron: "エイリアン" }],
   },
   {
     word: "non-immigrant",
@@ -257,6 +319,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "I entered as a non-immigrant visa holder.",
     sentence_pron: "アイ エンタード アズ ア ノン イミグラント ビザ ホウルダー",
     sentence_jp: "非移民ビザ保持者として入国しました。",
+    synonyms: [{ word: "temporary visitor", pron: "テンポラリー ヴィジター" }],
+    antonyms: [{ word: "immigrant", pron: "イミグラント" }, { word: "permanent resident", pron: "パーマネント レジデント" }],
   },
   {
     word: "stamp",
@@ -265,6 +329,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "The officer stamped my passport and said, 'Welcome to the U.S.'",
     sentence_pron: "ジ オフィサー スタンプト マイ パスポート アンド セッド ウェルカム トゥー ザ ユーエス",
     sentence_jp: "審査官がパスポートにスタンプを押して、『ようこそアメリカへ』と言ってくれました。",
+    synonyms: [{ word: "seal", pron: "シール" }, { word: "mark", pron: "マーク" }],
+    antonyms: [],
   },
   {
     word: "welcome",
@@ -273,6 +339,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Welcome to the United States. Enjoy your stay.",
     sentence_pron: "ウェルカム トゥー ザ ユナイティド ステイツ エンジョイ ユア ステイ",
     sentence_jp: "アメリカへようこそ。滞在をお楽しみください。",
+    synonyms: [{ word: "greet", pron: "グリート" }, { word: "receive", pron: "リシーヴ" }],
+    antonyms: [{ word: "reject", pron: "リジェクト" }, { word: "turn away", pron: "ターン アウェイ" }],
   },
   {
     word: "baggage claim",
@@ -281,6 +349,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Follow the signs to baggage claim after you clear customs.",
     sentence_pron: "フォロー ザ サインズ トゥー バゲッジ クレーム アフター ユー クリア カスタムズ",
     sentence_jp: "税関を通ったら、案内表示に従って手荷物受取所へ進んでください。",
+    synonyms: [{ word: "luggage pickup", pron: "ラゲッジ ピックアップ" }],
+    antonyms: [],
   },
   {
     word: "carousel",
@@ -289,6 +359,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Our bags should come out on carousel number four.",
     sentence_pron: "アワー バッグズ シュッド カム アウト オン キャルーセル ナンバー フォー",
     sentence_jp: "荷物は4番のターンテーブルから出てくるはずです。",
+    synonyms: [{ word: "conveyor belt", pron: "コンヴェイアー ベルト" }, { word: "baggage belt", pron: "バゲッジ ベルト" }],
+    antonyms: [],
   },
   {
     word: "retrieve",
@@ -297,6 +369,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "I had to wait twenty minutes to retrieve my suitcase.",
     sentence_pron: "アイ ハド トゥー ウェイト トゥエンティ ミニッツ トゥー リトリーヴ マイ スーツケース",
     sentence_jp: "スーツケースを受け取るのに20分待ちました。",
+    synonyms: [{ word: "collect", pron: "コレクト" }, { word: "pick up", pron: "ピック アップ" }],
+    antonyms: [{ word: "leave", pron: "リーヴ" }, { word: "abandon", pron: "アバンドン" }],
   },
   {
     word: "missing",
@@ -305,6 +379,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "One of our bags is missing — it's not on the carousel.",
     sentence_pron: "ワン オブ アワー バッグズ イズ ミッシング イッツ ナット オン ザ キャルーセル",
     sentence_jp: "荷物が1つ見当たりません。ターンテーブルにないんです。",
+    synonyms: [{ word: "lost", pron: "ロスト" }, { word: "gone", pron: "ゴーン" }],
+    antonyms: [{ word: "found", pron: "ファウンド" }, { word: "located", pron: "ロウケーティド" }],
   },
   {
     word: "lost luggage",
@@ -313,6 +389,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "I need to report lost luggage — my suitcase didn't arrive.",
     sentence_pron: "アイ ニード トゥー リポート ロスト ラゲッジ マイ スーツケース ディドント アライヴ",
     sentence_jp: "紛失荷物の報告をしたいのですが。スーツケースが届いていません。",
+    synonyms: [{ word: "missing bag", pron: "ミッシング バッグ" }],
+    antonyms: [{ word: "found luggage", pron: "ファウンド ラゲッジ" }],
   },
   {
     word: "damaged",
@@ -321,6 +399,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "My suitcase arrived damaged — the handle is broken.",
     sentence_pron: "マイ スーツケース アライヴド ダメージド ザ ハンドル イズ ブロウクン",
     sentence_jp: "スーツケースが壊れた状態で届きました。ハンドルが折れています。",
+    synonyms: [{ word: "broken", pron: "ブロウクン" }, { word: "ruined", pron: "ルーインド" }],
+    antonyms: [{ word: "intact", pron: "インタクト" }, { word: "undamaged", pron: "アンダメジド" }],
   },
   {
     word: "report",
@@ -329,6 +409,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Please report any damaged bags at the airline service desk.",
     sentence_pron: "プリーズ リポート エニー ダメージド バッグズ アット ジ エアライン サービス デスク",
     sentence_jp: "荷物の破損は、航空会社のサービスカウンターへ届け出てください。",
+    synonyms: [{ word: "notify", pron: "ノウティファイ" }, { word: "inform", pron: "インフォーム" }],
+    antonyms: [{ word: "conceal", pron: "コンシール" }, { word: "ignore", pron: "イグノア" }],
   },
   {
     word: "baggage receipt",
@@ -337,6 +419,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Keep your baggage receipt in case your luggage gets lost.",
     sentence_pron: "キープ ユア バゲッジ リシート イン ケース ユア ラゲッジ ゲッツ ロスト",
     sentence_jp: "荷物が紛失した場合に備えて、手荷物引換証を保管しておいてください。",
+    synonyms: [{ word: "claim ticket", pron: "クレイム ティケット" }],
+    antonyms: [],
   },
   {
     word: "connecting flight",
@@ -345,14 +429,18 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "I don't have a connecting flight — this is my final destination.",
     sentence_pron: "アイ ドント ハヴ ア コネクティング フライト ディス イズ マイ ファイナル デスティネーション",
     sentence_jp: "乗り継ぎ便はありません。ここが最終目的地です。",
+    synonyms: [{ word: "layover flight", pron: "レイオーバー フライト" }, { word: "transfer flight", pron: "トランスファー フライト" }],
+    antonyms: [{ word: "direct flight", pron: "ダイレクト フライト" }, { word: "nonstop flight", pron: "ノンストップ フライト" }],
   },
   {
     word: "destination",
     word_pron: "デスティネーション",
     mean: "目的地",
     sentence: "What is your final destination in the United States?",
-    sentence_pron: "ワット イズ ユア ファイナル デスティネーション イン ザ ユナイティド ステイツ",
+    sentence_pron: "ワット イズ ユア ファイナル デスティネーション イン ジ ユナイティド ステイツ",
     sentence_jp: "アメリカでの最終目的地はどこですか？",
+    synonyms: [{ word: "endpoint", pron: "エンドポイント" }, { word: "target", pron: "ターゲット" }],
+    antonyms: [{ word: "origin", pron: "オリジン" }, { word: "starting point", pron: "スターティング ポイント" }],
   },
   {
     word: "cart",
@@ -361,6 +449,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "I rented a luggage cart because our bags were so heavy.",
     sentence_pron: "アイ レンティド ア ラゲッジ カート ビコーズ アワー バッグズ ワー ソー ヘビー",
     sentence_jp: "荷物がとても重かったので、荷物カートを借りました。",
+    synonyms: [{ word: "trolley", pron: "トロリー" }, { word: "dolly", pron: "ダリー" }],
+    antonyms: [],
   },
   {
     word: "exit",
@@ -369,6 +459,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "After picking up your bags, head to the exit for ground transportation.",
     sentence_pron: "アフター ピッキング アップ ユア バッグズ ヘッド トゥー ジ エグジット フォー グラウンド トランスポーテーション",
     sentence_jp: "荷物を受け取ったら、陸上交通機関への出口へ向かってください。",
+    synonyms: [{ word: "way out", pron: "ウェイ アウト" }, { word: "door", pron: "ドア" }],
+    antonyms: [{ word: "entrance", pron: "エントランス" }, { word: "entry", pron: "エントリー" }],
   },
   {
     word: "customs officer",
@@ -377,6 +469,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "The customs officer checked our declaration form quickly.",
     sentence_pron: "ザ カスタムズ オフィサー チェクト アワー デクラレーション フォーム クウィックリー",
     sentence_jp: "税関職員が申告書をさっと確認してくれました。",
+    synonyms: [{ word: "border agent", pron: "ボーダー エイジェント" }, { word: "inspector", pron: "インスペクター" }],
+    antonyms: [],
   },
   {
     word: "nothing to declare",
@@ -385,6 +479,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "I have nothing to declare — just personal belongings.",
     sentence_pron: "アイ ハヴ ナッシング トゥー ディクレア ジャスト パーソナル ビロングングズ",
     sentence_jp: "申告するものは何もありません。個人の荷物だけです。",
+    synonyms: [{ word: "no items to report", pron: "ノー アイテムズ トゥー リポート" }],
+    antonyms: [{ word: "something to declare", pron: "サムシング トゥー ディクレア" }],
   },
   {
     word: "belongings",
@@ -393,14 +489,8 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Please collect all your personal belongings before leaving the plane.",
     sentence_pron: "プリーズ コレクト オール ユア パーソナル ビロングングズ ビフォー リービング ザ プレイン",
     sentence_jp: "飛行機を降りる前に、お忘れ物のないようにご確認ください。",
-  },
-  {
-    word: "accompany",
-    word_pron: "アカンパニー",
-    mean: "同伴する、一緒に来る",
-    sentence: "I'm accompanying my husband, who is on a work assignment.",
-    sentence_pron: "アイム アカンパニイング マイ ハズバンド フー イズ オン ア ワーク アサインメント",
-    sentence_jp: "仕事の赴任をしている夫に同伴しています。",
+    synonyms: [{ word: "possessions", pron: "ポゼッションズ" }, { word: "items", pron: "アイテムズ" }],
+    antonyms: [],
   },
   {
     word: "relief",
@@ -409,5 +499,7 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "What a relief — we made it through immigration without any trouble.",
     sentence_pron: "ワット ア リリーフ ウィー メイド イット スルー イミグレーション ウィザウト エニー トラブル",
     sentence_jp: "よかった。問題なく入国審査を通過できました。",
+    synonyms: [{ word: "comfort", pron: "カンフォート" }, { word: "ease", pron: "イーズ" }],
+    antonyms: [{ word: "stress", pron: "ストレス" }, { word: "anxiety", pron: "アングザイエティ" }],
   },
 ];
