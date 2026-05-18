@@ -84,6 +84,7 @@ export function WordCard({
         <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-slate-400">
           例文
         </p>
+        <p className="mb-2 text-sm text-slate-500">{item.sentence_jp}</p>
         <div className="flex items-start justify-between gap-3">
           <p className="flex-1 text-[15px] leading-relaxed font-medium text-slate-800">
             {item.sentence}
@@ -97,7 +98,6 @@ export function WordCard({
         <p className="mt-2 text-sm leading-relaxed text-sky-700/90">
           {item.sentence_pron}
         </p>
-        <p className="mt-1.5 text-sm text-slate-500">{item.sentence_jp}</p>
         <div className="mt-3">
           <CopyButton
             text={item.sentence}
