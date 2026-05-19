@@ -220,6 +220,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "extension", pron: "エクステンション", mean: "期限延長" },
     ],
+    idioms: [
+      { phrase: "meet a deadline", mean: "締め切りに間に合う" },
+      { phrase: "miss a deadline", mean: "締め切りを逃す" },
+    ],
   },
   {
     word: "grade",
@@ -233,6 +237,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
       { word: "mark", pron: "マーク", mean: "成績・得点" },
     ],
     antonyms: [],
+    idioms: [
+      { phrase: "make the grade", mean: "基準に達する、合格ラインをクリアする" },
+      { phrase: "grade school", mean: "小学校（アメリカ英語）" },
+    ],
   },
   {
     word: "attendance",
@@ -331,6 +339,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
       { word: "turn", pron: "ターン", mean: "曲がる" },
       { word: "curved", pron: "カーブド", mean: "曲がった" },
     ],
+    idioms: [
+      { phrase: "straight A's", mean: "全科目で最高評価をとること（オール優等）" },
+      { phrase: "straight talk", mean: "率直な話、建前なしの話し合い" },
+    ],
   },
   {
     word: "turn",
@@ -344,6 +356,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     ],
     antonyms: [
       { word: "go straight", pron: "ゴー ストレイト", mean: "まっすぐ進む" },
+    ],
+    idioms: [
+      { phrase: "turn over a new leaf", mean: "心機一転する、やり直す" },
+      { phrase: "turn the tables", mean: "形勢を逆転させる" },
     ],
   },
   {
@@ -486,6 +502,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
       { word: "quit", pron: "クウィット", mean: "やめる" },
       { word: "give up", pron: "ギヴ アップ", mean: "諦める" },
     ],
+    idioms: [
+      { phrase: "practice makes perfect", mean: "継続は力なり（練習すれば完璧に近づく）" },
+      { phrase: "in practice", mean: "実際には、実践では" },
+    ],
   },
   {
     word: "mistake",
@@ -500,6 +520,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     ],
     antonyms: [
       { word: "correct answer", pron: "コレクト アンサー", mean: "正解" },
+    ],
+    idioms: [
+      { phrase: "by mistake", mean: "間違って、うっかり" },
+      { phrase: "make a mistake", mean: "間違いをする" },
     ],
   },
   {
@@ -589,6 +613,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
       { word: "answer", pron: "アンサー", mean: "答える" },
       { word: "respond", pron: "リスポンド", mean: "返答する" },
     ],
+    idioms: [
+      { phrase: "ask for trouble", mean: "トラブルを招く、藪をつついて蛇を出す" },
+      { phrase: "ask around", mean: "あちこちで聞いてみる" },
+    ],
   },
   {
     word: "excuse me",
@@ -648,6 +676,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
       { word: "confident", pron: "カンフィデント", mean: "自信のある" },
       { word: "relaxed", pron: "リラクスト", mean: "リラックスした" },
     ],
+    idioms: [
+      { phrase: "get on one's nerves", mean: "神経に障る、いらいらさせる" },
+      { phrase: "bundle of nerves", mean: "とても緊張している人" },
+    ],
   },
   {
     word: "confident",
@@ -677,6 +709,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
       { word: "target", pron: "ターゲット", mean: "目標" },
     ],
     antonyms: [],
+    idioms: [
+      { phrase: "set a goal", mean: "目標を設定する" },
+      { phrase: "own goal", mean: "自陣に入れてしまう失点→自分で自分の首を絞める行為" },
+    ],
   },
   {
     word: "progress",
@@ -693,6 +729,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
       { word: "setback", pron: "セットバック", mean: "後退・つまずき" },
       { word: "decline", pron: "ディクライン", mean: "低下" },
     ],
+    idioms: [
+      { phrase: "in progress", mean: "進行中、作業中" },
+      { phrase: "make progress", mean: "進展する、上達する" },
+    ],
   },
   {
     word: "challenge",
@@ -708,6 +748,10 @@ export const scene5Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "ease", pron: "イーズ", mean: "容易さ" },
       { word: "comfort", pron: "カンフォート", mean: "快適さ" },
+    ],
+    idioms: [
+      { phrase: "rise to the challenge", mean: "困難に立ち向かう、難題を乗り越える" },
+      { phrase: "challenge someone to", mean: "〜に挑戦を申し込む" },
     ],
   },
 ];

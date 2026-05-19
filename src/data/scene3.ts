@@ -146,6 +146,10 @@ export const scene3Vocabulary: VocabularyItem[] = [
       { word: "gratuity", pron: "グラチューイティ", mean: "心付け" },
     ],
     antonyms: [],
+    idioms: [
+      { phrase: "tip of the iceberg", mean: "氷山の一角（問題のほんの一部）" },
+      { phrase: "on the tip of one's tongue", mean: "喉まで出かかっている（思い出せそうで思い出せない）" },
+    ],
   },
   {
     word: "confirm",
@@ -175,6 +179,10 @@ export const scene3Vocabulary: VocabularyItem[] = [
       { word: "way", pron: "ウェイ", mean: "道" },
     ],
     antonyms: [],
+    idioms: [
+      { phrase: "en route", mean: "途中で、〜へ向かう途中に" },
+      { phrase: "route cause", mean: "根本的な原因（\"root cause\" と同音、よく混同される）" },
+    ],
   },
   {
     word: "navigation",
@@ -305,6 +313,11 @@ export const scene3Vocabulary: VocabularyItem[] = [
       { word: "street section", pron: "ストリート セクション", mean: "街路区画" },
     ],
     antonyms: [],
+    idioms: [
+      { phrase: "writer's block", mean: "書けない状態（アイデアが出ない）" },
+      { phrase: "mental block", mean: "精神的な障壁、思い込みによる壁" },
+      { phrase: "block out", mean: "遮断する、スケジュールを確保する" },
+    ],
   },
   {
     word: "apartment",
@@ -360,6 +373,11 @@ export const scene3Vocabulary: VocabularyItem[] = [
     ],
     antonyms: [
       { word: "lock", pron: "ロック", mean: "錠前" },
+    ],
+    idioms: [
+      { phrase: "key in", mean: "キーボードで入力する" },
+      { phrase: "key player", mean: "重要な人物、主要メンバー" },
+      { phrase: "off-key", mean: "音程がずれた、場違いな" },
     ],
   },
   {
@@ -630,6 +648,10 @@ export const scene3Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "narrow", pron: "ナロウ", mean: "狭い" },
     ],
+    idioms: [
+      { phrase: "wide awake", mean: "完全に目が覚めている、すっきり覚醒した" },
+      { phrase: "wide open", mean: "全開の、チャンスが大きく開かれた" },
+    ],
   },
   {
     word: "highway",
@@ -673,6 +695,11 @@ export const scene3Vocabulary: VocabularyItem[] = [
       { word: "lease payment", pron: "リース ペイメント", mean: "賃貸料" },
     ],
     antonyms: [],
+    idioms: [
+      { phrase: "rent out", mean: "（部屋・物を）貸し出す" },
+      { phrase: "rent-free", mean: "無料で借りられる" },
+      { phrase: "for rent", mean: "賃貸中、借り手募集中" },
+    ],
   },
   {
     word: "floor plan",

@@ -30,6 +30,10 @@ export const scene2Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "snack", pron: "スナック", mean: "軽食・おやつ" },
     ],
+    idioms: [
+      { phrase: "a square meal", mean: "しっかりした食事、バランスの良い食事" },
+      { phrase: "meal prep", mean: "食事の下準備（週単位でまとめて作ること）" },
+    ],
   },
   {
     word: "beverage",
@@ -270,6 +274,10 @@ export const scene2Vocabulary: VocabularyItem[] = [
       { word: "aim", pron: "エイム", mean: "目的" },
     ],
     antonyms: [],
+    idioms: [
+      { phrase: "on purpose", mean: "わざと、意図的に" },
+      { phrase: "serve a purpose", mean: "役に立つ、目的を果たす" },
+    ],
   },
   {
     word: "visit",
@@ -284,6 +292,10 @@ export const scene2Vocabulary: VocabularyItem[] = [
     ],
     antonyms: [
       { word: "leave", pron: "リーヴ", mean: "離れる" },
+    ],
+    idioms: [
+      { phrase: "pay a visit", mean: "訪問する（改まった言い方）" },
+      { phrase: "a flying visit", mean: "短い訪問、ちょっとだけ寄ること" },
     ],
   },
   {
@@ -381,6 +393,10 @@ export const scene2Vocabulary: VocabularyItem[] = [
       { word: "conceal", pron: "コンシール", mean: "隠す" },
       { word: "hide", pron: "ハイド", mean: "隠す" },
     ],
+    idioms: [
+      { phrase: "declare war", mean: "宣戦布告する" },
+      { phrase: "declare bankruptcy", mean: "破産申告をする" },
+    ],
   },
   {
     word: "customs",
@@ -464,6 +480,10 @@ export const scene2Vocabulary: VocabularyItem[] = [
       { word: "mark", pron: "マーク", mean: "マーク・印" },
     ],
     antonyms: [],
+    idioms: [
+      { phrase: "stamp out", mean: "根絶する、踏みつぶす" },
+      { phrase: "rubber stamp", mean: "形式的に承認するだけ（ゴム印のように）" },
+    ],
   },
   {
     word: "welcome",
@@ -479,6 +499,10 @@ export const scene2Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "reject", pron: "リジェクト", mean: "拒否する" },
       { word: "turn away", pron: "ターン アウェイ", mean: "追い返す" },
+    ],
+    idioms: [
+      { phrase: "you're welcome", mean: "どういたしまして（感謝への返し）" },
+      { phrase: "outstay one's welcome", mean: "居座り過ぎる、長居しすぎる" },
     ],
   },
   {
@@ -537,6 +561,9 @@ export const scene2Vocabulary: VocabularyItem[] = [
       { word: "found", pron: "ファウンド", mean: "見つかった" },
       { word: "located", pron: "ロウケーティド", mean: "場所が判明した" },
     ],
+    idioms: [
+      { phrase: "go missing", mean: "行方不明になる" },
+    ],
   },
   {
     word: "lost luggage",
@@ -582,6 +609,10 @@ export const scene2Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "conceal", pron: "コンシール", mean: "隠す" },
       { word: "ignore", pron: "イグノア", mean: "無視する" },
+    ],
+    idioms: [
+      { phrase: "report card", mean: "成績表（学校の）" },
+      { phrase: "report back", mean: "結果を報告する" },
     ],
   },
   {
@@ -656,6 +687,10 @@ export const scene2Vocabulary: VocabularyItem[] = [
       { word: "entrance", pron: "エントランス", mean: "入口" },
       { word: "entry", pron: "エントリー", mean: "入口" },
     ],
+    idioms: [
+      { phrase: "exit strategy", mean: "出口戦略、撤退計画" },
+      { phrase: "emergency exit", mean: "非常口" },
+    ],
   },
   {
     word: "customs officer",
@@ -711,6 +746,10 @@ export const scene2Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "stress", pron: "ストレス", mean: "ストレス" },
       { word: "anxiety", pron: "アングザイエティ", mean: "不安" },
+    ],
+    idioms: [
+      { phrase: "heave a sigh of relief", mean: "ほっと息をつく" },
+      { phrase: "relief effort", mean: "救援活動" },
     ],
   },
 ];

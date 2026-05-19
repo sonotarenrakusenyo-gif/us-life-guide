@@ -69,6 +69,23 @@ export function WordCard({
           </div>
         )}
 
+        {item.idioms && item.idioms.length > 0 && (
+          <div className="mt-3">
+            <p className="mb-1.5 text-[11px] font-bold text-amber-600">熟語</p>
+            <div className="flex flex-col gap-1.5">
+              {item.idioms.map((idiom) => (
+                <div
+                  key={idiom.phrase}
+                  className="rounded-xl bg-amber-50 px-3 py-1.5 ring-1 ring-amber-200"
+                >
+                  <span className="text-xs font-semibold text-amber-800">{idiom.phrase}</span>
+                  <span className="ml-2 text-[11px] text-amber-700/80">{idiom.mean}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
         <div className="mt-3">
           <CopyButton
             text={item.word}

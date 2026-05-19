@@ -31,6 +31,9 @@ export const scene4Vocabulary: VocabularyItem[] = [
       { word: "fall asleep", pron: "フォール アスリープ", mean: "眠りにつく" },
       { word: "go to bed", pron: "ゴー トゥー ベッド", mean: "寝る" },
     ],
+    idioms: [
+      { phrase: "wake-up call", mean: "目覚まし電話；警鐘（危険に気づかせるもの）" },
+    ],
   },
   {
     word: "routine",
@@ -145,6 +148,10 @@ export const scene4Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "fill", pron: "フィル", mean: "満たす・たまる" },
     ],
+    idioms: [
+      { phrase: "down the drain", mean: "無駄になる、水の泡になる" },
+      { phrase: "brain drain", mean: "頭脳流出（優秀な人材が国外に流れること）" },
+    ],
   },
   {
     word: "clog",
@@ -174,6 +181,10 @@ export const scene4Vocabulary: VocabularyItem[] = [
       { word: "rubbish", pron: "ラビッシュ", mean: "ゴミ（英）" },
     ],
     antonyms: [],
+    idioms: [
+      { phrase: "garbage in, garbage out", mean: "品質の低い入力からは低品質な出力しか得られない" },
+      { phrase: "take out the garbage", mean: "ゴミを出す" },
+    ],
   },
   {
     word: "recycling",
@@ -226,6 +237,10 @@ export const scene4Vocabulary: VocabularyItem[] = [
       { word: "washing", pron: "ウォッシング", mean: "洗濯" },
     ],
     antonyms: [],
+    idioms: [
+      { phrase: "air one's dirty laundry", mean: "恥ずかしい秘密を人前でさらす" },
+      { phrase: "do the laundry", mean: "洗濯をする" },
+    ],
   },
   {
     word: "washer",
@@ -520,6 +535,11 @@ export const scene4Vocabulary: VocabularyItem[] = [
       { word: "order out", pron: "オーダー アウト", mean: "出前を頼む" },
       { word: "eat out", pron: "イート アウト", mean: "外食する" },
     ],
+    idioms: [
+      { phrase: "cook up", mean: "でっちあげる、考え出す" },
+      { phrase: "cook the books", mean: "帳簿を偽造する" },
+      { phrase: "what's cooking?", mean: "何があるの？どうしたの？（カジュアルな問いかけ）" },
+    ],
   },
   {
     word: "ingredient",
@@ -590,6 +610,10 @@ export const scene4Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "overspend", pron: "オーバースペンド", mean: "使いすぎる" },
     ],
+    idioms: [
+      { phrase: "on a budget", mean: "節約して、限られた予算で" },
+      { phrase: "budget for", mean: "〜の予算をあらかじめ確保しておく" },
+    ],
   },
   {
     word: "bill",
@@ -604,6 +628,10 @@ export const scene4Vocabulary: VocabularyItem[] = [
     ],
     antonyms: [
       { word: "refund", pron: "リファンド", mean: "返金" },
+    ],
+    idioms: [
+      { phrase: "foot the bill", mean: "支払いを引き受ける、費用を負担する" },
+      { phrase: "fit the bill", mean: "条件にぴったり合う、要件を満たす" },
     ],
   },
   {
@@ -648,6 +676,10 @@ export const scene4Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "apart", pron: "アパート", mean: "離れて" },
       { word: "separately", pron: "セパレートリー", mean: "別々に" },
+    ],
+    idioms: [
+      { phrase: "pull together", mean: "団結する、協力して乗り越える" },
+      { phrase: "get it together", mean: "ちゃんとやる、しっかりする" },
     ],
   },
 ];

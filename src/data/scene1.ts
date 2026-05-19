@@ -84,6 +84,10 @@ export const scene1Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "unlock", pron: "アンロック", mean: "鍵を開ける" },
     ],
+    idioms: [
+      { phrase: "lock in", mean: "〜を確定させる、固定する" },
+      { phrase: "lock out", mean: "〜を締め出す" },
+    ],
   },
   {
     word: "hurry",
@@ -98,6 +102,10 @@ export const scene1Vocabulary: VocabularyItem[] = [
     ],
     antonyms: [
       { word: "slow down", pron: "スロウ ダウン", mean: "ゆっくりする" },
+    ],
+    idioms: [
+      { phrase: "hurry up", mean: "早くして！急いで（相手を急かす）" },
+      { phrase: "in a hurry", mean: "急いで、慌てて" },
     ],
   },
   {
@@ -177,6 +185,9 @@ export const scene1Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "forget", pron: "フォーゲット", mean: "忘れる" },
     ],
+    idioms: [
+      { phrase: "remind A of B", mean: "AにBを思い出させる" },
+    ],
   },
   {
     word: "train",
@@ -192,6 +203,10 @@ export const scene1Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "car", pron: "カー", mean: "自動車" },
       { word: "bus", pron: "バス", mean: "バス" },
+    ],
+    idioms: [
+      { phrase: "train of thought", mean: "思考の流れ（考えの繋がり）" },
+      { phrase: "miss the train", mean: "電車に乗り遅れる、機を逃す" },
     ],
   },
   {
@@ -219,6 +234,10 @@ export const scene1Vocabulary: VocabularyItem[] = [
     ],
     antonyms: [
       { word: "local", pron: "ロウカル", mean: "各駅停車" },
+    ],
+    idioms: [
+      { phrase: "express yourself", mean: "自分を表現する" },
+      { phrase: "express delivery", mean: "速達、速配" },
     ],
   },
   {
@@ -263,6 +282,10 @@ export const scene1Vocabulary: VocabularyItem[] = [
       { word: "spot", pron: "スポット", mean: "場所" },
     ],
     antonyms: [],
+    idioms: [
+      { phrase: "take a back seat", mean: "一歩引く、控えに回る" },
+      { phrase: "in the driver's seat", mean: "主導権を握っている" },
+    ],
   },
   {
     word: "reserved",
@@ -379,6 +402,11 @@ export const scene1Vocabulary: VocabularyItem[] = [
       { word: "service", pron: "サービス", mean: "運行便" },
     ],
     antonyms: [],
+    idioms: [
+      { phrase: "take flight", mean: "逃げ出す、飛び立つ" },
+      { phrase: "flight of fancy", mean: "突拍子もない考え、空想" },
+      { phrase: "in-flight", mean: "機内の（in-flight meal で機内食）" },
+    ],
   },
   {
     word: "airline",
@@ -419,6 +447,10 @@ export const scene1Vocabulary: VocabularyItem[] = [
       { word: "service desk", pron: "サービス デスク", mean: "サービスカウンター" },
     ],
     antonyms: [],
+    idioms: [
+      { phrase: "over the counter", mean: "市販の、処方箋不要で買える" },
+      { phrase: "under the counter", mean: "こっそりと、非公式に" },
+    ],
   },
   {
     word: "confirmation",
@@ -574,6 +606,11 @@ export const scene1Vocabulary: VocabularyItem[] = [
       { word: "strap", pron: "ストラップ", mean: "ひも・バンド" },
     ],
     antonyms: [],
+    idioms: [
+      { phrase: "tighten one's belt", mean: "節約する、倹約する" },
+      { phrase: "below the belt", mean: "卑怯な、ルール違反な" },
+      { phrase: "belt out", mean: "大声で歌う" },
+    ],
   },
   {
     word: "laptop",
@@ -649,6 +686,10 @@ export const scene1Vocabulary: VocabularyItem[] = [
       { word: "on time", pron: "オン タイム", mean: "定刻通り" },
       { word: "early", pron: "アーリー", mean: "早い" },
     ],
+    idioms: [
+      { phrase: "without delay", mean: "遅滞なく、すぐに" },
+      { phrase: "delay tactics", mean: "引き延ばし戦術" },
+    ],
   },
   {
     word: "announcement",
@@ -690,6 +731,9 @@ export const scene1Vocabulary: VocabularyItem[] = [
     ],
     antonyms: [
       { word: "column", pron: "コラム", mean: "縦列" },
+    ],
+    idioms: [
+      { phrase: "in a row", mean: "連続して、立て続けに（3 wins in a row で3連勝）" },
     ],
   },
   {

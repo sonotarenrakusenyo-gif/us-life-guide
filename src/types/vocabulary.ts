@@ -4,6 +4,11 @@ export type RelatedWord = {
   mean: string;
 };
 
+export type Idiom = {
+  phrase: string;
+  mean: string;
+};
+
 export type VocabularyItem = {
   word: string;
   word_pron: string;
@@ -13,6 +18,7 @@ export type VocabularyItem = {
   sentence_jp: string;
   synonyms?: RelatedWord[];
   antonyms?: RelatedWord[];
+  idioms?: Idiom[];
 };
 
 export type Scene = {
