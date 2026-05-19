@@ -150,6 +150,10 @@ export const scene9Vocabulary: VocabularyItem[] = [
       { word: "stand out", pron: "スタンド アウト", mean: "目立つ" },
       { word: "feel out of place", pron: "フィール アウト オブ プレイス", mean: "場違いに感じる" },
     ],
+    idioms: [
+      { phrase: "fit in with", mean: "〜のグループに馴染む、溶け込む" },
+      { phrase: "fit in somewhere", mean: "どこかに馴染む" },
+    ],
   },
   {
     word: "right",
@@ -313,6 +317,10 @@ export const scene9Vocabulary: VocabularyItem[] = [
       { word: "custom", pron: "カスタム", mean: "慣習" },
     ],
     antonyms: [],
+    idioms: [
+      { phrase: "culture shock", mean: "カルチャーショック" },
+      { phrase: "culture clash", mean: "文化の衝突" },
+    ],
   },
   {
     word: "curious",
@@ -329,6 +337,10 @@ export const scene9Vocabulary: VocabularyItem[] = [
       { word: "indifferent", pron: "インディファレント", mean: "無関心な" },
       { word: "uninterested", pron: "アンインタレスティド", mean: "興味のない" },
     ],
+    idioms: [
+      { phrase: "be curious about", mean: "〜に興味を持つ、気になる" },
+      { phrase: "curiosity killed the cat", mean: "好奇心は身を滅ぼす" },
+    ],
   },
   {
     word: "compare",
@@ -342,6 +354,10 @@ export const scene9Vocabulary: VocabularyItem[] = [
       { word: "measure against", pron: "メジャー アゲインスト", mean: "〜と比べる" },
     ],
     antonyms: [],
+    idioms: [
+      { phrase: "compare notes", mean: "情報・意見を照らし合わせる" },
+      { phrase: "compare to", mean: "〜と比較する（類似点を探す）" },
+    ],
   },
   {
     word: "unique",
@@ -447,6 +463,10 @@ export const scene9Vocabulary: VocabularyItem[] = [
     ],
     antonyms: [
       { word: "enjoy", pron: "エンジョイ", mean: "楽しむ" },
+    ],
+    idioms: [
+      { phrase: "miss out on", mean: "〜を見逃す、〜の機会を逃す" },
+      { phrase: "miss the point", mean: "要点を外す、的外れになる" },
     ],
   },
   {
@@ -555,6 +575,10 @@ export const scene9Vocabulary: VocabularyItem[] = [
       { word: "omit", pron: "オウミット", mean: "省く" },
       { word: "leave out", pron: "リーヴ アウト", mean: "省略する" },
     ],
+    idioms: [
+      { phrase: "mention in passing", mean: "ついでに触れる、さりげなく言及する" },
+      { phrase: "worth mentioning", mean: "言及する価値がある" },
+    ],
   },
   {
     word: "similar",
@@ -655,6 +679,10 @@ export const scene9Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "take for granted", pron: "テイク フォー グランティド", mean: "当たり前と思う" },
     ],
+    idioms: [
+      { phrase: "appreciate the effort", mean: "努力を認める、労をいとわないことに感謝する" },
+      { phrase: "appreciate it", mean: "ありがたく思う、恩に感じる" },
+    ],
   },
   {
     word: "patient",
@@ -669,6 +697,10 @@ export const scene9Vocabulary: VocabularyItem[] = [
     ],
     antonyms: [
       { word: "impatient", pron: "インペイシェント", mean: "せっかちな" },
+    ],
+    idioms: [
+      { phrase: "be patient with", mean: "〜に辛抱する、〜に気長に付き合う" },
+      { phrase: "patient as a saint", mean: "聖人のような忍耐力がある" },
     ],
   },
   {
@@ -701,6 +733,10 @@ export const scene9Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "cry", pron: "クライ", mean: "泣く" },
       { word: "frown", pron: "フラウン", mean: "眉をひそめる" },
+    ],
+    idioms: [
+      { phrase: "laugh off", mean: "〜を笑い飛ばす" },
+      { phrase: "have the last laugh", mean: "最終的に勝つ、後で笑い者にしてやる" },
     ],
   },
   {
@@ -743,6 +779,10 @@ export const scene9Vocabulary: VocabularyItem[] = [
     ],
     antonyms: [
       { word: "drift apart", pron: "ドリフト アパート", mean: "疎遠になる" },
+    ],
+    idioms: [
+      { phrase: "bond over", mean: "〜を通じて仲良くなる、〜で意気投合する" },
+      { phrase: "bond with", mean: "〜と絆を結ぶ" },
     ],
   },
 ];

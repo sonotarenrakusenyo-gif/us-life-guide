@@ -31,6 +31,9 @@ export const scene7Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "basket", pron: "バスケット", mean: "買い物かご" },
     ],
+    idioms: [
+      { phrase: "put the cart before the horse", mean: "本末転倒にする、順番を間違える" },
+    ],
   },
   {
     word: "basket",
@@ -189,6 +192,10 @@ export const scene7Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "generic", pron: "ジェネリック", mean: "ノーブランドの" },
     ],
+    idioms: [
+      { phrase: "brand new", mean: "真新しい、全く新しい" },
+      { phrase: "brand name", mean: "ブランド名、著名ブランド" },
+    ],
   },
   {
     word: "frozen",
@@ -300,6 +307,10 @@ export const scene7Vocabulary: VocabularyItem[] = [
       { word: "sum", pron: "サム", mean: "合計" },
     ],
     antonyms: [],
+    idioms: [
+      { phrase: "in total", mean: "合計で、全部で" },
+      { phrase: "total loss", mean: "全損、完全な損失" },
+    ],
   },
   {
     word: "cash",
@@ -424,6 +435,10 @@ export const scene7Vocabulary: VocabularyItem[] = [
       { word: "dimension", pron: "ダイメンション", mean: "サイズ・寸法" },
     ],
     antonyms: [],
+    idioms: [
+      { phrase: "size up", mean: "〜を見極める、品定めする" },
+      { phrase: "one-size-fits-all", mean: "万人向けの、画一的な" },
+    ],
   },
   {
     word: "fit",
@@ -456,6 +471,10 @@ export const scene7Vocabulary: VocabularyItem[] = [
       { word: "too loose", pron: "トゥー ルース", mean: "ゆるすぎる" },
       { word: "perfect fit", pron: "パーフェクト フィット", mean: "ぴったり" },
     ],
+    idioms: [
+      { phrase: "fit in", mean: "馴染む、場に溶け込む" },
+      { phrase: "fit the bill", mean: "条件にぴったり合う" },
+    ],
   },
   {
     word: "too loose",
@@ -484,6 +503,10 @@ export const scene7Vocabulary: VocabularyItem[] = [
       { word: "look", pron: "ルック", mean: "見た目" },
     ],
     antonyms: [],
+    idioms: [
+      { phrase: "cramp someone's style", mean: "〜の邪魔をする、〜の足を引っ張る" },
+      { phrase: "style icon", mean: "ファッションの象徴、スタイルのお手本" },
+    ],
   },
   {
     word: "clearance",
@@ -514,6 +537,10 @@ export const scene7Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "surcharge", pron: "サーチャージ", mean: "追加料金" },
     ],
+    idioms: [
+      { phrase: "at a discount", mean: "割引価格で" },
+      { phrase: "discount store", mean: "ディスカウントストア、激安店" },
+    ],
   },
   {
     word: "tax",
@@ -528,6 +555,10 @@ export const scene7Vocabulary: VocabularyItem[] = [
     ],
     antonyms: [
       { word: "tax-free", pron: "タックス フリー", mean: "免税" },
+    ],
+    idioms: [
+      { phrase: "tax return", mean: "確定申告；税金還付" },
+      { phrase: "tax deduction", mean: "税控除、節税" },
     ],
   },
   {
@@ -544,6 +575,10 @@ export const scene7Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "keep", pron: "キープ", mean: "手元に置く" },
       { word: "buy", pron: "バイ", mean: "購入する" },
+    ],
+    idioms: [
+      { phrase: "return the favor", mean: "恩返しをする、お返しをする" },
+      { phrase: "return on investment", mean: "投資対効果（ROI）" },
     ],
   },
   {

@@ -77,6 +77,10 @@ export const scene10Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "found the way", pron: "ファウンド ザ ウェイ", mean: "道がわかった" },
     ],
+    idioms: [
+      { phrase: "get lost", mean: "道に迷う" },
+      { phrase: "lost cause", mean: "見込みのない状況、望みがないこと" },
+    ],
   },
   {
     word: "excuse me, how do I get to…?",
@@ -212,6 +216,10 @@ export const scene10Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "normal temperature", pron: "ノーマル テンパラチャー", mean: "平熱" },
     ],
+    idioms: [
+      { phrase: "fever pitch", mean: "熱狂の絶頂、最高潮" },
+      { phrase: "run a fever", mean: "熱を出す" },
+    ],
   },
   {
     word: "chills",
@@ -288,6 +296,10 @@ export const scene10Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "over-the-counter", pron: "オーバー ザ カウンター", mean: "市販薬" },
     ],
+    idioms: [
+      { phrase: "fill a prescription", mean: "処方箋に基づいて薬を受け取る" },
+      { phrase: "prescription drug", mean: "処方薬" },
+    ],
   },
   {
     word: "pharmacy",
@@ -312,6 +324,10 @@ export const scene10Vocabulary: VocabularyItem[] = [
       { word: "signs", pron: "サインズ", mean: "兆候" },
     ],
     antonyms: [],
+    idioms: [
+      { phrase: "symptoms of", mean: "〜の症状" },
+      { phrase: "show symptoms", mean: "症状を示す、症状が出る" },
+    ],
   },
   {
     word: "allergic to",
@@ -364,6 +380,10 @@ export const scene10Vocabulary: VocabularyItem[] = [
     ],
     antonyms: [
       { word: "non-emergency", pron: "ノン エマージェンシー", mean: "緊急ではない" },
+    ],
+    idioms: [
+      { phrase: "in an emergency", mean: "緊急時に、いざという時に" },
+      { phrase: "emergency exit", mean: "非常口" },
     ],
   },
   {
@@ -490,6 +510,10 @@ export const scene10Vocabulary: VocabularyItem[] = [
       { word: "working", pron: "ワーキング", mean: "動いている" },
       { word: "functional", pron: "ファンクショナル", mean: "正常に機能する" },
     ],
+    idioms: [
+      { phrase: "broken promise", mean: "破られた約束" },
+      { phrase: "broken English", mean: "片言の英語" },
+    ],
   },
   {
     word: "repair",
@@ -504,6 +528,10 @@ export const scene10Vocabulary: VocabularyItem[] = [
     ],
     antonyms: [
       { word: "break", pron: "ブレイク", mean: "壊す" },
+    ],
+    idioms: [
+      { phrase: "under repair", mean: "修理中" },
+      { phrase: "beyond repair", mean: "修復不可能な、手の施しようがない" },
     ],
   },
   {
@@ -572,6 +600,10 @@ export const scene10Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "charge", pron: "チャージ", mean: "請求する" },
     ],
+    idioms: [
+      { phrase: "issue a refund", mean: "返金を行う" },
+      { phrase: "full refund", mean: "全額返金" },
+    ],
   },
   {
     word: "complaint",
@@ -586,6 +618,10 @@ export const scene10Vocabulary: VocabularyItem[] = [
     ],
     antonyms: [
       { word: "compliment", pron: "コンプリメント", mean: "賞賛、褒め言葉" },
+    ],
+    idioms: [
+      { phrase: "file a complaint", mean: "苦情を申し立てる、クレームを入れる" },
+      { phrase: "without complaint", mean: "文句なしに、黙って" },
     ],
   },
   {
@@ -613,6 +649,10 @@ export const scene10Vocabulary: VocabularyItem[] = [
     ],
     antonyms: [
       { word: "understanding", pron: "アンダースタンディング", mean: "理解" },
+    ],
+    idioms: [
+      { phrase: "clear up a misunderstanding", mean: "誤解を解く" },
+      { phrase: "avoid a misunderstanding", mean: "誤解を避ける" },
     ],
   },
   {
@@ -720,6 +760,10 @@ export const scene10Vocabulary: VocabularyItem[] = [
     ],
     antonyms: [
       { word: "fall apart", pron: "フォール アパート", mean: "うまくいかない" },
+    ],
+    idioms: [
+      { phrase: "work out a plan", mean: "計画を立てる、解決策を練る" },
+      { phrase: "work out at the gym", mean: "ジムでトレーニングする" },
     ],
   },
 ];

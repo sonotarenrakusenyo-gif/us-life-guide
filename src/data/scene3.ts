@@ -181,7 +181,7 @@ export const scene3Vocabulary: VocabularyItem[] = [
     antonyms: [],
     idioms: [
       { phrase: "en route", mean: "途中で、〜へ向かう途中に" },
-      { phrase: "route cause", mean: "根本的な原因（\"root cause\" と同音、よく混同される）" },
+      { phrase: "take a different route", mean: "別のルートを通る" },
     ],
   },
   {

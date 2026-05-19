@@ -16,6 +16,10 @@ export const scene8Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "cancel", pron: "キャンセル", mean: "キャンセルする" },
     ],
+    idioms: [
+      { phrase: "book in advance", mean: "前もって予約する" },
+      { phrase: "book solid", mean: "予約でいっぱいの状態" },
+    ],
   },
   {
     word: "available",
@@ -78,6 +82,10 @@ export const scene8Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "book", pron: "ブック", mean: "予約する" },
       { word: "confirm", pron: "コンファーム", mean: "確認する" },
+    ],
+    idioms: [
+      { phrase: "cancel out", mean: "相殺する、打ち消し合う" },
+      { phrase: "cancel on someone", mean: "約束をドタキャンする" },
     ],
   },
   {
@@ -192,6 +200,10 @@ export const scene8Vocabulary: VocabularyItem[] = [
     ],
     antonyms: [
       { word: "apply", pron: "アプライ", mean: "塗る・つける" },
+    ],
+    idioms: [
+      { phrase: "remove all doubt", mean: "疑いを完全に払拭する" },
+      { phrase: "remove oneself from", mean: "〜から距離を置く、立ち去る" },
     ],
   },
   {
@@ -438,6 +450,10 @@ export const scene8Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "lightness", pron: "ライトネス", mean: "軽さ" },
     ],
+    idioms: [
+      { phrase: "under pressure", mean: "プレッシャーを受けて、重圧の下で" },
+      { phrase: "pressure someone into", mean: "〜するよう圧力をかける" },
+    ],
   },
   {
     word: "stronger",
@@ -485,6 +501,10 @@ export const scene8Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "relaxation", pron: "リラクセーション", mean: "リラックス" },
     ],
+    idioms: [
+      { phrase: "ease the tension", mean: "緊張を和らげる" },
+      { phrase: "tension between", mean: "〜間の緊張関係" },
+    ],
   },
   {
     word: "knot",
@@ -499,6 +519,10 @@ export const scene8Vocabulary: VocabularyItem[] = [
     ],
     antonyms: [
       { word: "loose muscle", pron: "ルース マッスル", mean: "緩んだ筋肉" },
+    ],
+    idioms: [
+      { phrase: "tie the knot", mean: "結婚する" },
+      { phrase: "stomach in knots", mean: "緊張でお腹がキリキリする" },
     ],
   },
   {
@@ -718,6 +742,10 @@ export const scene8Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "exhaust", pron: "イグゾースト", mean: "疲弊させる" },
     ],
+    idioms: [
+      { phrase: "refresh one's memory", mean: "記憶を呼び起こす、思い出す" },
+      { phrase: "refreshing change", mean: "気持ちのいい変化" },
+    ],
   },
   {
     word: "glow",
@@ -732,6 +760,10 @@ export const scene8Vocabulary: VocabularyItem[] = [
     ],
     antonyms: [
       { word: "dull", pron: "ダル", mean: "くすんでいる" },
+    ],
+    idioms: [
+      { phrase: "glow up", mean: "見違えるほど美しくなる、垢抜ける" },
+      { phrase: "inner glow", mean: "内側から溢れる輝き" },
     ],
   },
   {
@@ -748,6 +780,10 @@ export const scene8Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "criticize", pron: "クリティサイズ", mean: "批判する" },
       { word: "insult", pron: "インサルト", mean: "侮辱する" },
+    ],
+    idioms: [
+      { phrase: "pay someone a compliment", mean: "〜を褒める、お世辞を言う" },
+      { phrase: "compliment on", mean: "〜について褒める" },
     ],
   },
 ];

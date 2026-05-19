@@ -215,6 +215,10 @@ export const scene6Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "stay home", pron: "ステイ ホウム", mean: "家にいる" },
     ],
+    idioms: [
+      { phrase: "hang out with someone", mean: "〜と一緒に過ごす、つるむ" },
+      { phrase: "hang out somewhere", mean: "どこかでゆっくり過ごす" },
+    ],
   },
   {
     word: "grab",
@@ -229,6 +233,10 @@ export const scene6Vocabulary: VocabularyItem[] = [
     ],
     antonyms: [
       { word: "skip", pron: "スキップ", mean: "飛ばす・やめる" },
+    ],
+    idioms: [
+      { phrase: "grab a bite (to eat)", mean: "軽く何か食べる" },
+      { phrase: "grab someone's attention", mean: "〜の注意を引く" },
     ],
   },
   {
@@ -260,6 +268,10 @@ export const scene6Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "busy", pron: "ビジー", mean: "忙しい" },
       { word: "occupied", pron: "オキュパイド", mean: "手が離せない" },
+    ],
+    idioms: [
+      { phrase: "feel free to", mean: "遠慮なく〜する" },
+      { phrase: "free of charge", mean: "無料で、タダで" },
     ],
   },
   {
@@ -346,6 +358,10 @@ export const scene6Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "unfollow", pron: "アンフォロウ", mean: "フォローを外す" },
     ],
+    idioms: [
+      { phrase: "follow up", mean: "後日確認する、フォローアップする" },
+      { phrase: "follow through", mean: "最後までやり遂げる" },
+    ],
   },
   {
     word: "follow back",
@@ -403,6 +419,10 @@ export const scene6Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "keep to yourself", pron: "キープ トゥー ユアセルフ", mean: "自分だけで持っておく" },
     ],
+    idioms: [
+      { phrase: "exchange views", mean: "意見を交わす" },
+      { phrase: "in exchange for", mean: "〜と引き換えに" },
+    ],
   },
   {
     word: "add",
@@ -418,6 +438,10 @@ export const scene6Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "remove", pron: "リムーヴ", mean: "削除する" },
       { word: "block", pron: "ブロック", mean: "ブロックする" },
+    ],
+    idioms: [
+      { phrase: "add up", mean: "合計する；つじつまが合う" },
+      { phrase: "add to", mean: "〜を増やす、〜に加える" },
     ],
   },
   {
@@ -447,6 +471,10 @@ export const scene6Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "exclude", pron: "エクスクルード", mean: "除外する" },
     ],
+    idioms: [
+      { phrase: "invite someone over", mean: "家に人を招く" },
+      { phrase: "invite trouble", mean: "問題を自ら招く" },
+    ],
   },
   {
     word: "join",
@@ -462,6 +490,10 @@ export const scene6Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "leave", pron: "リーヴ", mean: "去る" },
       { word: "skip", pron: "スキップ", mean: "欠席する" },
+    ],
+    idioms: [
+      { phrase: "join forces", mean: "力を合わせる、協力する" },
+      { phrase: "join in", mean: "加わる、一緒に参加する" },
     ],
   },
   {
@@ -567,6 +599,10 @@ export const scene6Vocabulary: VocabularyItem[] = [
     ],
     antonyms: [
       { word: "cancel", pron: "キャンセル", mean: "キャンセルする" },
+    ],
+    idioms: [
+      { phrase: "order around", mean: "あれこれ命令する、こき使う" },
+      { phrase: "a tall order", mean: "難しい注文、無理難題" },
     ],
   },
   {
@@ -764,6 +800,10 @@ export const scene6Vocabulary: VocabularyItem[] = [
     antonyms: [
       { word: "stranger", pron: "ストレンジャー", mean: "見知らぬ人" },
       { word: "enemy", pron: "エネミー", mean: "敵" },
+    ],
+    idioms: [
+      { phrase: "make friends with", mean: "〜と友達になる" },
+      { phrase: "fair-weather friend", mean: "都合のいい時だけの友達" },
     ],
   },
 ];

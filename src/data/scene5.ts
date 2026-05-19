@@ -677,8 +677,8 @@ export const scene5Vocabulary: VocabularyItem[] = [
       { word: "relaxed", pron: "リラクスト", mean: "リラックスした" },
     ],
     idioms: [
-      { phrase: "get on one's nerves", mean: "神経に障る、いらいらさせる" },
-      { phrase: "bundle of nerves", mean: "とても緊張している人" },
+      { phrase: "nervous breakdown", mean: "神経衰弱" },
+      { phrase: "nervous wreck", mean: "ひどく緊張で消耗した人・状態" },
     ],
   },
   {
