@@ -9,6 +9,11 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "My husband's coworkers are having a casual get-together on Saturday.",
     sentence_pron: "マイ ハズバンズ コウワーカーズ アー ハヴィング ア キャジュアル ゲット トゥゲザー オン サタデイ",
     sentence_jp: "土曜日に夫の同僚たちのカジュアルな集まりがあります。",
+    grammar: {
+      form: "現在進行形で確定した未来の予定を表す",
+      explanation: "「are having」は現在進行形ですが、「今まさに集まりをしている」ではなく「土曜日に予定されている」という意味です。be going to との違いは、現在進行形はより「すでに計画・手配が完了した」感を持ちます。特に時間・場所・人物が決まっているイベントに使います。",
+      why: "土曜日の集まりはすでに決まっている予定として、現在進行形 are having が使われています。「will have」よりも「もう決まってる」感が強くなります。",
+    },
     synonyms: [
       { word: "gathering", pron: "ギャザリング", mean: "集まり" },
       { word: "meetup", pron: "ミートアップ", mean: "集まり" },
@@ -97,6 +102,11 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "I used to work in marketing back in Japan.",
     sentence_pron: "アイ ユーズド トゥー ワーク イン マーケティング バック イン ジャパン",
     sentence_jp: "日本ではマーケティングの仕事をしていました。",
+    grammar: {
+      form: "used to ＋ 動詞の原形（過去の習慣・状態）",
+      explanation: "「used to ＋ 動詞の原形」は「以前は（よく）〜していた、昔は〜だった」という意味で、現在はもうその習慣や状態がないことを示します。「would ＋ 動詞」も過去の習慣を表しますが、used to は状態動詞（be, live, know など）にも使えます。疑問文・否定文は「Did you use to…?」「I didn't use to…」の形になります。",
+      why: "日本でマーケティングをしていたのは過去のことで、今はもうその職では働いていない（生活が変わった）ことを表すため、used to が使われています。",
+    },
     synonyms: [
       { word: "formerly did", pron: "フォーマリー ディッド", mean: "以前は〜していた" },
       { word: "was accustomed to", pron: "ワズ アカスタムド トゥー", mean: "〜に慣れていた" },
@@ -267,6 +277,11 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "I had no idea you could surf here — I definitely want to try!",
     sentence_pron: "アイ ハド ノー アイディア ユー クッド サーフ ヒア アイ デフィニトリー ウォント トゥー トライ",
     sentence_jp: "ここでサーフィンができるとは全然知りませんでした。ぜひ試してみたいです！",
+    grammar: {
+      form: "I had no idea ＋ 名詞節（〜だとは知らなかった）",
+      explanation: "「I had no idea (that) ＋ 文」は「〜だとは全く知らなかった」という強調表現です。had no idea は knew nothing about の強調版で、名詞節の中の動詞は主節に合わせて過去形（could）になります（時制の一致）。「I didn't know you could surf」と同じ意味ですが、had no idea の方がより驚きと意外感が強くなります。",
+      why: "「ここでサーフィンできる（could surf）」という情報を全く知らなかったことへの驚きを強調するため、I had no idea という強調表現が使われています。",
+    },
     synonyms: [
       { word: "I didn't know", pron: "アイ ディドント ノウ", mean: "知りませんでした" },
       { word: "I wasn't aware", pron: "アイ ワズント アウェア", mean: "気づきませんでした" },
@@ -428,6 +443,11 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "Honestly speaking, the hardest part of moving here was the language barrier.",
     sentence_pron: "オネストリー スピーキング ザ ハーデスト パート オブ ムービング ヒア ワズ ザ ランゲッジ バリア",
     sentence_jp: "正直に言うと、こちらへの引っ越しで一番大変だったのは言葉の壁でした。",
+    grammar: {
+      form: "副詞 ＋ speaking（独立分詞構文）＋ the ＋ 最上級",
+      explanation: "「Honestly speaking（正直に言うと）」は独立分詞構文で、文全体を修飾する副詞的な表現です。同様に「Strictly speaking（厳密に言えば）」「Generally speaking（一般的に言えば）」があります。また「the hardest part」は「the ＋ 最上級」で「最も〜な部分」を表し、of の後に動名詞 moving が続きます。",
+      why: "「正直に言うと」という自分の本音を前置きする際に、慣用的な独立分詞構文の honestly speaking が使われています。また「最も大変だった部分」は the hardest part という最上級で表しています。",
+    },
     synonyms: [
       { word: "to be honest", pron: "トゥー ビー オネスト", mean: "正直なところ" },
       { word: "frankly", pron: "フランクリー", mean: "率直に言えば" },
@@ -658,6 +678,11 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "Your friends made me feel so welcome — I really appreciate that.",
     sentence_pron: "ユア フレンズ メイド ミー フィール ソー ウェルカム アイ リアリー アプリーシエイト ザット",
     sentence_jp: "あなたの友人たちがとても温かく迎えてくれました。本当にありがとう。",
+    grammar: {
+      form: "make ＋ O ＋ 動詞の原形（〜に…させる）",
+      explanation: "「make ＋ 目的語（O）＋ 動詞の原形」は「O に〜させる（気持ちを起こさせる）」という使役構文です。「made me feel welcome」＝「私を温かく感じさせた」。make の後の動詞には to は付けません（make me to feel は誤り）。同様に「let me do」「have someone do」も使役を表します。",
+      why: "友人たちの行動が「私に歓迎されている感覚を起こさせた」という原因と結果を表すため、make ＋ O ＋ 動詞原形 の使役構文が使われています。",
+    },
     synonyms: [
       { word: "feel at home", pron: "フィール アット ホウム", mean: "くつろいだ気持ちになる" },
     ],
@@ -672,6 +697,11 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "I really appreciate how patient everyone was with my English.",
     sentence_pron: "アイ リアリー アプリーシエイト ハウ ペイシェント エブリワン ワズ ウィズ マイ イングリッシュ",
     sentence_jp: "みんなが私の英語に気長に付き合ってくれたことを本当に感謝しています。",
+    grammar: {
+      form: "appreciate ＋ how ＋ 形容詞 ＋ 節（〜がいかに…かを感謝する）",
+      explanation: "「appreciate how ＋ 形容詞 ＋ 主語 ＋ 動詞」は「〜がいかに…かということを感謝する」という構文です。how は「どれほど（程度）」を表す疑問詞節を導きます。appreciate は「感謝する」だけでなく「〜の価値をよく理解する」の意味もあります。また appreciate の後には動名詞も取れます（I appreciate your helping）。",
+      why: "「みんながどれほど辛抱強く対応してくれたか」という程度・質に感謝していることを表すため、appreciate ＋ how ＋ 形容詞節 の構文が使われています。",
+    },
     synonyms: [
       { word: "be grateful for", pron: "ビー グレイトフル フォー", mean: "〜に感謝する" },
       { word: "value", pron: "ヴァリュー", mean: "大切にする" },
@@ -726,6 +756,11 @@ export const scene9Vocabulary: VocabularyItem[] = [
     sentence: "We laughed so much that night — I felt like I'd known them for years.",
     sentence_pron: "ウィー ラフト ソー マッチ ザット ナイト アイ フェルト ライク アイド ノウン ゼム フォー イヤーズ",
     sentence_jp: "その夜はみんなでたくさん笑いました。何年も前から知っている気がしました。",
+    grammar: {
+      form: "felt like ＋ 過去完了形（〜のような気がした）",
+      explanation: "「felt like ＋ 文」は「〜のような気がした」という表現。その後ろの「I'd known them for years（何年も知っていたかのよう）」は過去完了形（had ＋ 過去分詞）で、「（その夜の時点より）さらに前から知っていた」という仮想の期間を表しています。「I'd = I had」の短縮形です。",
+      why: "実際には初めて会ったのに、まるで何年も前から知っているような親しみを感じたという比喩的な感情を、過去完了形 I'd known を使って表現しています。",
+    },
     synonyms: [
       { word: "chuckle", pron: "チャックル", mean: "くすくす笑う" },
       { word: "giggle", pron: "ギグル", mean: "くすくす笑う" },

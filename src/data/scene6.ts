@@ -39,6 +39,11 @@ export const scene6Vocabulary: VocabularyItem[] = [
     sentence: "What's your name? I don't think we've met before.",
     sentence_pron: "ワッツ ユア ネーム アイ ドント シンク ウィーヴ メット ビフォー",
     sentence_jp: "お名前は？初めてお会いする気がしますが。",
+    grammar: {
+      form: "現在完了形 ＋ before（経験を表す）",
+      explanation: "「have ＋ 過去分詞 ＋ before」は「以前に〜したことがある（経験）」を表す現在完了形の用法です。「we've met before」＝「以前に会ったことがある」。否定「we haven't met before」＝「これまで一度も会ったことがない（初対面）」になります。",
+      why: "「（以前に）会ったことがあるか」という経験を問うため、過去形（did we meet?）ではなく現在完了形（have we met?）が使われています。",
+    },
     synonyms: [
       { word: "may I ask your name", pron: "メイ アイ アスク ユア ネーム", mean: "お名前をお聞きしてもよいですか" },
     ],
@@ -63,6 +68,11 @@ export const scene6Vocabulary: VocabularyItem[] = [
     sentence: "I'm from Tokyo, Japan — this is my first time living outside of Asia.",
     sentence_pron: "アイム フロム トウキョウ ジャパン ディス イズ マイ ファースト タイム リヴィング アウトサイド オブ エイジャ",
     sentence_jp: "東京の出身です。アジアの外で生活するのは初めてです。",
+    grammar: {
+      form: "This is my first time ＋ 動名詞（初めて〜する）",
+      explanation: "「This is my first time ＋ -ing」は「〜するのは初めてです」という定型表現です。-ing（動名詞）が「living outside of Asia（アジアの外で生活すること）」の内容を表します。「This is the first time I have lived…」と言うこともできますが、-ing形の方がシンプルで会話的です。",
+      why: "アジア以外で生活するのが今回初めてという経験を、this is my first time living で簡潔に表しています。",
+    },
     synonyms: [
       { word: "I come from", pron: "アイ カム フロム", mean: "〜の出身です" },
       { word: "I grew up in", pron: "アイ グルー アップ イン", mean: "〜で育ちました" },
@@ -133,6 +143,11 @@ export const scene6Vocabulary: VocabularyItem[] = [
     sentence: "Actually, I've been living in California for only two weeks!",
     sentence_pron: "アクチュアリー アイヴ ビン リヴィング イン カリフォルニア フォー オウンリー トゥー ウィークス",
     sentence_jp: "実はカリフォルニアにまだ2週間しかいないんです！",
+    grammar: {
+      form: "現在完了進行形（Present Perfect Continuous: have been ＋ -ing）",
+      explanation: "「have been ＋ 動詞のing形」は現在完了進行形。「過去に始まり、今もずっと続いている行動」を表します。「I've been living for two weeks」＝「2週間ずっと住み続けている（今も）」。単純な現在完了「I've lived」より「今も継続中」の感が強くなります。",
+      why: "2週間前に引っ越してきて、今もカリフォルニアに住み続けているという継続中の状態を表すために現在完了進行形が使われています。",
+    },
     synonyms: [
       { word: "in fact", pron: "イン ファクト", mean: "実際には" },
       { word: "to be honest", pron: "トゥー ビー オネスト", mean: "正直に言うと" },
@@ -412,6 +427,11 @@ export const scene6Vocabulary: VocabularyItem[] = [
     sentence: "We exchanged numbers so we could text about homework.",
     sentence_pron: "ウィー エクスチェンジド ナンバーズ ソー ウィー クッド テクスト アバウト ホウムワーク",
     sentence_jp: "宿題について連絡できるよう、電話番号を交換しました。",
+    grammar: {
+      form: "過去形 ＋ so ＋ could（過去の目的・意図）",
+      explanation: "「so ＋ could ＋ 動詞」は「〜できるように（するために）」という過去の目的を表します。主節が過去形（exchanged）のとき、目的節も過去形 could（can の過去形）になります。現在の話なら「so we can text」、未来の話なら「so we will be able to text」になります。",
+      why: "過去の行動（番号を交換した）の目的（連絡できるように）を表すため、so we could という過去形で目的節を構成しています。",
+    },
     synonyms: [
       { word: "swap", pron: "スワップ", mean: "交換する" },
       { word: "share", pron: "シェア", mean: "共有する" },
@@ -464,6 +484,11 @@ export const scene6Vocabulary: VocabularyItem[] = [
     sentence: "I invited her to join us for lunch and she said yes!",
     sentence_pron: "アイ インヴァイティド ハー トゥー ジョイン アス フォー ランチ アンド シー セッド イェス",
     sentence_jp: "ランチに一緒に来ないかと誘ったら、来てくれました！",
+    grammar: {
+      form: "invite ＋ O ＋ to ＋ 動詞の原形（人に〜するよう誘う）",
+      explanation: "「invite ＋ 人 ＋ to ＋ 動詞の原形」は「（人）に〜するよう招待・誘う」という構文です。ask, tell, want, allow なども同じパターン（動詞＋O＋to V）で使います。例：「I asked her to come」「He told me to wait」",
+      why: "「彼女にランチへの参加を誘った」を invite ＋ her（O）＋ to join（不定詞）という動詞パターンで表しています。",
+    },
     synonyms: [
       { word: "ask", pron: "アスク", mean: "誘う" },
       { word: "welcome", pron: "ウェルカム", mean: "歓迎する" },
@@ -483,6 +508,11 @@ export const scene6Vocabulary: VocabularyItem[] = [
     sentence: "Do you want to join us? We're heading to the café after class.",
     sentence_pron: "ドゥー ユー ウォント トゥー ジョイン アス ウィーア ヘディング トゥー ザ カフェ アフター クラス",
     sentence_jp: "一緒に来ない？授業の後カフェに行くんだけど。",
+    grammar: {
+      form: "現在進行形で近い未来の予定を伝える",
+      explanation: "「We're heading to the café」は現在進行形ですが、「今向かっている最中」ではなく「授業後に行く予定（確定）」を表しています。近い未来の具体的な計画は、will よりも現在進行形で表す方が自然で確定した感じが出ます。",
+      why: "授業後のカフェ行きはすでに決まっている計画なので、will go ではなく we're heading という現在進行形で表しています。",
+    },
     synonyms: [
       { word: "come along", pron: "カム アロング", mean: "一緒に来る" },
       { word: "participate", pron: "パーティシペイト", mean: "参加する" },
@@ -593,6 +623,11 @@ export const scene6Vocabulary: VocabularyItem[] = [
     sentence: "Have you ordered yet? I'll go up with you if you want.",
     sentence_pron: "ハヴ ユー オーダード イェット アイル ゴー アップ ウィズ ユー イフ ユー ウォント",
     sentence_jp: "もう注文した？よかったら一緒に行くよ。",
+    grammar: {
+      form: "現在完了形 ＋ yet（疑問文で「もう〜した？」）",
+      explanation: "「have ＋ 過去分詞 ＋ yet」は「もう〜しましたか？」という確認の疑問文。yet は疑問文では「もう（〜した？）」、否定文では「まだ（〜していない）」の意味。「Did you order?」は過去の一時点を聞きますが、「Have you ordered yet?」は今この時点での完了を確認するニュアンスです。",
+      why: "「（ちょうど今）もう注文は済んだか？」という今現在の状況を確認するため、過去形ではなく現在完了形 ＋ yet が使われています。",
+    },
     synonyms: [
       { word: "get", pron: "ゲット", mean: "頼む" },
       { word: "request", pron: "リクエスト", mean: "注文する" },
@@ -702,6 +737,11 @@ export const scene6Vocabulary: VocabularyItem[] = [
     sentence: "Asking about someone's hometown is a great way to break the ice.",
     sentence_pron: "アスキング アバウト サムワンズ ホウムタウン イズ ア グレイト ウェイ トゥー ブレイク ジ アイス",
     sentence_jp: "出身地を聞くのは場を和ませるのにとてもいい方法です。",
+    grammar: {
+      form: "動名詞を主語に ＋ a way to ＋ 動詞の原形",
+      explanation: "「Asking about...」のように動名詞（-ing形）を文の主語にすることで「〜することは…」という意味を作ります。また「a way to ＋ 動詞の原形」は「〜するための方法」という表現。合わせると「（出身地を聞くこと）は（場を和ませる）ための良い方法だ」という文になります。",
+      why: "「出身地を聞く」という行為そのものを主語にするため、動名詞 Asking が使われています。to ask と言い換えることもできますが、-ing の方がより一般的な習慣・傾向として述べるニュアンスが出ます。",
+    },
     synonyms: [
       { word: "warm up", pron: "ウォームアップ", mean: "打ち解ける" },
       { word: "get comfortable", pron: "ゲット カンフォータブル", mean: "くつろぐ" },
@@ -778,6 +818,11 @@ export const scene6Vocabulary: VocabularyItem[] = [
     sentence: "I can't wait — it's going to be so much fun!",
     sentence_pron: "アイ キャント ウェイト イッツ ゴーイング トゥー ビー ソー マッチ ファン",
     sentence_jp: "楽しみすぎる！すごく楽しくなりそう！",
+    grammar: {
+      form: "be going to（根拠のある未来の予測）",
+      explanation: "「be going to ＋ 動詞の原形」は未来を表しますが、「will」とは少し違うニュアンスがあります。「will」は意思・決定を表すのに対して、「be going to」は現在の状況や根拠に基づいた予測・すでに決まっている計画を表します。「it's going to be fun」＝「（この状況を見ると）絶対楽しくなるはず」というニュアンスです。",
+      why: "すでに一緒に行くことが決まっていて、楽しさを確信している状況なので、意思の will よりも根拠ある予測の be going to が自然です。",
+    },
     synonyms: [
       { word: "I'm excited", pron: "アイム エキサイティド", mean: "わくわくしてる" },
       { word: "looking forward to it", pron: "ルッキング フォーワード トゥー イット", mean: "楽しみにしている" },

@@ -24,6 +24,11 @@ export const scene10Vocabulary: VocabularyItem[] = [
     sentence: "I'm always misplacing my keys — I need one of those tracking tags.",
     sentence_pron: "アイム オールウェイズ ミスプレイシング マイ キーズ アイ ニード ワン オブ ゾウズ トラッキング タグズ",
     sentence_jp: "鍵をいつもどこかに置き忘れてしまいます。トラッキングタグが必要ですね。",
+    grammar: {
+      form: "always ＋ 現在進行形（イライラする習慣・繰り返し行動）",
+      explanation: "「always ＋ 現在進行形（am/is/are -ing）」は単なる習慣の説明ではなく、「いつも〜ばかりしている」というイライラや呆れのニュアンスを加えます。単純現在形「I always misplace my keys」は事実の列挙ですが、「I'm always misplacing」は「またやってしまった」という感情的なニュアンスが出ます。",
+      why: "鍵をどこかに置き忘れるというやっかいな繰り返し行動に対する呆れや苦笑いの感情を込めるため、always ＋ 現在進行形が使われています。",
+    },
     synonyms: [
       { word: "lose", pron: "ルーズ", mean: "なくす" },
       { word: "can't find", pron: "キャント ファインド", mean: "見つけられない" },
@@ -170,6 +175,11 @@ export const scene10Vocabulary: VocabularyItem[] = [
     sentence: "I'm not feeling well — I think I might have a cold.",
     sentence_pron: "アイム ナット フィーリング ウェル アイ シンク アイ マイト ハヴ ア コウルド",
     sentence_jp: "体調がよくありません。風邪かもしれません。",
+    grammar: {
+      form: "might ＋ 動詞の原形（〜かもしれない）",
+      explanation: "「might ＋ 動詞の原形」は「〜かもしれない」という可能性・推量を表す助動詞です。can, may, might の順番で確信度が下がります（could/might が最も不確か）。「I may have a cold（かもしれない）」より might の方がさらに不確実な感じが出ます。医師に症状を説明する際に、断定を避けて might を使うのが自然です。",
+      why: "風邪だと断定はできないが、その可能性があるという不確かな推量を表すため、might が使われています。",
+    },
     synonyms: [
       { word: "feeling sick", pron: "フィーリング シック", mean: "体の調子が悪い" },
       { word: "under the weather", pron: "アンダー ザ ウェザー", mean: "体調不良" },
@@ -336,6 +346,11 @@ export const scene10Vocabulary: VocabularyItem[] = [
     sentence: "Please note I'm allergic to penicillin — it's important for the doctor to know.",
     sentence_pron: "プリーズ ノウト アイム アラージック トゥー ペニシリン イッツ インポータント フォー ザ ダクター トゥー ノウ",
     sentence_jp: "ペニシリンアレルギーがあります。医者に伝えることが大切です。",
+    grammar: {
+      form: "It's ＋ 形容詞 ＋ for ＋ O ＋ to ＋ 動詞の原形（形式主語構文）",
+      explanation: "「It's ＋ 形容詞 ＋ for ＋ 人 ＋ to ＋ 動詞」は形式主語（It）を使った構文で、「（人）が〜するのは…だ」を表します。本当の主語は to 以下（to know = 知ること）で、It はその代わりをしています。「It is important for the doctor to know」＝「医者が知ることが重要だ」。",
+      why: "「医者が知る（to know）ことが大切だ」という内容を、自然な語順で表すため形式主語 It を使った It's important for ... to ... の構文が使われています。",
+    },
     synonyms: [
       { word: "have an allergy to", pron: "ハヴ アン アラジー トゥー", mean: "〜のアレルギーがある" },
     ],
@@ -419,6 +434,11 @@ export const scene10Vocabulary: VocabularyItem[] = [
     sentence: "We had to call a locksmith to get back into our house.",
     sentence_pron: "ウィー ハド トゥー コール ア ロックスミス トゥー ゲット バック イントゥー アワー ハウス",
     sentence_jp: "家に入るために鍵師を呼ばなければなりませんでした。",
+    grammar: {
+      form: "had to ＋ 動詞の原形（〜しなければならなかった）",
+      explanation: "「had to ＋ 動詞の原形」は「〜しなければならなかった（過去の義務・必要性）」を表します。must の過去形はないため、過去の必要性は had to で表します。現在形は「have to」（〜しなければならない）、未来は「will have to」（〜しなければならないだろう）になります。",
+      why: "鍵師を呼ぶことが唯一の選択肢だった（呼ばざるを得なかった）という過去の必要性を表すため、had to が使われています。",
+    },
     synonyms: [
       { word: "key technician", pron: "キー テクニシャン", mean: "鍵の専門家" },
     ],
@@ -522,6 +542,11 @@ export const scene10Vocabulary: VocabularyItem[] = [
     sentence: "Can you repair the leaking faucet? It's been dripping for days.",
     sentence_pron: "キャン ユー リペア ザ リーキング フォウセット イッツ ビン ドリッピング フォー デイズ",
     sentence_jp: "水道の蛇口を修理してもらえますか？何日も水が垂れているんです。",
+    grammar: {
+      form: "現在完了進行形（have been ＋ -ing ＋ for ＋ 期間）",
+      explanation: "「It's been dripping for days」の「has been ＋ -ing」は現在完了進行形で、「数日前から今もずっと（継続して）水が垂れている」という動作の継続を表します。for days（何日間も）がその期間を示します。完了形の「It has dripped」だと単に「垂れた」という事実になり、継続感が薄れます。",
+      why: "数日前からずっと今も水が垂れ続けているという動作の継続を強調するため、現在完了進行形 It's been dripping for days が使われています。",
+    },
     synonyms: [
       { word: "fix", pron: "フィックス", mean: "直す" },
       { word: "mend", pron: "メンド", mean: "修繕する" },
@@ -631,6 +656,11 @@ export const scene10Vocabulary: VocabularyItem[] = [
     sentence: "Could I speak to the manager? I've been waiting for over an hour.",
     sentence_pron: "クッダイ スピーク トゥー ザ マネージャー アイヴ ビン ウェイティング フォー オーバー アン アワー",
     sentence_jp: "責任者の方にお話しできますか？1時間以上待っています。",
+    grammar: {
+      form: "現在完了進行形（have been ＋ -ing ＋ for）で継続を伝える",
+      explanation: "「I've been waiting for over an hour」は現在完了進行形で「1時間以上ずっと待ち続けている（今も）」という継続中の動作を表します。for over an hour が継続の期間を示します。単純な「I waited for an hour」では「すでに終わった待機」のように聞こえますが、現在完了進行形にすることで「今この瞬間もまだ待っている」という切迫感が伝わります。",
+      why: "1時間以上待ち続けているという現在も続く状況と、それに対する不満を効果的に伝えるため、現在完了進行形 I've been waiting for over an hour が使われています。",
+    },
     synonyms: [
       { word: "talk to someone in charge", pron: "トーク トゥー サムワン イン チャージ", mean: "担当者に話す" },
     ],
@@ -643,6 +673,11 @@ export const scene10Vocabulary: VocabularyItem[] = [
     sentence: "There seems to be a misunderstanding — I ordered the chicken, not the steak.",
     sentence_pron: "ゼア シームズ トゥー ビー ア ミスアンダースタンディング アイ オーダード ザ チキン ナット ザ ステイク",
     sentence_jp: "誤解があるようです。ステーキではなくチキンを注文しました。",
+    grammar: {
+      form: "There seems to be ＋ 名詞（〜があるようです）",
+      explanation: "「There seems to be ＋ 名詞」は「〜があるようだ」という推量・婉曲表現です。「There is a misunderstanding（誤解がある）」と断言するより、「seems to be（〜のようだ）」を使うことで角が立たない穏やかな言い方になります。苦情を伝える際に直接的すぎず、礼儀を保つのに役立ちます。",
+      why: "誤解があることを断言して相手を責めるのではなく、「誤解があるようだ」と柔らかく伝えるため、There seems to be という婉曲表現が使われています。",
+    },
     synonyms: [
       { word: "mix-up", pron: "ミックスアップ", mean: "混乱・取り違え" },
       { word: "confusion", pron: "コンフュージョン", mean: "混乱" },
@@ -726,6 +761,11 @@ export const scene10Vocabulary: VocabularyItem[] = [
     sentence: "The internet connection keeps dropping — I need to call the provider.",
     sentence_pron: "ジ インターネット コネクション キープス ドロッピング アイ ニード トゥー コール ザ プロヴァイダー",
     sentence_jp: "インターネット接続が何度も切れます。プロバイダーに電話しないといけません。",
+    grammar: {
+      form: "keep ＋ -ing（〜し続ける、何度も〜する）",
+      explanation: "「keep ＋ 動名詞（-ing）」は「〜し続ける、（困ったことが）何度も繰り返し起きる」という意味の表現です。「keeps dropping」＝「（接続が）何度も切れ続ける」。イライラする繰り返しや困ったパターンを表すのに非常に便利な表現で、「keep ＋ -ing」の後ろには必ず動名詞が来ます（keep to do は誤り）。",
+      why: "インターネットが何度も繰り返し切断されるという厄介な繰り返し現象を表すため、keeps dropping という keep ＋ -ing の表現が使われています。",
+    },
     synonyms: [
       { word: "Wi-Fi", pron: "ワイファイ", mean: "ワイファイ" },
       { word: "network", pron: "ネットワーク", mean: "通信ネットワーク" },

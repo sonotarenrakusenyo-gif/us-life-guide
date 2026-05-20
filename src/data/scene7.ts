@@ -9,6 +9,11 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "I go to the grocery store twice a week to keep the fridge stocked.",
     sentence_pron: "アイ ゴー トゥー ザ グロウサリー ストア トゥワイス ア ウィーク トゥー キープ ザ フリッジ ストックト",
     sentence_jp: "冷蔵庫を補充するために週2回スーパーに行っています。",
+    grammar: {
+      form: "現在形（習慣）＋ to不定詞（目的）",
+      explanation: "「to ＋ 動詞の原形」は「〜するために」という目的を表します。主節の「I go（行く）」という現在形は毎週繰り返す習慣を表し、「to keep the fridge stocked（冷蔵庫を補充するために）」がその目的です。「so that I can keep...」と言い換えることもできますが、to-不定詞の方がシンプルです。",
+      why: "週2回行くという習慣と、その目的（冷蔵庫の補充）を簡潔に表すために現在形 ＋ to不定詞が使われています。",
+    },
     synonyms: [
       { word: "supermarket", pron: "スーパーマーケット", mean: "スーパーマーケット" },
       { word: "market", pron: "マーケット", mean: "市場" },
@@ -69,6 +74,11 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "The produce section is huge — I've never seen so many types of apples!",
     sentence_pron: "ザ プロデュース セクション イズ ヒュージ アイヴ ネヴァー シーン ソー メニー タイプス オブ アップルズ",
     sentence_jp: "農産物コーナーがとても広い！こんなにたくさんの種類のリンゴは見たことがない！",
+    grammar: {
+      form: "現在完了形 ＋ never（経験の否定）",
+      explanation: "「I've never ＋ 過去分詞」は「これまで一度も〜したことがない」という経験の否定を表す現在完了形です。「I never saw...」（過去形）では「ある特定の時点で見なかった」になりますが、「I've never seen...」は「今この瞬間を含む、今までの人生全体で一度も見たことがない」という意味になります。",
+      why: "こんなに多くの種類のリンゴを今まで一度も見たことがないという驚きを伝えるため、人生の経験全体にわたる現在完了 ＋ never が使われています。",
+    },
     synonyms: [
       { word: "vegetables", pron: "ヴェジタブルズ", mean: "野菜" },
       { word: "fresh food", pron: "フレッシュ フード", mean: "生鮮食品" },
@@ -170,6 +180,11 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "It's cheaper to buy in bulk at Costco than at a regular grocery store.",
     sentence_pron: "イッツ チーパー トゥー バイ イン バルク アット コストコ ザン アット ア レギュラー グロウサリー ストア",
     sentence_jp: "コストコでまとめ買いした方が普通のスーパーより安いです。",
+    grammar: {
+      form: "It's ＋ 比較級 ＋ to ＋ 動詞の原形 ＋ than（比較構文）",
+      explanation: "「It's ＋ 比較級（例: cheaper / easier / better）＋ to ＋ 動詞」は「〜する方が…だ」という比較構文です。It は仮主語で、本当の主語は「to buy in bulk（まとめ買いすること）」です。than 以下で比較対象を示します。",
+      why: "「コストコでまとめ買いする方が（普通のスーパーより）安い」という2つの行動を比較するために、It's cheaper to ... than ... の構文が使われています。",
+    },
     synonyms: [
       { word: "wholesale", pron: "ホウルセール", mean: "卸売り・大量購入" },
       { word: "large quantity", pron: "ラージ クォンティティ", mean: "大量" },
@@ -185,6 +200,11 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "I don't mind buying the store brand — it's just as good.",
     sentence_pron: "アイ ドント マインド バイイング ザ ストア ブランド イッツ ジャスト アズ グッド",
     sentence_jp: "プライベートブランドでも全然気にしません。品質は同じですよ。",
+    grammar: {
+      form: "don't mind ＋ -ing（〜しても気にしない）",
+      explanation: "「don't mind ＋ 動名詞（-ing形）」は「〜しても気にしない、かまわない」という表現です。mind は後ろに必ず動名詞（-ing）を取ります（mind to V はNG）。「Do you mind ＋ -ing?」で「〜してもらえますか？」という丁寧な依頼にもなります。",
+      why: "プライベートブランドを購入することを「気にしない」という意味で、mind ＋ buying という動名詞のパターンが使われています。",
+    },
     synonyms: [
       { word: "label", pron: "レイベル", mean: "ブランド・ラベル" },
       { word: "make", pron: "メイク", mean: "製造会社・銘柄" },
@@ -233,6 +253,11 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "Could you help me locate the tofu? I've checked every aisle.",
     sentence_pron: "クッジュー ヘルプ ミー ロウケイト ザ トウフー アイヴ チェクト エブリー アイル",
     sentence_jp: "豆腐の場所を探すのを手伝ってもらえますか？全ての通路を確認したんですが。",
+    grammar: {
+      form: "Could you help me ＋ 動詞の原形（丁寧な依頼）",
+      explanation: "「Could you ＋ 動詞?」は「〜していただけますか？」という丁寧な依頼の表現です。Can you より丁寧で、would you と同様に使えます。「help me ＋ 動詞の原形」は「私が〜するのを手伝ってください」という構文で、help の後の動詞に to は付けても付けなくてもOKです（help me find / help me to find）。",
+      why: "店員に助けを求める丁寧な場面なので、can の過去形 could を使った Could you help me...? という礼儀正しい依頼表現が使われています。",
+    },
     synonyms: [
       { word: "find", pron: "ファインド", mean: "見つける" },
       { word: "spot", pron: "スポット", mean: "見つける" },
@@ -390,6 +415,11 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "Keep your receipt in case you need to return anything.",
     sentence_pron: "キープ ユア リシート イン ケース ユー ニード トゥー リターン エニシング",
     sentence_jp: "返品が必要な場合に備えてレシートを取っておいてください。",
+    grammar: {
+      form: "in case ＋ 現在形（〜に備えて）",
+      explanation: "「in case ＋ 現在形」は「〜の場合に備えて、万が一〜したときのために」という意味の条件節です。「if」が「〜なら（してください）」という条件を表すのに対して、「in case」は「〜という事態に備えて（あらかじめしておく）」というニュアンスがあります。in case の後には現在形（will / would は使わない）を使います。",
+      why: "万が一返品が必要になったときのために「あらかじめレシートを取っておく」という備えの行動なので、if ではなく in case が使われています。",
+    },
     synonyms: [
       { word: "proof of purchase", pron: "プルーフ オブ パーチャス", mean: "購入証明" },
     ],
@@ -568,6 +598,11 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "I'd like to return this jacket — it doesn't fit my husband.",
     sentence_pron: "アイド ライク トゥー リターン ディス ジャケット イット ダズント フィット マイ ハズバンド",
     sentence_jp: "このジャケットを返品したいのですが。夫に合わないので。",
+    grammar: {
+      form: "I'd like to ＋ 動詞の原形（丁寧な希望の表現）",
+      explanation: "「I'd like to ＋ 動詞の原形」は「〜したいのですが」という丁寧な希望を表します。「I want to」より丁寧で、店員や初対面の相手に対して使うのに適しています。I'd は I would の短縮形で、would like は want の丁寧語にあたります。",
+      why: "店員に返品を申し出る丁寧な場面なので、I want to ではなく I'd like to という丁寧な表現が使われています。",
+    },
     synonyms: [
       { word: "bring back", pron: "ブリング バック", mean: "持ち帰る・返す" },
       { word: "give back", pron: "ギヴ バック", mean: "返す" },
@@ -722,6 +757,11 @@ export const scene7Vocabulary: VocabularyItem[] = [
     sentence: "The price tag had already been removed — that was a little confusing.",
     sentence_pron: "ザ プライス タッグ ハド オールレディ ビン リムーブド ザット ワズ ア リトル コンフューズィング",
     sentence_jp: "値札がすでに取り除かれていて、少し混乱しました。",
+    grammar: {
+      form: "過去完了受動態（had been ＋ 過去分詞）",
+      explanation: "「had been ＋ 過去分詞」は過去完了の受動態。「（私が見つけた時点より）さらに前にすでに〜されていた」という意味を表します。「The tag was removed（タグが取られた）」と「that was confusing（混乱した）」の2つの出来事のうち、タグの除去の方が先に起きていることを過去完了で表しています。",
+      why: "私が混乱した時点よりも前に値札がすでに取り除かれていたという「過去の中のさらに過去」の出来事を表すために、過去完了受動態 had been removed が使われています。",
+    },
     synonyms: [
       { word: "label", pron: "レイベル", mean: "ラベル・値札" },
       { word: "sticker", pron: "スティッカー", mean: "値段シール" },

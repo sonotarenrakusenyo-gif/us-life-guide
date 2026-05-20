@@ -194,6 +194,11 @@ export const scene8Vocabulary: VocabularyItem[] = [
     sentence: "Could you remove my old gel nails first before applying new ones?",
     sentence_pron: "クッジュー リムーブ マイ オウルド ジェル ネイルズ ファースト ビフォー アプライイング ニュー ワンズ",
     sentence_jp: "新しいネイルをする前に、古いジェルネイルをオフしてもらえますか？",
+    grammar: {
+      form: "before ＋ -ing（〜する前に）",
+      explanation: "「before ＋ 動名詞（-ing形）」は「〜する前に」という時間の順序を表す表現です。「before you apply new ones」と主語を入れてもOKですが、主語が同じ場合は「before ＋ -ing」でシンプルに表せます。同様に「after ＋ -ing」で「〜した後に」も表せます（例: after finishing）。",
+      why: "「新しいネイルを施術する前に」という順序を表すため、before ＋ applying という動名詞形が使われています。",
+    },
     synonyms: [
       { word: "take off", pron: "テイク オフ", mean: "取り除く" },
       { word: "soak off", pron: "ソーク オフ", mean: "浸して取り除く" },
@@ -283,6 +288,11 @@ export const scene8Vocabulary: VocabularyItem[] = [
     sentence: "Please keep the length — I'm growing my hair out.",
     sentence_pron: "プリーズ キープ ザ レングス アイム グロウイング マイ ヘア アウト",
     sentence_jp: "長さはキープしてください。伸ばしている最中なので。",
+    grammar: {
+      form: "現在進行形で継続中のプロセスを表す",
+      explanation: "「I'm growing my hair out」の現在進行形は、「今まさに進行中の継続的なプロセス」を表しています。「grow out」は「（髪を）伸ばし続ける」という句動詞。単純現在「I grow my hair out」では習慣的な事実のように聞こえますが、「I'm growing」は今まさに伸ばしている最中であることを強調します。",
+      why: "現在も髪を伸ばし続けているというプロセスが継続中であることを伝えるため、現在進行形が使われています。",
+    },
     synonyms: [
       { word: "maintain the length", pron: "メインテイン ザ レングス", mean: "長さを保つ" },
     ],
@@ -340,6 +350,11 @@ export const scene8Vocabulary: VocabularyItem[] = [
     sentence: "I'm thinking about adding some highlights around the face.",
     sentence_pron: "アイム シンキング アバウト アディング サム ハイライツ アラウンド ザ フェイス",
     sentence_jp: "顔まわりにハイライトを入れようかなと思っています。",
+    grammar: {
+      form: "be thinking about ＋ -ing（〜しようかと考えている）",
+      explanation: "「be thinking about ＋ 動名詞」は「〜しようかと考えている」という迷い・検討中の状態を表す表現です。「I think」（現在形）が一般的な意見を述べるのに対し、「I'm thinking」は「今まさに考えている最中」というニュアンスです。about の後ろには必ず -ing形（動名詞）が来ます。",
+      why: "ハイライトを入れるかどうか現在検討中であることを表すため、「I'm thinking about adding」という現在進行形 ＋ 動名詞の構造が使われています。",
+    },
     synonyms: [
       { word: "partial color", pron: "パーシャル カラー", mean: "部分染め" },
       { word: "streaks", pron: "ストリークス", mean: "メッシュカラー" },
@@ -430,6 +445,11 @@ export const scene8Vocabulary: VocabularyItem[] = [
     sentence: "I booked a sixty-minute massage to treat myself after a long week.",
     sentence_pron: "アイ ブックト ア シクスティ ミニット マサージ トゥー トリート マイセルフ アフター ア ロング ウィーク",
     sentence_jp: "長い一週間を頑張った自分へのご褒美に、60分のマッサージを予約しました。",
+    grammar: {
+      form: "to-不定詞（目的）＋ 再帰代名詞 myself",
+      explanation: "「to treat myself」の to 不定詞は「〜するために（目的）」を表します。「myself」は再帰代名詞で「自分自身を」という意味。「treat myself」は「自分を甘やかす・ご褒美をあげる」という定番フレーズです。「herself / himself / themselves」など主語に合わせて変化します。",
+      why: "自分へのご褒美としてマッサージを予約したという目的を to treat myself で表しています。myself が「自分自身を（もてなす）」という再帰的な意味を添えています。",
+    },
     synonyms: [
       { word: "bodywork", pron: "ボディワーク", mean: "ボディケア" },
       { word: "rub", pron: "ラブ", mean: "もみほぐし" },
@@ -532,6 +552,11 @@ export const scene8Vocabulary: VocabularyItem[] = [
     sentence: "I'd like a deep tissue massage — I've been really stiff lately.",
     sentence_pron: "アイド ライク ア ディープ ティッシュー マサージ アイヴ ビン リアリー スティフ レイトリー",
     sentence_jp: "ディープティッシュマッサージをお願いします。最近かなり体が硬くて。",
+    grammar: {
+      form: "現在完了形 ＋ lately（最近ずっと〜している）",
+      explanation: "「have been ＋ 形容詞 ＋ lately」は「最近（ずっと）〜な状態だ」という現在完了の状態継続を表します。lately は「最近、ここ最近」という意味で、現在完了形とよく一緒に使われます（recently も同様）。過去形の「I was stiff」では過去の一時点を指しますが、現在完了の「I've been stiff」は「今も続いている状態」を表します。",
+      why: "最近（最近から今に至るまで）ずっと体が硬い状態が続いていることを伝えるため、現在完了形 ＋ lately が使われています。",
+    },
     synonyms: [
       { word: "firm massage", pron: "ファーム マサージ", mean: "しっかりしたマッサージ" },
     ],
@@ -623,6 +648,11 @@ export const scene8Vocabulary: VocabularyItem[] = [
     sentence: "Let me know if the pressure is too strong or if you'd like me to adjust anything.",
     sentence_pron: "レット ミー ノウ イフ ザ プレッシャー イズ トゥー ストロング オア イフ ユード ライク ミー トゥー アジャスト エニシング",
     sentence_jp: "圧が強すぎたり、調整してほしいことがあれば教えてください。",
+    grammar: {
+      form: "Let me know if ＋ 現在形（〜なら教えて）",
+      explanation: "「Let me know if ＋ 現在形」は「〜の場合は教えてください」という表現です。if 節が条件（〜なら）を表し、その後ろには現在形を使います（if の後に will は使わない）。「Let me know」は「私に知らせて・教えて」という命令形で、丁寧な依頼のフレーズとして広く使われます。",
+      why: "「もし圧が強ければ」という仮定の条件を if ＋ 現在形（is）で表し、その場合は知らせてほしいというリクエストを Let me know で表しています。",
+    },
     synonyms: [
       { word: "tell me", pron: "テル ミー", mean: "教えて" },
       { word: "inform me", pron: "インフォーム ミー", mean: "知らせて" },
@@ -705,6 +735,11 @@ export const scene8Vocabulary: VocabularyItem[] = [
     sentence: "I try to pamper myself at least once a month — it's good for the soul.",
     sentence_pron: "アイ トライ トゥー パンパー マイセルフ アット リースト ワンス ア マンス イッツ グッド フォー ザ ソウル",
     sentence_jp: "少なくとも月に1回は自分を甘やかすようにしています。心の栄養になります。",
+    grammar: {
+      form: "try to ＋ 動詞（〜しようと心がける）",
+      explanation: "「try to ＋ 動詞の原形」は「〜しようとする、〜するよう心がける」という意味です。「try ＋ -ing」（〜してみる・試してみる）とは意味が異なります。例：「I tried calling（電話してみた）」vs「I tried to call（電話しようとした）」。try to の方が「意識的な努力・習慣」を表すのに適しています。",
+      why: "自分を甘やかすことを習慣にしようと意識的に取り組んでいる様子を表すため、試みや心がけを意味する try to が使われています。",
+    },
     synonyms: [
       { word: "treat yourself", pron: "トリート ユアセルフ", mean: "自分を甘やかす" },
       { word: "indulge", pron: "インダルジ", mean: "贅沢する" },
@@ -773,6 +808,11 @@ export const scene8Vocabulary: VocabularyItem[] = [
     sentence: "My husband complimented my new hair — it made all the effort worth it.",
     sentence_pron: "マイ ハズバンド コンプリメンティド マイ ニュー ヘア イット メイド オール ジ エフォート ワース イット",
     sentence_jp: "夫が新しい髪型を褒めてくれました。頑張った甲斐がありました。",
+    grammar: {
+      form: "make ＋ O ＋ 形容詞（〜を…にする）",
+      explanation: "「make ＋ 目的語（O）＋ 形容詞」は「O を〜の状態にする」という意味の構文です。「it made all the effort worth it」＝「それが全ての努力を worthwhile（価値あるもの）にした」。worth it（それだけの価値がある）が形容詞の役割を担っています。make は後ろに形容詞・名詞・原形不定詞など様々な形を取ります。",
+      why: "褒め言葉を受けたことが「全ての努力を価値あるものにした」という結果を make ＋ O ＋ worth it で表しています。",
+    },
     synonyms: [
       { word: "praise", pron: "プレイズ", mean: "褒める" },
       { word: "flatter", pron: "フラター", mean: "おだてる" },
