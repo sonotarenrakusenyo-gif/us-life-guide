@@ -34,6 +34,11 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "My husband is carrying the heavier suitcase today.",
     sentence_pron: "マイ ハズバンド イズ キャリイング ザ ヘビア スーツケース トゥデイ",
     sentence_jp: "今日は夫が重い方のスーツケースを持ってくれています。",
+    grammar: {
+      form: "現在進行形（Present Progressive）",
+      explanation: "「am/is/are ＋ 動詞のing形」の形。今まさに行われている動作を表します。単純現在形（carries）は「いつも持つ」という習慣を表しますが、現在進行形（is carrying）は「今この瞬間やっている」という一時的な動作です。",
+      why: "「今日この荷物を持ってくれている」という、この瞬間起きている行動を描写しているため現在進行形が使われています。「today」という言葉もそのニュアンスを補っています。",
+    },
     synonyms: [
       { word: "spouse", pron: "スパウス", mean: "配偶者" },
       { word: "partner", pron: "パートナー", mean: "パートナー" },
@@ -96,6 +101,11 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "We should hurry — our train to Narita leaves in twenty minutes.",
     sentence_pron: "ウィー シュッド ハリー アワー トレイン トゥー ナリタ リーヴズ イン トゥエンティ ミニッツ",
     sentence_jp: "急がないと。成田行きの電車、あと20分で出るわよ。",
+    grammar: {
+      form: "助動詞 should（提案・アドバイス）＋ 時刻表の現在形",
+      explanation: "「should ＋ 動詞の原形」は「〜した方がいい」という提案やアドバイス。must ほど強制ではなく、自然な勧めです。また「our train leaves in twenty minutes」は、電車の発車という確定したスケジュールを現在形（leaves）で表す「時刻表の現在形」。",
+      why: "急いだ方がいいと提案するのに should を使っています。さらに「電車が20分後に出る」はダイヤ（時刻表）に基づく事実なので、will ではなく現在形 leaves が自然です。",
+    },
     synonyms: [
       { word: "rush", pron: "ラッシュ", mean: "急ぐ" },
       { word: "speed up", pron: "スピード アップ", mean: "急速に進む" },
@@ -196,6 +206,11 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "We're taking the train to Narita Airport this morning.",
     sentence_pron: "ウィーア テイキング ザ トレイン トゥー ナリタ エアポート ディス モーニング",
     sentence_jp: "今朝は電車で成田空港に行きます。",
+    grammar: {
+      form: "現在進行形で近い未来の予定（Present Progressive for Future Plans）",
+      explanation: "現在進行形は「今していること」だけでなく、「すでに決まっている近い未来の予定」を表すことができます。「We're taking…」＝「乗ることになっている（予定済み）」。will を使った「We will take…」より、具体的に決まっているニュアンスが強くなります。",
+      why: "今朝の電車に乗ることはすでに決まった確定した計画なので、未来形 will よりも現在進行形で表す方が自然です。",
+    },
     synonyms: [
       { word: "subway", pron: "サブウェイ", mean: "地下鉄" },
       { word: "rail", pron: "レイル", mean: "鉄道" },
@@ -216,6 +231,11 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "The airport express leaves from platform number three.",
     sentence_pron: "ジ エアポート エクスプレス リーヴズ フロム プラットフォーム ナンバー スリー",
     sentence_jp: "空港快速は3番ホームから出ます。",
+    grammar: {
+      form: "時刻表の現在形（Simple Present for Timetables）",
+      explanation: "時刻表・発着スケジュールなど「決まっているルーティン」を表すとき、英語では will ではなく現在形を使います。「leaves」＝「（定時に）出発する」。日本語でも「電車は3番線から出ます」と現在形で言うのと同じ感覚です。",
+      why: "空港快速の発着はダイヤで決まった事実なので、未来形 will leave ではなく現在形 leaves が使われています。",
+    },
     synonyms: [
       { word: "track", pron: "トラック", mean: "線路、ホーム" },
     ],
@@ -277,6 +297,11 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Is this seat taken, or may I sit here?",
     sentence_pron: "イズ ディス シート テイクン オア メイ アイ シット ヒア",
     sentence_jp: "この席、空いていますか？ここに座ってもいいですか？",
+    grammar: {
+      form: "受動態（Passive Voice）＋ 助動詞 may（許可の依頼）",
+      explanation: "「is taken」は受動態（be動詞＋過去分詞）。「誰かに取られている状態」という意味です。また「may I〜?」は「〜してもいいですか？」と丁寧に許可を求める表現。Can I より改まった言い方です。",
+      why: "「席が（誰かに）取られているか？」という状態を受動態で表し、続いて「座ってもいいか？」と may で礼儀正しく許可を求めています。",
+    },
     synonyms: [
       { word: "chair", pron: "チェア", mean: "いす" },
       { word: "spot", pron: "スポット", mean: "場所" },
@@ -397,6 +422,11 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Our flight to Los Angeles boards in two hours.",
     sentence_pron: "アワー フライト トゥー ロサンゼルス ボーズ イン トゥー アワーズ",
     sentence_jp: "ロサンゼルス行きの便は、あと2時間で搭乗です。",
+    grammar: {
+      form: "時刻表の現在形（Simple Present for Scheduled Events）",
+      explanation: "「in two hours（2時間後に）」という未来の話なのに boards と現在形が使われています。これは確定しているスケジュール・時刻表を表す英語の慣習。「出発・到着・上映」などの予定事項によく使われます。",
+      why: "搭乗時刻は航空会社のスケジュールで確定しているため、will boards ではなく現在形 boards が自然です。",
+    },
     synonyms: [
       { word: "trip", pron: "トリップ", mean: "旅行" },
       { word: "service", pron: "サービス", mean: "運行便" },
@@ -415,6 +445,11 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Which airline are you flying with today?",
     sentence_pron: "ウィッチ エアライン アー ユー フライイング ウィズ トゥデイ",
     sentence_jp: "今日はどちらの航空会社を利用されますか？",
+    grammar: {
+      form: "現在進行形で未来の予定を聞く疑問文",
+      explanation: "「are you flying?」は今飛んでいるわけではなく、「今日乗る予定は？」と未来の予定を尋ねています。現在進行形は確定している近い未来の計画を表すため、「What will you fly?」より「are you flying?」の方が自然な会話表現です。",
+      why: "今日のフライトはもう決まっているはずなので、未来形 will より現在進行形で予定を確認しています。",
+    },
     synonyms: [
       { word: "carrier", pron: "キャリア", mean: "航空会社" },
       { word: "air carrier", pron: "エア キャリア", mean: "航空業者" },
@@ -487,6 +522,11 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "I'd like an aisle seat so I can stretch my legs.",
     sentence_pron: "アイド ライク アン アイル シート ソー アイ キャン ストレッチ マイ レッグズ",
     sentence_jp: "足を伸ばせるように、通路側の席がいいです。",
+    grammar: {
+      form: "I'd like〜（丁寧な要望）＋ so ＋ can（目的）",
+      explanation: "「I'd like」は「I would like」の短縮形。「I want」より丁寧な「〜が欲しいのですが・〜をお願いしたい」という表現です。後ろの「so I can〜」は「〜できるように」という目的を表します。",
+      why: "「I want」だと少しストレートすぎる要求に聞こえる場面で、「I'd like」を使うことで丁寧でソフトな依頼になっています。旅行・サービス業でよく使う表現です。",
+    },
     synonyms: [
       { word: "walkway", pron: "ウォークウェイ", mean: "通路" },
       { word: "corridor", pron: "コリドア", mean: "廊下" },
@@ -558,6 +598,11 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "All passengers must go through security screening.",
     sentence_pron: "オール パッセンジャーズ マスト ゴー スルー セキュリティ スクリーニング",
     sentence_jp: "すべての乗客は保安検査を受けなければなりません。",
+    grammar: {
+      form: "助動詞 must（義務・規則）",
+      explanation: "「must ＋ 動詞の原形」は「〜しなければならない」という強い義務や規則を表します。should（〜した方がいい）より強く、規則・法律・必須事項に使います。否定形「must not」は「〜してはいけない」という禁止を意味します。",
+      why: "空港の保安検査は全員が従うべき公式ルールなので、提案の should ではなく義務の must が使われています。",
+    },
     synonyms: [
       { word: "check", pron: "チェック", mean: "確認・検査" },
       { word: "inspection", pron: "インスペクション", mean: "検査" },
@@ -602,6 +647,11 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "I forgot to take off my belt and had to go back.",
     sentence_pron: "アイ フォーガット トゥー テイク オフ マイ ベルト アンド ハド トゥー ゴー バック",
     sentence_jp: "ベルトを外し忘れて、戻らなきゃいけなかったわ。",
+    grammar: {
+      form: "had to〜（過去の義務・必要性）",
+      explanation: "「have to ＋ 動詞の原形」は「〜しなければならない」という必要性を表します。must の過去形はないため、過去の義務・必要性は必ず「had to」を使います。「must go back」の過去形→「had to go back」。",
+      why: "「戻らなければならなかった」という過去の出来事を表しています。must に過去形はないので had to を使って表現しています。",
+    },
     synonyms: [
       { word: "strap", pron: "ストラップ", mean: "ひも・バンド" },
     ],
@@ -647,6 +697,11 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Boarding for our flight will begin at gate 42.",
     sentence_pron: "ボーディング フォー アワー フライト ウィル ビギン アット ゲート フォーティートゥー",
     sentence_jp: "私たちの便の搭乗は、42番ゲートから始まります。",
+    grammar: {
+      form: "未来形 will（予定・お知らせ）",
+      explanation: "「will ＋ 動詞の原形」は未来を表します。アナウンスや公式なお知らせでは、確定した予定でも will が使われることがあります。時刻表の現在形（boards）とは違い、will はやや改まった「お知らせ」のトーンを持ちます。",
+      why: "ゲートアナウンスなどの公式な告知では、will を使ってこれから起きることを宣言します。「will begin」でこれから搭乗開始することを知らせています。",
+    },
     synonyms: [
       { word: "embarking", pron: "エンバーキング", mean: "乗り込むこと" },
       { word: "getting on", pron: "ゲッティング オン", mean: "乗ること" },
@@ -678,6 +733,11 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "The flight is delayed by thirty minutes due to weather.",
     sentence_pron: "ザ フライト イズ ディレイド バイ サーティ ミニッツ デュー トゥー ウェザー",
     sentence_jp: "天候のため、便が30分遅れています。",
+    grammar: {
+      form: "受動態（Passive Voice）＋ by〜（原因・行為者）",
+      explanation: "「be動詞 ＋ 過去分詞」が受動態。「〜される・〜されている」という状態を表します。「is delayed」＝「遅延させられている＝遅延している」。能動態では「Weather delayed the flight」ですが、何かによって状態になっていることを強調する場合に受動態を使います。",
+      why: "「便が（天候によって）遅れさせられている」という状態を描写しています。by weather で「天候による」という原因も明示しています。",
+    },
     synonyms: [
       { word: "postponement", pron: "ポストポウンメント", mean: "延期" },
       { word: "setback", pron: "セットバック", mean: "遅れ・後退" },
@@ -711,6 +771,11 @@ export const scene1Vocabulary: VocabularyItem[] = [
     sentence: "Passengers with small children may line up first.",
     sentence_pron: "パッセンジャーズ ウィズ スモール チルドレン メイ ライン アップ ファースト",
     sentence_jp: "小さなお子さん連れの乗客は、先に並んでいただけます。",
+    grammar: {
+      form: "助動詞 may（許可）",
+      explanation: "「may ＋ 動詞の原形」は「〜してもよい」という許可を表します。Can も許可に使えますが、may はより正式・丁寧な場面でよく使われます。アナウンスや案内文など、公式な文書や放送でよく見かけます。",
+      why: "空港のアナウンスという公式な場面で、特定の乗客グループへの「許可・優先権付与」を伝えています。may を使うことで丁寧な案内のトーンになっています。",
+    },
     synonyms: [
       { word: "queue", pron: "キュー", mean: "列に並ぶ" },
       { word: "wait in line", pron: "ウェイト イン ライン", mean: "列で待つ" },

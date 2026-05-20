@@ -71,6 +71,11 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "I always see my husband off at the door before he leaves for work.",
     sentence_pron: "アイ オールウェイズ シー マイ ハズバンド オフ アット ザ ドア ビフォー ヒー リーヴズ フォー ワーク",
     sentence_jp: "夫が仕事に行く前、いつもドアのところで見送っています。",
+    grammar: {
+      form: "頻度の副詞 always（習慣・日課を表す現在形）",
+      explanation: "「always / usually / often / sometimes / never」などの頻度副詞は、習慣や繰り返しの行動を表す現在形と一緒に使います。「I always see」＝「いつも見送る」という日課を表します。副詞は一般動詞の前、be動詞や助動詞の後ろに置きます。",
+      why: "毎朝欠かさず行っている「夫を見送る」という日課を、always ＋ 現在形 see で表しています。",
+    },
     synonyms: [
       { word: "wave goodbye", pron: "ウェイブ グッバイ", mean: "手を振って見送る" },
       { word: "send off", pron: "センド オフ", mean: "送り出す" },
@@ -142,6 +147,11 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "The shower drain is clogged — water isn't draining.",
     sentence_pron: "ザ シャワー ドレイン イズ クロッグド ウォーター イズント ドレイニング",
     sentence_jp: "シャワーの排水口が詰まっています。水が流れません。",
+    grammar: {
+      form: "受動態（is clogged）＋ 現在進行形の否定（isn't draining）",
+      explanation: "「is clogged」は受動態（be ＋ 過去分詞）で「詰まらされた→詰まっている」という結果の状態。「isn't draining」は現在進行形の否定で「今まさに流れていない」という進行中の状態。どちらも今起きている問題を的確に表します。",
+      why: "排水口が詰まっている（状態）と、水が流れない（今この瞬間進行中の問題）を、それぞれ適切な形で表しています。",
+    },
     synonyms: [
       { word: "drainpipe", pron: "ドレインパイプ", mean: "排水管" },
     ],
@@ -306,6 +316,11 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "Summer here is hot — we'll definitely need the air conditioner.",
     sentence_pron: "サマー ヒア イズ ホット ウィール デフィニトリー ニード ジ エア コンディショナー",
     sentence_jp: "こちらの夏は暑いですね。エアコンは絶対必要です。",
+    grammar: {
+      form: "未来形 will ＋ 強調副詞 definitely",
+      explanation: "「will」だけで未来を表せますが、「definitely（絶対に・間違いなく）」を加えることで話者の確信や強調を表現できます。副詞は助動詞（will）と動詞の間に置きます。他にも「probably（たぶん）」「certainly（確かに）」など確信度の異なる副詞があります。",
+      why: "「夏が暑い」という明確な事実に基づいて、「絶対エアコンが必要になる」という強い確信を will definitely で表しています。",
+    },
     synonyms: [
       { word: "AC", pron: "エーシー", mean: "エアコン" },
       { word: "cooling system", pron: "クーリング システム", mean: "冷房システム" },
@@ -548,6 +563,11 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "I couldn't find some Japanese ingredients at the local store.",
     sentence_pron: "アイ クッドント ファインド サム ジャパニーズ イングリーディエンツ アット ザ ロウカル ストア",
     sentence_jp: "地元のお店では、日本の食材が見つかりませんでした。",
+    grammar: {
+      form: "助動詞 could の過去否定形（couldn't）",
+      explanation: "「could」は can の過去形。「couldn't（could not）＋ 動詞の原形」で「〜できなかった」という過去の不可能を表します。「I didn't find」（見つけなかった）との違いは、couldn't は「見つけようとしたが、できなかった」という試みの失敗のニュアンスがあります。",
+      why: "日本食材を探して買い物に行ったけど見つからなかった、という試みの失敗を couldn't find で表しています。",
+    },
     synonyms: [
       { word: "item", pron: "アイテム", mean: "品目" },
       { word: "component", pron: "コンポーネント", mean: "構成要素" },
@@ -561,6 +581,11 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "I feel a little homesick, especially when I smell Japanese food.",
     sentence_pron: "アイ フィール ア リトル ホウムシック エスペシャリー ウェン アイ スメル ジャパニーズ フード",
     sentence_jp: "日本食のにおいをかぐと、少しホームシックになります。",
+    grammar: {
+      form: "when ＋ 現在形（条件・習慣的な状況）",
+      explanation: "接続詞「when」の後ろの副詞節では、未来・習慣的なことでも will を使わず現在形を使います。「when I smell」＝「においをかぐとき（いつも）」という習慣的な状況を表します。これは「時の副詞節のルール」と同じです。",
+      why: "日本食のにおいをかいだときにいつもホームシックになるという習慣的な状況を、when ＋ 現在形 smell で表しています。",
+    },
     synonyms: [
       { word: "nostalgic", pron: "ノスタルジック", mean: "懐かしさを感じる" },
     ],
@@ -622,6 +647,11 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "The first utility bill arrived — electricity was higher than I expected.",
     sentence_pron: "ザ ファースト ユーティリティ ビル アライヴド エレクトリシティ ワズ ハイアー ザン アイ エクスペクティド",
     sentence_jp: "最初の光熱費の請求書が届きました。電気代が予想より高かったです。",
+    grammar: {
+      form: "比較級（-er than）＋ 過去形の節",
+      explanation: "「higher than I expected」は「私が予想していたよりも高い」という比較表現。「than」の後ろに「S ＋ V（過去形）」という節が来るパターンです。「expected（期待した・予想した）」は過去のことなので過去形。「than expected」と省略することもあります。",
+      why: "予想（過去に持っていた見通し）との比較をしているため、than の後ろも過去形 expected を使っています。",
+    },
     synonyms: [
       { word: "invoice", pron: "インヴォイス", mean: "請求書" },
       { word: "statement", pron: "ステイトメント", mean: "明細書" },
@@ -641,6 +671,11 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "Opening a bank account was one of my first tasks after arriving.",
     sentence_pron: "オープニング ア バンク アカウント ワズ ワン オブ マイ ファースト タスクス アフター アライヴィング",
     sentence_jp: "到着後の最初のやることの一つが、銀行口座の開設でした。",
+    grammar: {
+      form: "動名詞が主語（Gerund as Subject）＋ after ＋ 動名詞",
+      explanation: "動詞の -ing 形（動名詞）は文の主語になれます。「Opening a bank account」＝「銀行口座を開設すること」が主語。また「after arriving」は前置詞 after の後ろに動名詞が来る形で「到着した後に」という意味です。",
+      why: "「口座を開設すること（という行為全体）」を主語にするために動名詞を使っています。to不定詞でも「To open a bank account was…」と言えますが、動名詞の方がより自然です。",
+    },
     synonyms: [
       { word: "checking account", pron: "チェッキング アカウント", mean: "当座預金口座" },
       { word: "savings account", pron: "セイヴィングズ アカウント", mean: "普通預金口座" },
@@ -669,6 +704,11 @@ export const scene4Vocabulary: VocabularyItem[] = [
     sentence: "As long as we're together, we can handle anything.",
     sentence_pron: "アズ ロング アズ ウィーア トゥゲザー ウィー キャン ハンドル エニシング",
     sentence_jp: "二人一緒なら、どんなことでも乗り越えられます。",
+    grammar: {
+      form: "as long as ＋ 現在形（条件節）＋ can（能力・可能性）",
+      explanation: "「as long as ＋ 文」は「〜である限り（は）」という条件を表します。「if」より「その条件が続く間ずっと」という継続性が強いニュアンスです。後ろの「can handle」は「〜できる」という能力・可能性を表す can です。",
+      why: "「二人が一緒である限り（その条件が続く限り）何でも乗り越えられる」という継続的な条件と能力を as long as ＋ can で表しています。",
+    },
     synonyms: [
       { word: "side by side", pron: "サイド バイ サイド", mean: "並んで" },
       { word: "jointly", pron: "ジョイントリー", mean: "共同で" },

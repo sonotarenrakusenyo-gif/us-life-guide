@@ -9,6 +9,15 @@ export type Idiom = {
   mean: string;
 };
 
+export type Grammar = {
+  /** 文法の名前（例: "現在進行形"） */
+  form: string;
+  /** どういう文法で、いつ使うかの説明 */
+  explanation: string;
+  /** この例文でその文法が使われている理由 */
+  why: string;
+};
+
 export type VocabularyItem = {
   word: string;
   word_pron: string;
@@ -19,6 +28,7 @@ export type VocabularyItem = {
   synonyms?: RelatedWord[];
   antonyms?: RelatedWord[];
   idioms?: Idiom[];
+  grammar?: Grammar;
 };
 
 export type Scene = {

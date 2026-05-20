@@ -39,6 +39,11 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "Registration for spring classes opens next Monday.",
     sentence_pron: "レジストレーション フォー スプリング クラシズ オープンズ ネクスト マンデイ",
     sentence_jp: "春学期の授業の履修登録は次の月曜日から始まります。",
+    grammar: {
+      form: "時刻表・スケジュールの現在形（Simple Present for Scheduled Events）",
+      explanation: "「next Monday（来週の月曜日）」と未来のことを話しているのに、動詞は will open ではなく opens（現在形）。これは学校の時間割や公式スケジュールなど「確定している予定」を現在形で表す英語の慣習です。",
+      why: "学期の登録開始日は学校が公式に決めたスケジュールなので、未来形 will ではなく現在形 opens が自然です。",
+    },
     synonyms: [
       { word: "enrollment", pron: "エンロウルメント", mean: "入学登録" },
       { word: "sign-up", pron: "サイン アップ", mean: "申し込み" },
@@ -80,6 +85,11 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "Attending orientation helped me understand how the campus works.",
     sentence_pron: "アテンディング オリエンテーション ヘルプト ミー アンダスタンド ハウ ザ キャンパス ワークス",
     sentence_jp: "オリエンテーションに参加して、キャンパスの仕組みを理解できました。",
+    grammar: {
+      form: "動名詞が主語（Gerund as Subject）＋ help O （to）V",
+      explanation: "「Attending orientation」は動名詞（-ing形）が主語になった形。「参加すること」という行為全体が主語です。さらに「help ＋ O ＋ （to）動詞の原形」＝「O が〜するのを助ける」という構文。help の後ろは to なしの原形（または to ＋ 原形）が来ます。",
+      why: "「オリエンテーションへの参加（という行為）が、理解するのを助けた」という文構造を、動名詞主語 ＋ helped ＋ me ＋ understand で表しています。",
+    },
     synonyms: [
       { word: "induction", pron: "インダクション", mean: "入門ガイダンス" },
       { word: "introduction", pron: "イントロダクション", mean: "紹介・説明会" },
@@ -264,6 +274,11 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "If you're absent more than three times, your grade drops.",
     sentence_pron: "イフ ユーア アブセント モア ザン スリー タイムズ ユア グレイド ドロップス",
     sentence_jp: "3回以上欠席すると、成績が下がります。",
+    grammar: {
+      form: "ゼロ条件文（Zero Conditional: if ＋ 現在形、現在形）",
+      explanation: "「if ＋ 現在形、現在形」は「ゼロ条件文」と呼ばれ、「〜するといつも（必ず）〜になる」というルール・一般的事実を表します。「If you're absent → grade drops」は例外のない規則を表しています。仮定法（if ＋ were, would）とは異なります。",
+      why: "この授業のルールとして欠席すれば必ず成績が下がる、という変わらない事実を表すため、現在形 ＋ 現在形（ゼロ条件文）が使われています。",
+    },
     synonyms: [
       { word: "missing", pron: "ミッシング", mean: "いない・欠けている" },
       { word: "not present", pron: "ナット プレゼント", mean: "欠席の" },
@@ -306,6 +321,11 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "Can I get a campus map? I keep getting lost.",
     sentence_pron: "キャン アイ ゲット ア キャンパス マップ アイ キープ ゲッティング ロスト",
     sentence_jp: "キャンパスの地図をもらえますか？何度も道に迷ってしまって。",
+    grammar: {
+      form: "keep ＋ -ing（〜し続ける、何度も〜してしまう）",
+      explanation: "「keep ＋ 動名詞（-ing形）」は「〜し続ける」「何度も〜してしまう」という意味。「I keep getting lost」＝「何度も迷ってしまう（止まらない）」。意図せず繰り返してしまう、困ったことが続いているというニュアンスがあります。",
+      why: "意図せず何度も道に迷ってしまう、という繰り返しの困った状況を「keep getting lost」で表しています。",
+    },
     synonyms: [
       { word: "campus guide", pron: "キャンパス ガイド", mean: "キャンパス案内" },
     ],
@@ -395,6 +415,11 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "I took a placement test and was placed in an intermediate ESL class.",
     sentence_pron: "アイ トゥック ア プレイスメント テスト アンド ワズ プレイスト イン アン インターミーディエット イーエスエル クラス",
     sentence_jp: "クラス分けテストを受けて、中級のESLクラスに配置されました。",
+    grammar: {
+      form: "受動態の過去形（was ＋ 過去分詞）",
+      explanation: "「was placed」は受動態の過去形（be ＋ 過去分詞）。「（学校によって）配置された」という意味です。受動態は「誰が何をしたか」より「何が行われたか・結果の状態」に焦点を当てるときに使います。能動態は「The school placed me in…（学校が配置した）」。",
+      why: "テストの結果として「クラスに配置された」という受動的な出来事なので、was placed（受動態）が適切です。誰が配置したかより、どこに配置されたかが重要なため受動態が自然です。",
+    },
     synonyms: [
       { word: "assessment test", pron: "アセスメント テスト", mean: "能力測定テスト" },
       { word: "level test", pron: "レベル テスト", mean: "レベルテスト" },
@@ -437,6 +462,11 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "Expanding your vocabulary is key to understanding native speakers.",
     sentence_pron: "エクスパンディング ユア ヴォキャブラリー イズ キー トゥー アンダスタンディング ネイティヴ スピーカーズ",
     sentence_jp: "語彙を広げることが、ネイティブの話を理解する鍵です。",
+    grammar: {
+      form: "動名詞が主語 ＋ be key to ＋ 動名詞（〜の鍵である）",
+      explanation: "「be key to ＋ 動名詞」は「〜の鍵・重要な要素である」という表現。to の後ろは不定詞ではなく動名詞（-ing形）が来ます（be key to understanding）。文全体の主語も動名詞「Expanding your vocabulary（語彙を広げること）」です。",
+      why: "「語彙を広げること（行為全体）」を主語にし、「ネイティブを理解すること」への重要性を be key to で表しています。",
+    },
     synonyms: [
       { word: "words", pron: "ワーズ", mean: "単語・言葉" },
       { word: "lexicon", pron: "レキシコン", mean: "語彙リスト" },
@@ -721,6 +751,11 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "My professor said I've made great progress in just one month.",
     sentence_pron: "マイ プロフェサー セッド アイヴ メイド グレイト プログレス イン ジャスト ワン マンス",
     sentence_jp: "たった1ヶ月でとても上達したと教授に言われました。",
+    grammar: {
+      form: "現在完了形（Present Perfect: have ＋ 過去分詞）in reported speech",
+      explanation: "「I've made（＝ I have made）」は現在完了形で、「これまでに〜した（今も続く結果）」を表します。過去の一時点に完了したのではなく、「今この時点で、1ヶ月間の努力の成果がある」というニュアンスです。said の後ろの節でも、教授が言った時点でのその感覚を保つため現在完了を使っています。",
+      why: "「1ヶ月間で積み上げてきた進歩（その結果が今ある）」を表すため、過去形 made ではなく現在完了形 have made が選ばれています。",
+    },
     synonyms: [
       { word: "improvement", pron: "インプルーヴメント", mean: "改善・上達" },
       { word: "development", pron: "ディヴェロップメント", mean: "発展" },
@@ -741,6 +776,11 @@ export const scene5Vocabulary: VocabularyItem[] = [
     sentence: "Every challenge I face in class makes me stronger.",
     sentence_pron: "エブリー チャレンジ アイ フェイス イン クラス メイクス ミー ストロンガー",
     sentence_jp: "クラスで直面する難題が、私をより強くしてくれます。",
+    grammar: {
+      form: "関係代名詞の省略（Contact Clause）＋ make ＋ O ＋ 形容詞比較級",
+      explanation: "「challenge I face」は「challenge that I face」の that が省略された形（contact clause）。目的格の関係代名詞はカジュアルな英語でよく省略されます。また「make ＋ O ＋ 形容詞」は「O を〜な状態にする」という使役表現で、stronger（比較級）が使われています。",
+      why: "「直面するチャレンジ（毎回）が私を強くしてくれる」という習慣的真実を、関係代名詞省略の接触節 ＋ make ＋ O ＋ 比較級で表しています。",
+    },
     synonyms: [
       { word: "difficulty", pron: "ディフィカルティ", mean: "困難" },
       { word: "obstacle", pron: "オブスタクル", mean: "障害" },

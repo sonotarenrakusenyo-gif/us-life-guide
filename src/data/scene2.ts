@@ -8,6 +8,11 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Excuse me, could the flight attendant bring me some water?",
     sentence_pron: "エクスキューズ ミー クッド ザ フライト アテンダント ブリング ミー サム ウォーター",
     sentence_jp: "すみません、客室乗務員さんにお水を持ってきてもらえますか？",
+    grammar: {
+      form: "助動詞 could（丁寧な依頼）",
+      explanation: "「could ＋ 主語 ＋ 動詞の原形」で丁寧な依頼を表します。「can」より one step 上の丁寧さ。直接「Can you bring me water?」より、「Could you…?」または「Could [someone] do…?」の方が礼儀正しい表現になります。",
+      why: "機内という公式な場で、乗務員に頼む際に could を使って丁寧さを出しています。直接話しかけるより遠回しで礼儀正しいトーンです。",
+    },
     synonyms: [
       { word: "cabin crew", pron: "キャビン クルー", mean: "客室乗務員" },
       { word: "stewardess", pron: "スチュワーデス", mean: "スチュワーデス" },
@@ -42,6 +47,11 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Would you like a beverage? We have juice, water, and coffee.",
     sentence_pron: "ウッジュー ライク ア ベバリッジ ウィー ハヴ ジュース ウォーター アンド コフィー",
     sentence_jp: "お飲み物はいかがですか？ジュース、お水、コーヒーがございます。",
+    grammar: {
+      form: "Would you like〜?（丁寧な申し出・提案）",
+      explanation: "「Would you like〜?」は「〜はいかがですか？」という丁寧なオファー（提案・申し出）の表現です。「Do you want〜?」より格段に丁寧。接客・サービス業でほぼ必ず使われる定型フレーズです。「Would you like to〜?」は「〜しませんか？」と行動を提案する場合に使います。",
+      why: "乗客に飲み物を勧めるサービスの場面で、丁寧さを示すために Would you like を使っています。",
+    },
     synonyms: [
       { word: "drink", pron: "ドリンク", mean: "飲み物" },
       { word: "liquid", pron: "リキッド", mean: "液体" },
@@ -98,6 +108,11 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Please stay seated — we're experiencing some turbulence.",
     sentence_pron: "プリーズ ステイ スィーティド ウィーア エクスペリエンシング サム タービュランス",
     sentence_jp: "着席してください。現在、乱気流が発生しています。",
+    grammar: {
+      form: "現在進行形（今まさに起きていること）",
+      explanation: "「we're experiencing」は現在進行形。「今この瞬間、乱気流の中にいる」という状況を表します。「We experience turbulence」（単純現在）だと「いつも乱気流を経験する」という習慣の意味になってしまうため、進行中の一時的な状況には進行形が適切です。",
+      why: "今まさに揺れている最中であることをリアルタイムで伝えるため、現在進行形が使われています。",
+    },
     synonyms: [
       { word: "rough air", pron: "ラフ エア", mean: "荒れた気流" },
       { word: "bumps", pron: "バンプス", mean: "揺れ・でこぼこ" },
@@ -208,6 +223,11 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "We'll be starting our final descent and landing in about thirty minutes.",
     sentence_pron: "ウィール ビー スターティング アワー ファイナル ディセント アンド ランディング イン アバウト サーティ ミニッツ",
     sentence_jp: "あと約30分で最終降下に入り、着陸いたします。",
+    grammar: {
+      form: "未来進行形（Future Progressive: will be + -ing）",
+      explanation: "「will be ＋ 動詞のing形」で未来進行形。「〜している（予定）」という意味です。単純未来の「will start」より「自然な流れとしてその時点で進行中になる」というニュアンスを持ちます。アナウンスや公式な告知でよく使われます。",
+      why: "着陸開始が自然な流れで進行していく、という滑らかなプロセスを表すために未来進行形が使われています。「will start」より穏やかで自然なアナウンスのトーンになります。",
+    },
     synonyms: [
       { word: "touchdown", pron: "タッチダウン", mean: "着地" },
       { word: "arrival", pron: "アライバル", mean: "到着" },
@@ -254,6 +274,11 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "The officer asked me how long I planned to stay.",
     sentence_pron: "ジ オフィサー アスクト ミー ハウ ロング アイ プランド トゥー ステイ",
     sentence_jp: "審査官に、どのくらい滞在する予定かを聞かれました。",
+    grammar: {
+      form: "間接話法（Reported Speech）＋時制の一致",
+      explanation: "「ask + 人 + 疑問詞節」の形が間接話法です。元の質問「How long do you plan to stay?」を過去に報告するとき、動詞が過去形にシフトします：do → did、plan → planned。これを「時制の一致（Sequence of Tenses）」と言います。",
+      why: "「審査官が過去に聞いた」内容を報告しているので、asked（過去形）に合わせて節内の動詞も planned と過去形になっています。",
+    },
     synonyms: [
       { word: "agent", pron: "エイジェント", mean: "係員・担当者" },
       { word: "official", pron: "オフィシャル", mean: "公務員・役人" },
@@ -286,6 +311,11 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "I'm here to visit my husband who lives in California.",
     sentence_pron: "アイム ヒア トゥー ヴィジット マイ ハズバンド フー リヴズ イン カリフォルニア",
     sentence_jp: "カリフォルニアに住む夫に会いに来ました。",
+    grammar: {
+      form: "関係代名詞 who（人を修飾）＋ 不定詞の目的（to-infinitive）",
+      explanation: "「who lives in California」は関係代名詞節。「who」は前の名詞（my husband）を修飾し、「カリフォルニアに住んでいる夫」という意味です。また文頭の「I'm here to visit」の「to visit」は目的を表す不定詞で「〜しに来た」という意味です。",
+      why: "「誰に会いに来たか」を to visit で目的を示し、「その夫がどこに住んでいるか」を who で補足説明しています。",
+    },
     synonyms: [
       { word: "trip", pron: "トリップ", mean: "旅行" },
       { word: "stay", pron: "ステイ", mean: "滞在" },
@@ -524,6 +554,11 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Our bags should come out on carousel number four.",
     sentence_pron: "アワー バッグズ シュッド カム アウト オン キャルーセル ナンバー フォー",
     sentence_jp: "荷物は4番のターンテーブルから出てくるはずです。",
+    grammar: {
+      form: "助動詞 should（期待・予測）",
+      explanation: "「should」には「〜した方がいい（提案）」以外に、「〜のはずだ（期待・論理的推測）」という意味があります。今回は「アナウンスや情報から考えて、そこから出てくるはず」という予測です。「must」より確実性は低く、「maybe」より高い予測です。",
+      why: "アナウンスで4番と聞いているので「そこから出てくるはず」という根拠ある予測を should で表現しています。",
+    },
     synonyms: [
       { word: "conveyor belt", pron: "コンヴェイアー ベルト", mean: "ベルトコンベヤー" },
       { word: "baggage belt", pron: "バゲッジ ベルト", mean: "荷物ベルト" },
@@ -622,6 +657,11 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Keep your baggage receipt in case your luggage gets lost.",
     sentence_pron: "キープ ユア バゲッジ リシート イン ケース ユア ラゲッジ ゲッツ ロスト",
     sentence_jp: "荷物が紛失した場合に備えて、手荷物引換証を保管しておいてください。",
+    grammar: {
+      form: "in case ＋ 現在形（〜に備えて）",
+      explanation: "「in case ＋ 主語 ＋ 現在形」は「〜した場合に備えて」という表現。未来のことでも現在形を使うのがポイントです（「in case it will get lost」は誤り）。「if」とは違い、「あらかじめ備える」というニュアンスがあります。",
+      why: "「万が一荷物が紛失した時に備えてレシートを保管する」という事前準備の意味で in case が使われています。「if it gets lost」だと「失くしたら（その時）」という条件になります。",
+    },
     synonyms: [
       { word: "claim ticket", pron: "クレイム ティケット", mean: "引換券" },
     ],
@@ -726,6 +766,11 @@ export const scene2Vocabulary: VocabularyItem[] = [
     sentence: "Please collect all your personal belongings before leaving the plane.",
     sentence_pron: "プリーズ コレクト オール ユア パーソナル ビロングングズ ビフォー リービング ザ プレイン",
     sentence_jp: "飛行機を降りる前に、お忘れ物のないようにご確認ください。",
+    grammar: {
+      form: "前置詞 before ＋ 動名詞（-ing形）",
+      explanation: "前置詞（before / after / without など）の後ろには動詞の原形ではなく、動名詞（-ing形）が来ます。「before leaving」＝「降りる前に」。「before you leave」のように節にすることもできますが、主語が同じ時は動名詞の方がよりシンプルです。",
+      why: "「飛行機を降りるという動作の前に」という意味を、前置詞 before ＋ 動名詞 leaving で表しています。",
+    },
     synonyms: [
       { word: "possessions", pron: "ポゼッションズ", mean: "所有物" },
       { word: "items", pron: "アイテムズ", mean: "持ち物" },

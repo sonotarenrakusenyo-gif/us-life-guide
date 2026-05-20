@@ -1,6 +1,6 @@
 "use client";
 
-import type { RelatedWord, VocabularyItem } from "@/types/vocabulary";
+import type { Grammar, RelatedWord, VocabularyItem } from "@/types/vocabulary";
 import { AudioButton } from "./AudioButton";
 import { CopyButton } from "./CopyButton";
 
@@ -115,6 +115,9 @@ export function WordCard({
         <p className="mt-2 text-sm leading-relaxed text-sky-700/90">
           {item.sentence_pron}
         </p>
+
+        {item.grammar && <GrammarNote grammar={item.grammar} />}
+
         <div className="mt-3">
           <CopyButton
             text={item.sentence}
@@ -126,6 +129,25 @@ export function WordCard({
         </div>
       </div>
     </article>
+  );
+}
+
+function GrammarNote({ grammar }: { grammar: Grammar }) {
+  return (
+    <div className="mt-3 rounded-xl bg-emerald-50 px-3 py-2.5 ring-1 ring-emerald-200">
+      <div className="mb-1 flex items-center gap-1.5">
+        <span className="text-[10px] font-bold uppercase tracking-wide text-emerald-600">
+          文法ポイント
+        </span>
+        <span className="rounded-full bg-emerald-100 px-2 py-0.5 text-[11px] font-bold text-emerald-700">
+          {grammar.form}
+        </span>
+      </div>
+      <p className="text-[12px] leading-relaxed text-emerald-800">{grammar.explanation}</p>
+      <p className="mt-1.5 text-[11px] leading-relaxed text-emerald-700/80">
+        💡 {grammar.why}
+      </p>
+    </div>
   );
 }
 

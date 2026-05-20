@@ -23,6 +23,11 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "I requested a ride on Uber — the driver is five minutes away.",
     sentence_pron: "アイ リクエスティド ア ライド オン ウーバー ザ ドライバー イズ ファイブ ミニッツ アウェイ",
     sentence_jp: "Uberに乗車をリクエストしました。ドライバーはあと5分のところにいます。",
+    grammar: {
+      form: "過去形（行動の完了）＋ 現在形（現在の状態）",
+      explanation: "文の前半「I requested」は過去形で、「リクエストした（完了した行動）」。後半「the driver is five minutes away」は現在形で、「今この瞬間の状態」を表します。英語では1つの文でも時制を使い分けて、完了した行動と今の状態を区別します。",
+      why: "リクエストという過去に完了した行動と、ドライバーが近くにいるという現在進行中の状態を、それぞれ正しい時制で表しています。",
+    },
     synonyms: [
       { word: "order", pron: "オーダー", mean: "注文する" },
       { word: "book", pron: "ブック", mean: "予約する" },
@@ -158,6 +163,11 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "Confirm your destination on the app before the driver starts.",
     sentence_pron: "コンファーム ユア デスティネーション オン ザ アップ ビフォー ザ ドライバー スターツ",
     sentence_jp: "ドライバーが出発する前に、アプリで目的地を確認してください。",
+    grammar: {
+      form: "命令文 ＋ before ＋ 現在形（時を表す副詞節）",
+      explanation: "「before / after / when / until」などで始まる時の副詞節では、未来のことでも will は使わず現在形を使います。「before the driver starts」は「ドライバーが出発する前に」で、starts は現在形（will start ではない）。",
+      why: "「ドライバーが出発する前に（確認して）」という時の関係を表す節で、未来を表す will ではなく現在形 starts が正しい英語です。",
+    },
     synonyms: [
       { word: "verify", pron: "ヴェリファイ", mean: "確認する" },
       { word: "check", pron: "チェック", mean: "確認する" },
@@ -174,6 +184,11 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "The driver took a different route to avoid the traffic jam.",
     sentence_pron: "ザ ドライバー トゥック ア ディファレント ルート トゥー アボイド ザ トラフィック ジャム",
     sentence_jp: "ドライバーは渋滞を避けるために別のルートを通りました。",
+    grammar: {
+      form: "不定詞の目的（to-infinitive of purpose）",
+      explanation: "「to ＋ 動詞の原形」は目的を表します。「to avoid the traffic jam」＝「渋滞を避けるために」。「in order to」と同じ意味ですが、日常会話では短い「to〜」が自然です。",
+      why: "別のルートを取った「理由・目的」が渋滞を避けることなので、目的を表す不定詞 to avoid を使っています。",
+    },
     synonyms: [
       { word: "path", pron: "パス", mean: "道・経路" },
       { word: "way", pron: "ウェイ", mean: "道" },
@@ -191,6 +206,11 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "The navigation app says we'll arrive in about twenty minutes.",
     sentence_pron: "ザ ナビゲーション アップ セズ ウィール アライヴ イン アバウト トゥエンティ ミニッツ",
     sentence_jp: "ナビアプリによると、約20分で到着するようです。",
+    grammar: {
+      form: "間接話法（Reported Speech）＋ 現在主節での時制の保持",
+      explanation: "「says（現在形）＋ that節」は間接話法。主節が現在形（says）のときは、that節内の時制はそのままにできます。「we'll arrive」は未来形のまま。過去形（said）の場合は「we would arrive」に変わります。",
+      why: "ナビアプリが「今この瞬間も言っている（says）」ため現在形が使われており、節内の未来形 will もそのまま維持されています。",
+    },
     synonyms: [
       { word: "GPS", pron: "ジーピーエス", mean: "GPSナビ" },
       { word: "directions", pron: "ダイレクションズ", mean: "道案内" },
@@ -416,6 +436,11 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "We signed a one-year lease before flying to America.",
     sentence_pron: "ウィー サインド ア ワン イヤー リース ビフォー フライイング トゥー アメリカ",
     sentence_jp: "アメリカに飛ぶ前に、1年間の賃貸契約を結びました。",
+    grammar: {
+      form: "before ＋ 動名詞（-ing形）",
+      explanation: "「before / after / without」などの前置詞の後には節（S＋V）ではなく動名詞（-ing形）が来ます。「before flying」＝「飛ぶ前に」。「before we flew」という節の形もOKですが、主語が同じ場合は動名詞を使う方が簡潔です。",
+      why: "「アメリカに飛ぶ前に（契約した）」という時の順序を、before ＋ 動名詞 flying で表しています。",
+    },
     synonyms: [
       { word: "rental agreement", pron: "レンタル アグリーメント", mean: "賃貸契約" },
       { word: "contract", pron: "コントラクト", mean: "契約書" },
@@ -523,6 +548,11 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "It'll take a few weeks to fully settle in, but we're happy.",
     sentence_pron: "イトル テイク ア フュー ウィークス トゥー フリー セトル イン バット ウィーア ハッピー",
     sentence_jp: "完全に落ち着くまでに数週間かかるけど、楽しいです。",
+    grammar: {
+      form: "It takes ＋ 時間 ＋ to do〜（〜するのに時間がかかる）",
+      explanation: "「It takes ＋ 時間 ＋ to 動詞」は「〜するのに（時間が）かかる」という表現の定型文。「It」は仮の主語（形式主語）で、真の主語は to以下です。「It'll take」＝「It will take」の短縮形で未来形。",
+      why: "「完全に落ち着くには数週間かかる（だろう）」という未来の見通しを表すため、It'll take〜 to settle in という構造を使っています。",
+    },
     synonyms: [
       { word: "get comfortable", pron: "ゲット カンフォータブル", mean: "慣れる" },
       { word: "adjust", pron: "アジャスト", mean: "適応する" },
@@ -577,6 +607,11 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "Our neighbor next door waved and said hello as we moved in.",
     sentence_pron: "アワー ネイバー ネクスト ドア ウェイブド アンド セッド ヘロウ アズ ウィー ムーブド イン",
     sentence_jp: "引っ越してくると、隣の人が手を振って挨拶してくれました。",
+    grammar: {
+      form: "as ＋ 過去形（同時並行の過去の動作）",
+      explanation: "接続詞「as」は「〜している間に、〜するとき」という同時性を表します。「as we moved in」＝「私たちが引っ越してきたとき（と同時に）」。when に似ていますが、as はより「その瞬間に重なっている」ニュアンスが強い自然な表現です。",
+      why: "引っ越していた最中に（同時に）隣人が挨拶してきた、という同時進行の過去の場面を as を使って表しています。",
+    },
     synonyms: [
       { word: "next-door", pron: "ネクスト ドア", mean: "隣の人" },
     ],
@@ -591,6 +626,11 @@ export const scene3Vocabulary: VocabularyItem[] = [
     sentence: "Press the intercom button and I'll buzz you in.",
     sentence_pron: "プレス ザ インターコム バトン アンド アイル バズ ユー イン",
     sentence_jp: "インターホンを押してください。解錠しますから。",
+    grammar: {
+      form: "命令文 ＋ and ＋ will（条件付きの結果）",
+      explanation: "「命令文 ＋ and ＋ will」のパターンは「〜すれば、…する」という条件と結果を表します。「if you press … I'll buzz you in」と同じ意味ですが、より口語的でリズミカルな言い方です。「命令文 ＋ or」なら「〜しなければ、…になる」という警告になります。",
+      why: "「ボタンを押したら（＝その条件を満たしたら）、私が解錠する」という条件と結果を、命令文 ＋ and ＋ will で表しています。",
+    },
     synonyms: [
       { word: "doorbell", pron: "ドアベル", mean: "呼び鈴" },
       { word: "buzzer", pron: "バザー", mean: "ブザー" },
