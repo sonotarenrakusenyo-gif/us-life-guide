@@ -614,7 +614,7 @@ export const scene1Vocabulary: VocabularyItem[] = [
     word_pron: "リキッド",
     mean: "液体",
     sentence: "Put liquids in a clear bag — each bottle must be under 100 ml.",
-    sentence_pron: "プット リキッズ イン ア クリア バッグ イーチ ボトル マスト ビー アンダー ワン ハンドレッド エムエル",
+    sentence_pron: "プット リキッズ イン ア クリア バッグ イーチ ボトル マスト ビー アンダー ワン ハンドレッド ミリリットル",
     sentence_jp: "液体は透明な袋に入れて。各ボトルは100ml以下にしてください。",
     synonyms: [
       { word: "fluid", pron: "フルーイド", mean: "液体・流体" },
