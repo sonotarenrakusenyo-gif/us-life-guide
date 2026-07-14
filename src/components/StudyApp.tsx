@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { scenes, TOTAL_TARGET_WORDS } from "@/data/scenes";
+import { scenes } from "@/data/scenes";
 import { useCopy } from "@/hooks/useCopy";
 import { useSpeech } from "@/hooks/useSpeech";
 import { SceneTabs } from "./SceneTabs";
@@ -15,11 +15,6 @@ export function StudyApp() {
   const activeScene = useMemo(
     () => scenes.find((s) => s.id === activeSceneId) ?? scenes[0],
     [activeSceneId],
-  );
-
-  const learnedCount = useMemo(
-    () => scenes.filter((s) => s.available).reduce((sum, s) => sum + s.items.length, 0),
-    [],
   );
 
   const handleSceneSelect = (id: number) => {
@@ -38,12 +33,8 @@ export function StudyApp() {
           移住・生活 完全攻略
         </h1>
         <p className="mt-1 text-sm text-slate-500">
-          ストーリーで学ぶ実践英語 — 目標 {TOTAL_TARGET_WORDS} 語
+          ストーリーで学ぶ実践英語
         </p>
-
-        <div className="mt-4">
-          <ProgressBar learned={learnedCount} total={TOTAL_TARGET_WORDS} />
-        </div>
 
         <div className="mt-4">
           <SceneTabs
@@ -90,26 +81,6 @@ export function StudyApp() {
       <footer className="px-4 py-6 text-center text-xs text-slate-400">
         🔊 ボタンでネイティブ発音（Web Speech API）｜📋 タップでコピー
       </footer>
-    </div>
-  );
-}
-
-function ProgressBar({ learned, total }: { learned: number; total: number }) {
-  const pct = Math.round((learned / total) * 100);
-  return (
-    <div>
-      <div className="mb-1.5 flex justify-between text-xs text-slate-500">
-        <span>学習進捗</span>
-        <span className="font-semibold text-sky-700">
-          {learned} / {total} 語（{pct}%）
-        </span>
-      </div>
-      <div className="h-2 overflow-hidden rounded-full bg-sky-100">
-        <div
-          className="h-full rounded-full bg-gradient-to-r from-sky-400 to-cyan-400 transition-all duration-500"
-          style={{ width: `${pct}%` }}
-        />
-      </div>
     </div>
   );
 }
