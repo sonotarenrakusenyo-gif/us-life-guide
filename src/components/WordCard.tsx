@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import type { Grammar, RelatedWord, VocabularyItem } from "@/types/vocabulary";
 import { AudioButton } from "./AudioButton";
 import { CopyButton } from "./CopyButton";
@@ -23,15 +24,38 @@ export function WordCard({
 }: WordCardProps) {
   const wordKey = `s${sceneId}-w${index}`;
   const sentenceKey = `s${sceneId}-s${index}`;
+  const [revealed, setRevealed] = useState(false);
 
   return (
     <article className="rounded-2xl border border-white/80 bg-white/90 p-4 shadow-sm shadow-sky-100/60 backdrop-blur-sm">
-      <div className="mb-3">
+      <div className="mb-3 flex items-center justify-between">
         <span className="rounded-full bg-sky-100 px-2.5 py-0.5 text-xs font-semibold text-sky-700">
           #{String(index + 1).padStart(2, "0")}
         </span>
+        {revealed && (
+          <button
+            type="button"
+            onClick={() => setRevealed(false)}
+            className="rounded-full px-2.5 py-0.5 text-xs font-semibold text-slate-400 transition hover:text-slate-600 active:scale-95"
+          >
+            隠す
+          </button>
+        )}
       </div>
 
+      {!revealed ? (
+        <button
+          type="button"
+          onClick={() => setRevealed(true)}
+          className="flex w-full flex-col items-center gap-3 rounded-2xl border-2 border-dashed border-sky-200 bg-sky-50/40 px-4 py-8 text-center transition hover:border-sky-300 hover:bg-sky-50 active:scale-[0.99]"
+        >
+          <p className="text-lg font-semibold text-slate-700">{item.mean}</p>
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-sky-500 px-4 py-2 text-sm font-bold text-white shadow-sm">
+            👀 タップして単語を表示
+          </span>
+        </button>
+      ) : (
+        <>
       <div className="mb-4">
         <div className="flex items-start justify-between gap-3">
           <div className="min-w-0 flex-1">
@@ -128,6 +152,8 @@ export function WordCard({
           />
         </div>
       </div>
+        </>
+      )}
     </article>
   );
 }
