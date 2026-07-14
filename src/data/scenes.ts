@@ -2,13 +2,10 @@ import type { Scene } from "@/types/vocabulary";
 import { scene1Vocabulary } from "./scene1";
 import { scene2Vocabulary } from "./scene2";
 import { scene3Vocabulary } from "./scene3";
-import { scene4Vocabulary } from "./scene4";
 import { scene5Vocabulary } from "./scene5";
 import { scene6Vocabulary } from "./scene6";
 import { scene7Vocabulary } from "./scene7";
 import { scene8Vocabulary } from "./scene8";
-import { scene9Vocabulary } from "./scene9";
-import { scene10Vocabulary } from "./scene10";
 
 export const scenes: Scene[] = [
   {
@@ -37,14 +34,6 @@ export const scenes: Scene[] = [
   },
   {
     id: 4,
-    title: "夫婦の新生活",
-    subtitle: "朝の挨拶・見送り・水回り・ゴミ",
-    emoji: "🏠",
-    available: true,
-    items: scene4Vocabulary,
-  },
-  {
-    id: 5,
     title: "コミカレ初動",
     subtitle: "入学登録・学生証・キャンパス",
     emoji: "🎓",
@@ -52,7 +41,7 @@ export const scenes: Scene[] = [
     items: scene5Vocabulary,
   },
   {
-    id: 6,
+    id: 5,
     title: "コミカレでの社交",
     subtitle: "挨拶・インスタ・ランチの誘い",
     emoji: "💬",
@@ -60,7 +49,7 @@ export const scenes: Scene[] = [
     items: scene6Vocabulary,
   },
   {
-    id: 7,
+    id: 6,
     title: "ショッピング",
     subtitle: "スーパー・レジ・試着・返品",
     emoji: "🛒",
@@ -68,30 +57,14 @@ export const scenes: Scene[] = [
     items: scene7Vocabulary,
   },
   {
-    id: 8,
+    id: 7,
     title: "美容と自分磨き",
     subtitle: "ネイル・美容院・マッサージの予約",
     emoji: "💅",
     available: true,
     items: scene8Vocabulary,
   },
-  {
-    id: 9,
-    title: "旦那さんの関係",
-    subtitle: "友人との会合・自己紹介・日本の話",
-    emoji: "🤝",
-    available: true,
-    items: scene9Vocabulary,
-  },
-  {
-    id: 10,
-    title: "生活のトラブル",
-    subtitle: "忘れ物・道迷い・体調不良",
-    emoji: "🆘",
-    available: true,
-    items: scene10Vocabulary,
-  },
 ];
 
-export const TOTAL_TARGET_WORDS = 500;
+export const TOTAL_TARGET_WORDS = 350;
 export const WORDS_PER_SCENE = 50;
