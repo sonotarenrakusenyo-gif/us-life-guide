@@ -4,6 +4,8 @@ import { scene2Vocabulary } from "./scene2";
 import { scene3Vocabulary } from "./scene3";
 import { scene5Vocabulary } from "./scene5";
 import { scene6Vocabulary } from "./scene6";
+import { sceneCommBasicVocabulary } from "./sceneCommBasic";
+import { sceneCommIntVocabulary } from "./sceneCommInt";
 import { scene7Vocabulary } from "./scene7";
 import { scene8Vocabulary } from "./scene8";
 
@@ -50,6 +52,22 @@ export const scenes: Scene[] = [
   },
   {
     id: 6,
+    title: "コミカレ英会話（初級）",
+    subtitle: "授業・休憩・カフェで使える日常フレーズ",
+    emoji: "🗣️",
+    available: true,
+    items: sceneCommBasicVocabulary,
+  },
+  {
+    id: 7,
+    title: "コミカレ英会話（中級）",
+    subtitle: "議論・発表・グループワークで使う学術語彙",
+    emoji: "📚",
+    available: true,
+    items: sceneCommIntVocabulary,
+  },
+  {
+    id: 8,
     title: "ショッピング",
     subtitle: "スーパー・レジ・試着・返品",
     emoji: "🛒",
@@ -57,7 +75,7 @@ export const scenes: Scene[] = [
     items: scene7Vocabulary,
   },
   {
-    id: 7,
+    id: 9,
     title: "美容と自分磨き",
     subtitle: "ネイル・美容院・マッサージの予約",
     emoji: "💅",
@@ -66,5 +84,5 @@ export const scenes: Scene[] = [
   },
 ];
 
-export const TOTAL_TARGET_WORDS = 350;
+export const TOTAL_TARGET_WORDS = 450;
 export const WORDS_PER_SCENE = 50;
